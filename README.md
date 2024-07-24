@@ -1,5 +1,6 @@
 Currently i am doing a completionist playthrough and I build this to keep track of what I have or don't have.
 
+
 Inside 'Items' there is yaml files that represent all items of that type.
 
 Inside 'Html' there is some html files that are the result of 'createPages.js'.
