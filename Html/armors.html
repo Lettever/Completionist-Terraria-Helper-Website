@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+	<style>
+	div {
+		border-left-style: solid;
+		padding-left: 20px;
+	}
+	a:link, a:visited {
+		color: blue;
+		text-decoration: none;
+	}
+	</style>
+	<script src="checkbox.js"></script>
+</head>
+<body>
+	<button onclick="saveToFile()">Save to File</button>
+	<button onclick="loadFile()">Load from File</button>
+	<h1>Pre-HardMode:</h1>
+	<div id="Pre-HardMode">
+			01 <input type="checkbox" id="Mining armor"><span><a href="https://terraria.wiki.gg/wiki/Mining_armor" target="_blank">Mining armor</a></span><br>
+			02 <input type="checkbox" id="Wood armor"><span><a href="https://terraria.wiki.gg/wiki/Wood_armor" target="_blank">Wood armor</a></span><br>
+			03 <input type="checkbox" id="Rich Mahogany"><span><a href="https://terraria.wiki.gg/wiki/Rich_Mahogany" target="_blank">Rich Mahogany</a></span><br>
+			04 <input type="checkbox" id="Boreal Wood armor"><span><a href="https://terraria.wiki.gg/wiki/Boreal_Wood armor" target="_blank">Boreal Wood armor</a></span><br>
+			05 <input type="checkbox" id="Palm Wood armor"><span><a href="https://terraria.wiki.gg/wiki/Palm_Wood armor" target="_blank">Palm Wood armor</a></span><br>
+			06 <input type="checkbox" id="Ebonwood armor"><span><a href="https://terraria.wiki.gg/wiki/Ebonwood_armor" target="_blank">Ebonwood armor</a></span><br>
+			07 <input type="checkbox" id="Shadewood armor"><span><a href="https://terraria.wiki.gg/wiki/Shadewood_armor" target="_blank">Shadewood armor</a></span><br>
+			08 <input type="checkbox" id="Ash Wood armor"><span><a href="https://terraria.wiki.gg/wiki/Ash_Wood armor" target="_blank">Ash Wood armor</a></span><br>
+			09 <input type="checkbox" id="Rain armor"><span><a href="https://terraria.wiki.gg/wiki/Rain_armor" target="_blank">Rain armor</a></span><br>
+			10 <input type="checkbox" id="Snow armor"><span><a href="https://terraria.wiki.gg/wiki/Snow_armor" target="_blank">Snow armor</a></span><br>
+			11 <input type="checkbox" id="Pink Snow armor"><span><a href="https://terraria.wiki.gg/wiki/Pink_Snow armor" target="_blank">Pink Snow armor</a></span><br>
+			12 <input type="checkbox" id="Angler armor"><span><a href="https://terraria.wiki.gg/wiki/Angler_armor" target="_blank">Angler armor</a></span><br>
+			13 <input type="checkbox" id="Cactus armor"><span><a href="https://terraria.wiki.gg/wiki/Cactus_armor" target="_blank">Cactus armor</a></span><br>
+			14 <input type="checkbox" id="Copper armor"><span><a href="https://terraria.wiki.gg/wiki/Copper_armor" target="_blank">Copper armor</a></span><br>
+			15 <input type="checkbox" id="Tin armor"><span><a href="https://terraria.wiki.gg/wiki/Tin_armor" target="_blank">Tin armor</a></span><br>
+			16 <input type="checkbox" id="Pumpkin armor"><span><a href="https://terraria.wiki.gg/wiki/Pumpkin_armor" target="_blank">Pumpkin armor</a></span><br>
+			17 <input type="checkbox" id="Ninja armor"><span><a href="https://terraria.wiki.gg/wiki/Ninja_armor" target="_blank">Ninja armor</a></span><br>
+			18 <input type="checkbox" id="Iron armor"><span><a href="https://terraria.wiki.gg/wiki/Iron_armor" target="_blank">Iron armor</a></span><br>
+			19 <input type="checkbox" id="Lead armor"><span><a href="https://terraria.wiki.gg/wiki/Lead_armor" target="_blank">Lead armor</a></span><br>
+			20 <input type="checkbox" id="Silver armor"><span><a href="https://terraria.wiki.gg/wiki/Silver_armor" target="_blank">Silver armor</a></span><br>
+			21 <input type="checkbox" id="Tungsten armor"><span><a href="https://terraria.wiki.gg/wiki/Tungsten_armor" target="_blank">Tungsten armor</a></span><br>
+			22 <input type="checkbox" id="Gold armor"><span><a href="https://terraria.wiki.gg/wiki/Gold_armor" target="_blank">Gold armor</a></span><br>
+			23 <input type="checkbox" id="Platinum armor"><span><a href="https://terraria.wiki.gg/wiki/Platinum_armor" target="_blank">Platinum armor</a></span><br>
+			24 <input type="checkbox" id="Fossil armor"><span><a href="https://terraria.wiki.gg/wiki/Fossil_armor" target="_blank">Fossil armor</a></span><br>
+			25 <input type="checkbox" id="Bee armor"><span><a href="https://terraria.wiki.gg/wiki/Bee_armor" target="_blank">Bee armor</a></span><br>
+			26 <input type="checkbox" id="Obsidian armor"><span><a href="https://terraria.wiki.gg/wiki/Obsidian_armor" target="_blank">Obsidian armor</a></span><br>
+			27 <input type="checkbox" id="Gladiator armor"><span><a href="https://terraria.wiki.gg/wiki/Gladiator_armor" target="_blank">Gladiator armor</a></span><br>
+			28 <input type="checkbox" id="Meteor armor"><span><a href="https://terraria.wiki.gg/wiki/Meteor_armor" target="_blank">Meteor armor</a></span><br>
+			29 <input type="checkbox" id="Jungle armor"><span><a href="https://terraria.wiki.gg/wiki/Jungle_armor" target="_blank">Jungle armor</a></span><br>
+			30 <input type="checkbox" id="Ancient Cobalt armor"><span><a href="https://terraria.wiki.gg/wiki/Ancient_Cobalt armor" target="_blank">Ancient Cobalt armor</a></span><br>
+			31 <input type="checkbox" id="Necro Helmet"><span><a href="https://terraria.wiki.gg/wiki/Necro_Helmet" target="_blank">Necro Helmet</a></span><br>
+			32 <input type="checkbox" id="Shadow armor"><span><a href="https://terraria.wiki.gg/wiki/Shadow_armor" target="_blank">Shadow armor</a></span><br>
+			33 <input type="checkbox" id="Ancient Shadow armor"><span><a href="https://terraria.wiki.gg/wiki/Ancient_Shadow armor" target="_blank">Ancient Shadow armor</a></span><br>
+			34 <input type="checkbox" id="Crimson armor"><span><a href="https://terraria.wiki.gg/wiki/Crimson_armor" target="_blank">Crimson armor</a></span><br>
+			35 <input type="checkbox" id="Molten armor"><span><a href="https://terraria.wiki.gg/wiki/Molten_armor" target="_blank">Molten armor</a></span><br>
+	</div>
+	<h1>HardMode:</h1>
+	<div id="HardMode">
+			01 <input type="checkbox" id="Pearlwood armor"><span><a href="https://terraria.wiki.gg/wiki/Pearlwood_armor" target="_blank">Pearlwood armor</a></span><br>
+			02 <input type="checkbox" id="Spider armor"><span><a href="https://terraria.wiki.gg/wiki/Spider_armor" target="_blank">Spider armor</a></span><br>
+			03 <input type="checkbox" id="Cobalt armor"><span><a href="https://terraria.wiki.gg/wiki/Cobalt_armor" target="_blank">Cobalt armor</a></span><br>
+			04 <input type="checkbox" id="Palladium armor"><span><a href="https://terraria.wiki.gg/wiki/Palladium_armor" target="_blank">Palladium armor</a></span><br>
+			05 <input type="checkbox" id="Mythril armor"><span><a href="https://terraria.wiki.gg/wiki/Mythril_armor" target="_blank">Mythril armor</a></span><br>
+			06 <input type="checkbox" id="Orichalcum armor"><span><a href="https://terraria.wiki.gg/wiki/Orichalcum_armor" target="_blank">Orichalcum armor</a></span><br>
+			07 <input type="checkbox" id="Adamantite armor"><span><a href="https://terraria.wiki.gg/wiki/Adamantite_armor" target="_blank">Adamantite armor</a></span><br>
+			08 <input type="checkbox" id="Titanium armor"><span><a href="https://terraria.wiki.gg/wiki/Titanium_armor" target="_blank">Titanium armor</a></span><br>
+			09 <input type="checkbox" id="Crystal Assassin armor"><span><a href="https://terraria.wiki.gg/wiki/Crystal_Assassin armor" target="_blank">Crystal Assassin armor</a></span><br>
+			10 <input type="checkbox" id="Frost armor"><span><a href="https://terraria.wiki.gg/wiki/Frost_armor" target="_blank">Frost armor</a></span><br>
+			11 <input type="checkbox" id="Forbidden armor"><span><a href="https://terraria.wiki.gg/wiki/Forbidden_armor" target="_blank">Forbidden armor</a></span><br>
+			12 <input type="checkbox" id="Squire armor"><span><a href="https://terraria.wiki.gg/wiki/Squire_armor" target="_blank">Squire armor</a></span><br>
+			13 <input type="checkbox" id="Monk armor"><span><a href="https://terraria.wiki.gg/wiki/Monk_armor" target="_blank">Monk armor</a></span><br>
+			14 <input type="checkbox" id="Huntress armor"><span><a href="https://terraria.wiki.gg/wiki/Huntress_armor" target="_blank">Huntress armor</a></span><br>
+			15 <input type="checkbox" id="Apprentice armor"><span><a href="https://terraria.wiki.gg/wiki/Apprentice_armor" target="_blank">Apprentice armor</a></span><br>
+			16 <input type="checkbox" id="Hallowed armor"><span><a href="https://terraria.wiki.gg/wiki/Hallowed_armor" target="_blank">Hallowed armor</a></span><br>
+			17 <input type="checkbox" id="Ancient Hallowed armor"><span><a href="https://terraria.wiki.gg/wiki/Ancient_Hallowed armor" target="_blank">Ancient Hallowed armor</a></span><br>
+			18 <input type="checkbox" id="Chlorophyte armor"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_armor" target="_blank">Chlorophyte armor</a></span><br>
+			19 <input type="checkbox" id="Turtle armor"><span><a href="https://terraria.wiki.gg/wiki/Turtle_armor" target="_blank">Turtle armor</a></span><br>
+			20 <input type="checkbox" id="Tiki armor"><span><a href="https://terraria.wiki.gg/wiki/Tiki_armor" target="_blank">Tiki armor</a></span><br>
+			21 <input type="checkbox" id="Beetle armor"><span><a href="https://terraria.wiki.gg/wiki/Beetle_armor" target="_blank">Beetle armor</a></span><br>
+			22 <input type="checkbox" id="Shroomite armor"><span><a href="https://terraria.wiki.gg/wiki/Shroomite_armor" target="_blank">Shroomite armor</a></span><br>
+			23 <input type="checkbox" id="Spectre armor"><span><a href="https://terraria.wiki.gg/wiki/Spectre_armor" target="_blank">Spectre armor</a></span><br>
+			24 <input type="checkbox" id="Spooky armor"><span><a href="https://terraria.wiki.gg/wiki/Spooky_armor" target="_blank">Spooky armor</a></span><br>
+			25 <input type="checkbox" id="Valhalla Knight armor"><span><a href="https://terraria.wiki.gg/wiki/Valhalla_Knight armor" target="_blank">Valhalla Knight armor</a></span><br>
+			26 <input type="checkbox" id="Shinobi Infiltrator armor"><span><a href="https://terraria.wiki.gg/wiki/Shinobi_Infiltrator armor" target="_blank">Shinobi Infiltrator armor</a></span><br>
+			27 <input type="checkbox" id="Red Riding armor"><span><a href="https://terraria.wiki.gg/wiki/Red_Riding armor" target="_blank">Red Riding armor</a></span><br>
+			28 <input type="checkbox" id="Dark Artist armor"><span><a href="https://terraria.wiki.gg/wiki/Dark_Artist armor" target="_blank">Dark Artist armor</a></span><br>
+			29 <input type="checkbox" id="Solar Flare armor"><span><a href="https://terraria.wiki.gg/wiki/Solar_Flare armor" target="_blank">Solar Flare armor</a></span><br>
+			30 <input type="checkbox" id="Vortex armor"><span><a href="https://terraria.wiki.gg/wiki/Vortex_armor" target="_blank">Vortex armor</a></span><br>
+			31 <input type="checkbox" id="Nebula armor"><span><a href="https://terraria.wiki.gg/wiki/Nebula_armor" target="_blank">Nebula armor</a></span><br>
+			32 <input type="checkbox" id="Stardust armor"><span><a href="https://terraria.wiki.gg/wiki/Stardust_armor" target="_blank">Stardust armor</a></span><br>
+	</div>
+	<h1>Wizard Set:</h1>
+	<div id="Wizard Set">
+			01 <input type="checkbox" id="Magic Hat"><span><a href="https://terraria.wiki.gg/wiki/Magic_Hat" target="_blank">Magic Hat</a></span><br>
+			02 <input type="checkbox" id="Wizard Hat"><span><a href="https://terraria.wiki.gg/wiki/Wizard_Hat" target="_blank">Wizard Hat</a></span><br>
+			03 <input type="checkbox" id="Amethyst Robe"><span><a href="https://terraria.wiki.gg/wiki/Amethyst_Robe" target="_blank">Amethyst Robe</a></span><br>
+			04 <input type="checkbox" id="Topaz Robe"><span><a href="https://terraria.wiki.gg/wiki/Topaz_Robe" target="_blank">Topaz Robe</a></span><br>
+			05 <input type="checkbox" id="Sapphire Robe"><span><a href="https://terraria.wiki.gg/wiki/Sapphire_Robe" target="_blank">Sapphire Robe</a></span><br>
+			06 <input type="checkbox" id="Emerald Robe"><span><a href="https://terraria.wiki.gg/wiki/Emerald_Robe" target="_blank">Emerald Robe</a></span><br>
+			07 <input type="checkbox" id="Ruby Robe"><span><a href="https://terraria.wiki.gg/wiki/Ruby_Robe" target="_blank">Ruby Robe</a></span><br>
+			08 <input type="checkbox" id="Amber Robe"><span><a href="https://terraria.wiki.gg/wiki/Amber_Robe" target="_blank">Amber Robe</a></span><br>
+			09 <input type="checkbox" id="Diamond Robe"><span><a href="https://terraria.wiki.gg/wiki/Diamond_Robe" target="_blank">Diamond Robe</a></span><br>
+			10 <input type="checkbox" id="Mystic Robe"><span><a href="https://terraria.wiki.gg/wiki/Mystic_Robe" target="_blank">Mystic Robe</a></span><br>
+	</div>
+	<h1>Miscellaneous:</h1>
+	<div id="Miscellaneous">
+			01 <input type="checkbox" id="Empty Bucket"><span><a href="https://terraria.wiki.gg/wiki/Empty_Bucket" target="_blank">Empty Bucket</a></span><br>
+			02 <input type="checkbox" id="Goggles"><span><a href="https://terraria.wiki.gg/wiki/Goggles" target="_blank">Goggles</a></span><br>
+			03 <input type="checkbox" id="Green Cap"><span><a href="https://terraria.wiki.gg/wiki/Green_Cap" target="_blank">Green Cap</a></span><br>
+			04 <input type="checkbox" id="Diving Helmet"><span><a href="https://terraria.wiki.gg/wiki/Diving_Helmet" target="_blank">Diving Helmet</a></span><br>
+			05 <input type="checkbox" id="Night Vision Helmet"><span><a href="https://terraria.wiki.gg/wiki/Night_Vision Helmet" target="_blank">Night Vision Helmet</a></span><br>
+			06 <input type="checkbox" id="Viking Helmet"><span><a href="https://terraria.wiki.gg/wiki/Viking_Helmet" target="_blank">Viking Helmet</a></span><br>
+			07 <input type="checkbox" id="Flinx Fur Coat"><span><a href="https://terraria.wiki.gg/wiki/Flinx_Fur Coat" target="_blank">Flinx Fur Coat</a></span><br>
+			08 <input type="checkbox" id="Gi"><span><a href="https://terraria.wiki.gg/wiki/Gi" target="_blank">Gi</a></span><br>
+			09 <input type="checkbox" id="Djinn's Curse"><span><a href="https://terraria.wiki.gg/wiki/Djinn's_Curse" target="_blank">Djinn's Curse</a></span><br>
+			10 <input type="checkbox" id="Moon Lord Legs"><span><a href="https://terraria.wiki.gg/wiki/Moon_Lord Legs" target="_blank">Moon Lord Legs</a></span><br>
+	</div>
+</body>

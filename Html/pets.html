@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+	<style>
+	div {
+		border-left-style: solid;
+		padding-left: 20px;
+	}
+	a:link, a:visited {
+		color: blue;
+		text-decoration: none;
+	}
+	</style>
+	<script src="checkbox.js"></script>
+</head>
+<body>
+	<button onclick="saveToFile()">Save to File</button>
+	<button onclick="loadFile()">Load from File</button>
+	<h1>Pre-HardMode:</h1>
+	<div id="Pre-HardMode">
+			01 <input type="checkbox" id="Amber Mosquito"><span><a href="https://terraria.wiki.gg/wiki/Amber_Mosquito" target="_blank">Amber Mosquito</a></span><br>
+			02 <input type="checkbox" id="Eater's Bone"><span><a href="https://terraria.wiki.gg/wiki/Eater's_Bone" target="_blank">Eater's Bone</a></span><br>
+			03 <input type="checkbox" id="Bone Rattle"><span><a href="https://terraria.wiki.gg/wiki/Bone_Rattle" target="_blank">Bone Rattle</a></span><br>
+			04 <input type="checkbox" id="Nectar"><span><a href="https://terraria.wiki.gg/wiki/Nectar" target="_blank">Nectar</a></span><br>
+			05 <input type="checkbox" id="Slice of Hell Cake"><span><a href="https://terraria.wiki.gg/wiki/Slice_of Hell Cake" target="_blank">Slice of Hell Cake</a></span><br>
+			06 <input type="checkbox" id="Fish (item)"><span><a href="https://terraria.wiki.gg/wiki/Fish_(item)" target="_blank">Fish (item)</a></span><br>
+			07 <input type="checkbox" id="Bamboo Leaf"><span><a href="https://terraria.wiki.gg/wiki/Bamboo_Leaf" target="_blank">Bamboo Leaf</a></span><br>
+			08 <input type="checkbox" id="Bone Key"><span><a href="https://terraria.wiki.gg/wiki/Bone_Key" target="_blank">Bone Key</a></span><br>
+			09 <input type="checkbox" id="Full Moon Squeaky Toy"><span><a href="https://terraria.wiki.gg/wiki/Full_Moon Squeaky Toy" target="_blank">Full Moon Squeaky Toy</a></span><br>
+			10 <input type="checkbox" id="Unlucky Yarn"><span><a href="https://terraria.wiki.gg/wiki/Unlucky_Yarn" target="_blank">Unlucky Yarn</a></span><br>
+			11 <input type="checkbox" id="Blue Chicken Egg"><span><a href="https://terraria.wiki.gg/wiki/Blue_Chicken Egg" target="_blank">Blue Chicken Egg</a></span><br>
+			12 <input type="checkbox" id="Carrot"><span><a href="https://terraria.wiki.gg/wiki/Carrot" target="_blank">Carrot</a></span><br>
+			13 <input type="checkbox" id="Glow Tulip"><span><a href="https://terraria.wiki.gg/wiki/Glow_Tulip" target="_blank">Glow Tulip</a></span><br>
+			14 <input type="checkbox" id="Eye Bone"><span><a href="https://terraria.wiki.gg/wiki/Eye_Bone" target="_blank">Eye Bone</a></span><br>
+			15 <input type="checkbox" id="Companion Cube"><span><a href="https://terraria.wiki.gg/wiki/Companion_Cube" target="_blank">Companion Cube</a></span><br>
+			16 <input type="checkbox" id="The Dirtiest Block"><span><a href="https://terraria.wiki.gg/wiki/The_Dirtiest Block" target="_blank">The Dirtiest Block</a></span><br>
+			17 <input type="checkbox" id="Celestial Wand"><span><a href="https://terraria.wiki.gg/wiki/Celestial_Wand" target="_blank">Celestial Wand</a></span><br>
+			18 <input type="checkbox" id="Exotic Chew Toy"><span><a href="https://terraria.wiki.gg/wiki/Exotic_Chew Toy" target="_blank">Exotic Chew Toy</a></span><br>
+			19 <input type="checkbox" id="Bedazzled Nectar"><span><a href="https://terraria.wiki.gg/wiki/Bedazzled_Nectar" target="_blank">Bedazzled Nectar</a></span><br>
+			20 <input type="checkbox" id="Dragon Egg"><span><a href="https://terraria.wiki.gg/wiki/Dragon_Egg" target="_blank">Dragon Egg</a></span><br>
+			21 <input type="checkbox" id="Stardrop"><span><a href="https://terraria.wiki.gg/wiki/Stardrop" target="_blank">Stardrop</a></span><br>
+			22 <input type="checkbox" id="Birdie Rattle"><span><a href="https://terraria.wiki.gg/wiki/Birdie_Rattle" target="_blank">Birdie Rattle</a></span><br>
+			23 <input type="checkbox" id="Tartar Sauce"><span><a href="https://terraria.wiki.gg/wiki/Tartar_Sauce" target="_blank">Tartar Sauce</a></span><br>
+			24 <input type="checkbox" id="Parrot Cracker"><span><a href="https://terraria.wiki.gg/wiki/Parrot_Cracker" target="_blank">Parrot Cracker</a></span><br>
+			25 <input type="checkbox" id="Monster Meat"><span><a href="https://terraria.wiki.gg/wiki/Monster_Meat" target="_blank">Monster Meat</a></span><br>
+			26 <input type="checkbox" id="Gato Egg"><span><a href="https://terraria.wiki.gg/wiki/Gato_Egg" target="_blank">Gato Egg</a></span><br>
+			27 <input type="checkbox" id="Dog Whistle"><span><a href="https://terraria.wiki.gg/wiki/Dog_Whistle" target="_blank">Dog Whistle</a></span><br>
+			28 <input type="checkbox" id="Ornate Shadow Key"><span><a href="https://terraria.wiki.gg/wiki/Ornate_Shadow Key" target="_blank">Ornate Shadow Key</a></span><br>
+			29 <input type="checkbox" id="Shark Bait"><span><a href="https://terraria.wiki.gg/wiki/Shark_Bait" target="_blank">Shark Bait</a></span><br>
+			30 <input type="checkbox" id="Spiffo Plush"><span><a href="https://terraria.wiki.gg/wiki/Spiffo_Plush" target="_blank">Spiffo Plush</a></span><br>
+			31 <input type="checkbox" id="Magical Pumpkin Seed"><span><a href="https://terraria.wiki.gg/wiki/Magical_Pumpkin Seed" target="_blank">Magical Pumpkin Seed</a></span><br>
+			32 <input type="checkbox" id="Eucalyptus Sap"><span><a href="https://terraria.wiki.gg/wiki/Eucalyptus_Sap" target="_blank">Eucalyptus Sap</a></span><br>
+			33 <input type="checkbox" id="Tiki Totem"><span><a href="https://terraria.wiki.gg/wiki/Tiki_Totem" target="_blank">Tiki Totem</a></span><br>
+			34 <input type="checkbox" id="Seaweed"><span><a href="https://terraria.wiki.gg/wiki/Seaweed" target="_blank">Seaweed</a></span><br>
+			35 <input type="checkbox" id="Lightning Carrot"><span><a href="https://terraria.wiki.gg/wiki/Lightning_Carrot" target="_blank">Lightning Carrot</a></span><br>
+			36 <input type="checkbox" id="Zephyr Fish"><span><a href="https://terraria.wiki.gg/wiki/Zephyr_Fish" target="_blank">Zephyr Fish</a></span><br>
+	</div>
+	<h1>HardMode:</h1>
+	<div id="HardMode">
+			01 <input type="checkbox" id="Baby Grinch's Mischief Whistle"><span><a href="https://terraria.wiki.gg/wiki/Baby_Grinch's Mischief Whistle" target="_blank">Baby Grinch's Mischief Whistle</a></span><br>
+			02 <input type="checkbox" id="Toy Sled"><span><a href="https://terraria.wiki.gg/wiki/Toy_Sled" target="_blank">Toy Sled</a></span><br>
+			03 <input type="checkbox" id="Strange Glowing Mushroom"><span><a href="https://terraria.wiki.gg/wiki/Strange_Glowing Mushroom" target="_blank">Strange Glowing Mushroom</a></span><br>
+			04 <input type="checkbox" id="Bernie's Button"><span><a href="https://terraria.wiki.gg/wiki/Bernie's_Button" target="_blank">Bernie's Button</a></span><br>
+			05 <input type="checkbox" id="Cursed Sapling"><span><a href="https://terraria.wiki.gg/wiki/Cursed_Sapling" target="_blank">Cursed Sapling</a></span><br>
+			06 <input type="checkbox" id="Ball O' Fuse Wire"><span><a href="https://terraria.wiki.gg/wiki/Ball_O' Fuse Wire" target="_blank">Ball O' Fuse Wire</a></span><br>
+			07 <input type="checkbox" id="Eye Spring"><span><a href="https://terraria.wiki.gg/wiki/Eye_Spring" target="_blank">Eye Spring</a></span><br>
+			08 <input type="checkbox" id="Glommer's Flower"><span><a href="https://terraria.wiki.gg/wiki/Glommer's_Flower" target="_blank">Glommer's Flower</a></span><br>
+			09 <input type="checkbox" id="Lizard Egg"><span><a href="https://terraria.wiki.gg/wiki/Lizard_Egg" target="_blank">Lizard Egg</a></span><br>
+			10 <input type="checkbox" id="Mud Bud"><span><a href="https://terraria.wiki.gg/wiki/Mud_Bud" target="_blank">Mud Bud</a></span><br>
+			11 <input type="checkbox" id="Seedling"><span><a href="https://terraria.wiki.gg/wiki/Seedling" target="_blank">Seedling</a></span><br>
+			12 <input type="checkbox" id="Spider Egg"><span><a href="https://terraria.wiki.gg/wiki/Spider_Egg" target="_blank">Spider Egg</a></span><br>
+	</div>
+	<h1>MasterMode:</h1>
+	<div id="MasterMode">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Writhing Remains"><span><a href="https://terraria.wiki.gg/wiki/Writhing_Remains" target="_blank">Writhing Remains</a></span><br>
+				2 <input type="checkbox" id="Sparkling Honey"><span><a href="https://terraria.wiki.gg/wiki/Sparkling_Honey" target="_blank">Sparkling Honey</a></span><br>
+				3 <input type="checkbox" id="Possessed Skull"><span><a href="https://terraria.wiki.gg/wiki/Possessed_Skull" target="_blank">Possessed Skull</a></span><br>
+				4 <input type="checkbox" id="Royal Delight"><span><a href="https://terraria.wiki.gg/wiki/Royal_Delight" target="_blank">Royal Delight</a></span><br>
+				5 <input type="checkbox" id="Brain in a Jar"><span><a href="https://terraria.wiki.gg/wiki/Brain_in a Jar" target="_blank">Brain in a Jar</a></span><br>
+				6 <input type="checkbox" id="Suspicious Grinning Eye"><span><a href="https://terraria.wiki.gg/wiki/Suspicious_Grinning Eye" target="_blank">Suspicious Grinning Eye</a></span><br>
+				7 <input type="checkbox" id="Deerclops Eyeball"><span><a href="https://terraria.wiki.gg/wiki/Deerclops_Eyeball" target="_blank">Deerclops Eyeball</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				01 <input type="checkbox" id="Cosmic Skateboard"><span><a href="https://terraria.wiki.gg/wiki/Cosmic_Skateboard" target="_blank">Cosmic Skateboard</a></span><br>
+				02 <input type="checkbox" id="Ogre's Club"><span><a href="https://terraria.wiki.gg/wiki/Ogre's_Club" target="_blank">Ogre's Club</a></span><br>
+				03 <input type="checkbox" id="Deactivated Probe"><span><a href="https://terraria.wiki.gg/wiki/Deactivated_Probe" target="_blank">Deactivated Probe</a></span><br>
+				04 <input type="checkbox" id="Shrub Star"><span><a href="https://terraria.wiki.gg/wiki/Shrub_Star" target="_blank">Shrub Star</a></span><br>
+				05 <input type="checkbox" id="Frozen Crown"><span><a href="https://terraria.wiki.gg/wiki/Frozen_Crown" target="_blank">Frozen Crown</a></span><br>
+				06 <input type="checkbox" id="Betsy's Egg"><span><a href="https://terraria.wiki.gg/wiki/Betsy's_Egg" target="_blank">Betsy's Egg</a></span><br>
+				07 <input type="checkbox" id="Robotic Skull"><span><a href="https://terraria.wiki.gg/wiki/Robotic_Skull" target="_blank">Robotic Skull</a></span><br>
+				08 <input type="checkbox" id="Piece of Moon Squid"><span><a href="https://terraria.wiki.gg/wiki/Piece_of Moon Squid" target="_blank">Piece of Moon Squid</a></span><br>
+				09 <input type="checkbox" id="Tablet Fragment"><span><a href="https://terraria.wiki.gg/wiki/Tablet_Fragment" target="_blank">Tablet Fragment</a></span><br>
+				10 <input type="checkbox" id="Plantera Seedling"><span><a href="https://terraria.wiki.gg/wiki/Plantera_Seedling" target="_blank">Plantera Seedling</a></span><br>
+				11 <input type="checkbox" id="Pair of Eyeballs"><span><a href="https://terraria.wiki.gg/wiki/Pair_of Eyeballs" target="_blank">Pair of Eyeballs</a></span><br>
+				12 <input type="checkbox" id="Regal Delicacy"><span><a href="https://terraria.wiki.gg/wiki/Regal_Delicacy" target="_blank">Regal Delicacy</a></span><br>
+				13 <input type="checkbox" id="Resplendent Dessert"><span><a href="https://terraria.wiki.gg/wiki/Resplendent_Dessert" target="_blank">Resplendent Dessert</a></span><br>
+				14 <input type="checkbox" id="Pork of the Sea"><span><a href="https://terraria.wiki.gg/wiki/Pork_of the Sea" target="_blank">Pork of the Sea</a></span><br>
+		</div>
+	</div>
+	<h1>Light:</h1>
+	<div id="Light">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Shadow Orb (item)"><span><a href="https://terraria.wiki.gg/wiki/Shadow_Orb (item)" target="_blank">Shadow Orb (item)</a></span><br>
+				2 <input type="checkbox" id="Crimson Heart (item)"><span><a href="https://terraria.wiki.gg/wiki/Crimson_Heart (item)" target="_blank">Crimson Heart (item)</a></span><br>
+				3 <input type="checkbox" id="Magic Lantern"><span><a href="https://terraria.wiki.gg/wiki/Magic_Lantern" target="_blank">Magic Lantern</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Fairy Bell"><span><a href="https://terraria.wiki.gg/wiki/Fairy_Bell" target="_blank">Fairy Bell</a></span><br>
+				2 <input type="checkbox" id="Creeper Egg"><span><a href="https://terraria.wiki.gg/wiki/Creeper_Egg" target="_blank">Creeper Egg</a></span><br>
+				3 <input type="checkbox" id="Wisp in a Bottle"><span><a href="https://terraria.wiki.gg/wiki/Wisp_in a Bottle" target="_blank">Wisp in a Bottle</a></span><br>
+				4 <input type="checkbox" id="Suspicious Looking Tentacle"><span><a href="https://terraria.wiki.gg/wiki/Suspicious_Looking Tentacle" target="_blank">Suspicious Looking Tentacle</a></span><br>
+		</div>
+		<h1>MasterMode:</h1>
+		<div id="MasterMode">
+				1 <input type="checkbox" id="Pumpkin Scented Candle"><span><a href="https://terraria.wiki.gg/wiki/Pumpkin_Scented Candle" target="_blank">Pumpkin Scented Candle</a></span><br>
+				2 <input type="checkbox" id="Guardian Golem"><span><a href="https://terraria.wiki.gg/wiki/Guardian_Golem" target="_blank">Guardian Golem</a></span><br>
+				3 <input type="checkbox" id="Jewel of Light"><span><a href="https://terraria.wiki.gg/wiki/Jewel_of Light" target="_blank">Jewel of Light</a></span><br>
+		</div>
+	</div>
+</body>

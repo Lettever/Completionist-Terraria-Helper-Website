@@ -1,0 +1,493 @@
+Melee:
+    Swords:
+        Pre-HardMode:
+            - Copper Shortsword
+            - Tin Shortsword
+            - Wooden Sword
+            - Boreal Wood Sword
+            - Copper Broadsword
+            - Iron Shortsword
+            - Palm Wood Sword
+            - Rich Mahogany Sword
+            - Cactus Sword
+            - Lead Shortsword
+            - Silver Shortsword
+            - Tin Broadsword
+            - Ebonwood Sword
+            - Iron Broadsword
+            - Shadewood Sword
+            - Tungsten Shortsword
+            - Gold Shortsword
+            - Lead Broadsword
+            - Silver Broadsword
+            - Bladed Glove
+            - Tungsten Broadsword
+            - Zombie Arm
+            - Ash Wood Sword
+            - Gold Broadsword
+            - Flymeal
+            - Platinum Shortsword
+            - Mandible Blade
+            - Stylish Scissors
+            - Ruler
+            - Platinum Broadsword
+            - Umbrella
+            - Breathing Reed
+            - Gladius
+            - Bone Sword
+            - Bat Bat
+            - Tentacle Spike
+            - Candy Cane Sword
+            - Katana
+            - Ice Blade
+            - Light's Bane
+            - Tragic Umbrella
+            - Muramasa
+            - Exotic Scimitar
+            - Phaseblade
+            - Blood Butcherer
+            - Starfury
+            - Enchanted Sword
+            - Purple Clubberfish
+            - Bee Keeper
+            - Falcon Blade
+            - Blade of Grass
+            - Volcano
+            - Night's Edge
+        HardMode:
+            - Pearlwood Sword
+            - Classy Cane
+            - Slap Hand
+            - Cobalt Sword
+            - Palladium Sword
+            - Phasesaber
+            - Ice Sickle
+            - Brand of the Inferno
+            - Mythril Sword
+            - Orichalcum Sword
+            - Breaker Blade
+            - Cutlass
+            - Frostbrand
+            - Adamantite Sword
+            - Beam Sword
+            - Titanium Sword
+            - Fetid Baghnakhs
+            - Bladetongue
+            - Ham Bat
+            - Excalibur
+            - Waffle's Iron
+            - True Excalibur
+            - Chlorophyte Saber
+            - Death Sickle
+            - Psycho Knife
+            - Keybrand
+            - Chlorophyte Claymore
+            - The Horseman's Blade
+            - Christmas Tree Sword
+            - True Night's Edge
+            - Seedler
+            - Flying Dragon
+            - Terra Blade
+            - Influx Waver
+            - Star Wrath
+            - Meowmere
+    Yoyos:
+        Pre-HardMode:
+            - Wooden Yoyo
+            - Rally
+            - Malaise
+            - Artery
+            - Amazon
+            - Code 1
+            - Valor
+            - Cascade
+            - Hive-Five
+        HardMode:
+            - Format:C
+            - Gradient
+            - Chik
+            - Hel-Fire
+            - Amarok
+            - Code 2
+            - Yelets
+            - Red's Throw
+            - Valkyrie Yoyo
+            - Kraken
+            - The Eye of Cthulhu
+            - Terrarian
+    Spears:
+        Pre-HardMode:
+            - Spear
+            - Trident
+            - Storm Spear
+            - The Rotted Fork
+            - Swordfish
+            - Dark Lance
+        HardMode:
+            - Cobalt Naginata
+            - Palladium Pike
+            - Mythril Halberd
+            - Orichalcum Halberd
+            - Adamantite Glaive
+            - Titanium Trident
+            - Gungnir
+            - Ghastly Glaive
+            - Chlorophyte Partisan
+            - Tonbogiri
+            - Mushroom Spear
+            - Obsidian Swordfish
+            - North Pole
+    Boomerangs:
+        Pre-HardMode:
+            - Wooden Boomerang
+            - Enchanted Boomerang
+            - Fruitcake Chakram
+            - Bloody Machete
+            - Shroomerang
+            - Ice Boomerang
+            - Thorn Chakram
+            - Combat Wrench
+            - Flamarang
+            - Trimarang
+        HardMode:
+            - Flying Knife
+            - Sergeant United Shield
+            - Light Disc
+            - Bananarang
+            - Possessed Hatchet
+            - Paladin's Hammer
+    Flails:
+        Pre-HardMode:
+            - Mace
+            - Flaming Mace
+            - Ball O' Hurt
+            - The Meatball
+            - Blue Moon
+            - Sunfury
+            - Chain Knife
+        HardMode:
+            - Drippler Crippler
+            - Dao of Pow
+            - Flower Pow
+            - Anchor
+            - Chain Guillotines
+            - KO Cannon
+            - Golem Fist
+            - Flairon
+    Others:
+        Pre-HardMode:
+            - Terragrim
+        HardMode:
+            - Arkhalis
+            - Jousting Lance
+            - Shadowflame Knife
+            - Hallowed Jousting Lance
+            - Sleepy Octopod
+            - Scourge of the Corruptor
+            - Vampire Knives
+            - Shadow Jousting Lance
+            - Starlight
+            - Sky Dragon's Fury
+            - Daybreak
+            - Solar Eruption
+            - Zenith
+Ranged:
+    Bows:
+        Pre-HardMode:
+            - Wooden Bow
+            - Boreal Wood Bow
+            - Copper Bow
+            - Palm Wood Bow
+            - Rich Mahogany Bow
+            - Tin Bow
+            - Ebonwood Bow
+            - Iron Bow
+            - Shadewood Bow
+            - Lead Bow
+            - Silver Bow
+            - Tungsten Bow
+            - Ash Wood Bow
+            - Gold Bow
+            - Platinum Bow
+            - Demon Bow
+            - Tendon Bow
+            - Blood Rain Bow
+            - The Bee's Knees
+            - Hellwing Bow
+            - Molten Fury
+        HardMode:
+            - Pearlwood Bow
+            - Marrow
+            - Ice Bow
+            - Daedalus Stormbow
+            - Shadowflame Bow
+            - Phantom Phoenix
+            - Pulse Bow
+            - Aerial Bane
+            - Tsunami
+            - Eventide
+            - Phantasm
+    Repeaters:
+        - Cobalt Repeater
+        - Palladium Repeater
+        - Mythril Repeater
+        - Orichalcum Repeater
+        - Adamantite Repeater
+        - Titanium Repeater
+        - Hallowed Repeater
+        - Chlorophyte Shotbow
+        - Stake Launcher
+    Guns:
+        Pre-HardMode:
+            - Red Ryder
+            - Flintlock Pistol
+            - Musket
+            - The Undertaker
+            - Revolver
+            - Minishark
+            - Boomstick
+            - Quad-Barrel Shotgun
+            - Handgun
+            - Phoenix Blaster
+            - Pew-matic Horn
+        HardMode:
+            - Clockwork Assault Rifle
+            - Gatligator
+            - Shotgun
+            - Onyx Blaster
+            - Uzi
+            - Megashark
+            - Venus Magnum
+            - Tactical Shotgun
+            - Sniper Rifle
+            - Candy Corn Rifle
+            - Chain Gun
+            - Xenopopper
+            - Vortex Beater
+            - S.D.M.G.
+    Launchers:
+        - Grenade Launcher
+        - Proximity Mine Launcher
+        - Rocket Launcher
+        - Nail Gun
+        - Stynger
+        - Jack 'O Lantern Launcher
+        - Snowman Cannon
+        - Celebration
+        - Electrosphere Launcher
+        - Celebration Mk2
+    Consumables:
+        - Paper Airplane
+        - White Paper Airplane
+        - Shuriken
+        - Throwing Knife
+        - Poisoned Knife
+        - Snowball
+        - Spiky Ball
+        - Bone
+        - Rotten Egg
+        - Star Anise
+        - Molotov Cocktail
+        - Frost Daggerfish
+        - Javelin
+        - Bone Javelin
+        - Bone Throwing Knife
+    Grenades:
+        - Grenade
+        - Sticky Grenade
+        - Bouncy Grenade
+        - Beenade
+        - Happy Grenade
+    Others:
+        Pre-HardMode:
+            - Flare Gun
+            - Blowpipe
+            - Sandgun
+            - Blowgun
+            - Snowball Cannon
+            - Paintball Gun
+            - Ale Tosser
+            - Harpoon
+            - Star Cannon
+        HardMode:
+            - Toxikarp
+            - Dart Pistol
+            - Dart Rifle
+            - Coin Gun
+            - Flamethrower
+            - Piranha Gun
+            - Elf Melter
+            - Super Star Shooter
+Magic:
+    Wands:
+        Pre-HardMode:
+            - Wand of Sparking
+            - Wand of Frosting
+            - Thunder Zapper
+            - Amethyst Staff
+            - Topaz Staff
+            - Sapphire Staff
+            - Emerald Staff
+            - Ruby Staff
+            - Diamond Staff
+            - Amber Staff
+            - Vilethorn
+            - Weather Pain
+            - Magic Missile
+            - Aqua Scepter
+            - Flower of Fire
+            - Flamelash
+        HardMode:
+            - Sky Fracture
+            - Crystal Serpent
+            - Flower of Frost
+            - Frost Staff
+            - Crystal Vile Shard
+            - Life Drain
+            - Meteor Staff
+            - Poison Staff
+            - Rainbow Rod
+            - Unholy Trident
+            - Tome of Infinite Wisdom
+            - Venom Staff
+            - Nettle Burst
+            - Bat Scepter
+            - Blizzard Staff
+            - Inferno Fork
+            - Shadowbeam Staff
+            - Spectre Staff
+            - Resonance Scepter
+            - Razorpine
+            - Staff of Earth
+            - Betsy's Wrath
+    Guns:
+        Pre-HardMode:
+            - Gray Zapinator
+            - Space Gun
+            - Bee Gun
+        HardMode:
+            - Laser Rifle
+            - Orange Zapinator
+            - Wasp Gun
+            - Leaf Blower
+            - Rainbow Gun
+            - Heat Ray
+            - Laser Machinegun
+            - Charged Blaster Cannon
+            - Bubble Gun
+    Spell Books:
+        Pre-HardMode:
+            - Water Bolt
+            - Book of Skulls
+            - Demon Scythe
+        HardMode:
+            - Cursed Flames
+            - Golden Shower
+            - Crystal Storm
+            - Magnet Sphere
+            - Razorblade Typhoon
+            - Lunar Flare
+    Others:
+        Pre-HardMode:
+            - Crimson Rod
+        HardMode:
+            - Ice Rod
+            - Clinger Staff
+            - Nimbus Rod
+            - Magic Dagger
+            - Medusa Head
+            - Spirit Flame
+            - Shadowflame Hex Doll
+            - Blood Thorn
+            - Magical Harp
+            - Toxic Flask
+            - Nightglow
+            - Stellar Tune
+            - Nebula Arcanum
+            - Nebula Blaze
+            - Last Prism
+Summon:
+    Minions:
+        Pre-HardMode:
+            - Finch Staff
+            - Slime Staff
+            - Flinx Staff
+            - Abigail's Flower
+            - Hornet Staff
+            - Vampire Frog Staff
+            - Imp Staff
+        HardMode:
+            - Blade Staff
+            - Spider Staff
+            - Pirate Staff
+            - Sanguine Staff
+            - Optic Staff
+            - Deadly Sphere Staff
+            - Pygmy Staff
+            - Raven Staff
+            - Desert Tiger Staff
+            - Tempest Staff
+            - Terraprisma
+            - Xeno Staff
+            - Stardust Cell Staff
+            - Stardust Dragon Staff
+    Sentry:
+        Pre-HardMode:
+            - Houndius Shootius
+            - Lightning Aura Rod
+            - Flameburst Rod
+            - Explosive Trap Rod
+            - Ballista Rod
+        HardMode:
+            - Queen Spider Staff
+            - Staff of the Frost Hydra
+            - Lunar Portal Staff
+            - Rainbow Crystal Staff
+            - Lightning Aura Cane
+            - Lightning Aura Staff
+            - Flameburst Cane
+            - Flameburst Staff
+            - Explosive Trap Cane
+            - Explosive Trap Staff
+            - Ballista Cane
+            - Ballista Staff
+        
+    Whips:
+        Pre-HardMode:
+            - Leather Whip
+            - Snapthorn
+            - Spinal Tap
+        HardMode:
+            - Firecracker
+            - Cool Whip
+            - Durendal
+            - Dark Harvest
+            - Morning Star
+            - Kaleidoscope        
+Placeable:
+    Pre-HardMode:
+        - Snowball Launcher
+    HardMode:
+        - Cannon
+        - Bunny Cannon
+        - Land Mine
+Explosives:
+    - Bomb
+    - Sticky Bomb
+    - Bouncy Bomb
+    - Scarab Bomb
+    - Dirt Bomb
+    - Sticky Dirt Bomb
+    - Dynamite
+    - Sticky Dynamite
+    - Bouncy Dynamite
+    - Bomb Fish
+    - Dry Bomb
+    - Honey Bomb
+    - Lava Bomb
+    - Wet Bomb
+    - Holy Hand Grenade
+Others:
+    - Holy Water
+    - Unholy Water
+    - Blood Water

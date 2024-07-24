@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+	<style>
+	div {
+		border-left-style: solid;
+		padding-left: 20px;
+	}
+	a:link, a:visited {
+		color: blue;
+		text-decoration: none;
+	}
+	</style>
+	<script src="checkbox.js"></script>
+</head>
+<body>
+	<button onclick="saveToFile()">Save to File</button>
+	<button onclick="loadFile()">Load from File</button>
+	<h1>Flares:</h1>
+	<div id="Flares">
+			1 <input type="checkbox" id="Flare"><span><a href="https://terraria.wiki.gg/wiki/Flare" target="_blank">Flare</a></span><br>
+			2 <input type="checkbox" id="Blue Flare"><span><a href="https://terraria.wiki.gg/wiki/Blue_Flare" target="_blank">Blue Flare</a></span><br>
+			3 <input type="checkbox" id="Spelunker Flare"><span><a href="https://terraria.wiki.gg/wiki/Spelunker_Flare" target="_blank">Spelunker Flare</a></span><br>
+			4 <input type="checkbox" id="Cursed Flare"><span><a href="https://terraria.wiki.gg/wiki/Cursed_Flare" target="_blank">Cursed Flare</a></span><br>
+			5 <input type="checkbox" id="Rainbow Flare"><span><a href="https://terraria.wiki.gg/wiki/Rainbow_Flare" target="_blank">Rainbow Flare</a></span><br>
+			6 <input type="checkbox" id="Shimmer Flare"><span><a href="https://terraria.wiki.gg/wiki/Shimmer_Flare" target="_blank">Shimmer Flare</a></span><br>
+	</div>
+	<h1>Bullets:</h1>
+	<div id="Bullets">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Musket Ball"><span><a href="https://terraria.wiki.gg/wiki/Musket_Ball" target="_blank">Musket Ball</a></span><br>
+				2 <input type="checkbox" id="Meteor Shot"><span><a href="https://terraria.wiki.gg/wiki/Meteor_Shot" target="_blank">Meteor Shot</a></span><br>
+				3 <input type="checkbox" id="Silver Bullet"><span><a href="https://terraria.wiki.gg/wiki/Silver_Bullet" target="_blank">Silver Bullet</a></span><br>
+				4 <input type="checkbox" id="Party Bullet"><span><a href="https://terraria.wiki.gg/wiki/Party_Bullet" target="_blank">Party Bullet</a></span><br>
+				5 <input type="checkbox" id="Tungsten Bullet"><span><a href="https://terraria.wiki.gg/wiki/Tungsten_Bullet" target="_blank">Tungsten Bullet</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				01 <input type="checkbox" id="Crystal Bullet"><span><a href="https://terraria.wiki.gg/wiki/Crystal_Bullet" target="_blank">Crystal Bullet</a></span><br>
+				02 <input type="checkbox" id="Cursed Bullet"><span><a href="https://terraria.wiki.gg/wiki/Cursed_Bullet" target="_blank">Cursed Bullet</a></span><br>
+				03 <input type="checkbox" id="Chlorophyte Bullet"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Bullet" target="_blank">Chlorophyte Bullet</a></span><br>
+				04 <input type="checkbox" id="High Velocity Bullet"><span><a href="https://terraria.wiki.gg/wiki/High_Velocity Bullet" target="_blank">High Velocity Bullet</a></span><br>
+				05 <input type="checkbox" id="Ichor Bullet"><span><a href="https://terraria.wiki.gg/wiki/Ichor_Bullet" target="_blank">Ichor Bullet</a></span><br>
+				06 <input type="checkbox" id="Venom Bullet"><span><a href="https://terraria.wiki.gg/wiki/Venom_Bullet" target="_blank">Venom Bullet</a></span><br>
+				07 <input type="checkbox" id="Nano Bullet"><span><a href="https://terraria.wiki.gg/wiki/Nano_Bullet" target="_blank">Nano Bullet</a></span><br>
+				08 <input type="checkbox" id="Exploding Bullet"><span><a href="https://terraria.wiki.gg/wiki/Exploding_Bullet" target="_blank">Exploding Bullet</a></span><br>
+				09 <input type="checkbox" id="Golden Bullet"><span><a href="https://terraria.wiki.gg/wiki/Golden_Bullet" target="_blank">Golden Bullet</a></span><br>
+				10 <input type="checkbox" id="Endless Musket Pouch"><span><a href="https://terraria.wiki.gg/wiki/Endless_Musket Pouch" target="_blank">Endless Musket Pouch</a></span><br>
+				11 <input type="checkbox" id="Luminite Bullet"><span><a href="https://terraria.wiki.gg/wiki/Luminite_Bullet" target="_blank">Luminite Bullet</a></span><br>
+		</div>
+	</div>
+	<h1>Arrows:</h1>
+	<div id="Arrows">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Wooden Arrow"><span><a href="https://terraria.wiki.gg/wiki/Wooden_Arrow" target="_blank">Wooden Arrow</a></span><br>
+				2 <input type="checkbox" id="Flaming Arrow"><span><a href="https://terraria.wiki.gg/wiki/Flaming_Arrow" target="_blank">Flaming Arrow</a></span><br>
+				3 <input type="checkbox" id="Unholy Arrow"><span><a href="https://terraria.wiki.gg/wiki/Unholy_Arrow" target="_blank">Unholy Arrow</a></span><br>
+				4 <input type="checkbox" id="Jester's Arrow"><span><a href="https://terraria.wiki.gg/wiki/Jester's_Arrow" target="_blank">Jester's Arrow</a></span><br>
+				5 <input type="checkbox" id="Hellfire Arrow"><span><a href="https://terraria.wiki.gg/wiki/Hellfire_Arrow" target="_blank">Hellfire Arrow</a></span><br>
+				6 <input type="checkbox" id="Frostburn Arrow"><span><a href="https://terraria.wiki.gg/wiki/Frostburn_Arrow" target="_blank">Frostburn Arrow</a></span><br>
+				7 <input type="checkbox" id="Bone Arrow"><span><a href="https://terraria.wiki.gg/wiki/Bone_Arrow" target="_blank">Bone Arrow</a></span><br>
+				8 <input type="checkbox" id="Shimmer Arrow"><span><a href="https://terraria.wiki.gg/wiki/Shimmer_Arrow" target="_blank">Shimmer Arrow</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Holy Arrow"><span><a href="https://terraria.wiki.gg/wiki/Holy_Arrow" target="_blank">Holy Arrow</a></span><br>
+				2 <input type="checkbox" id="Cursed Arrow"><span><a href="https://terraria.wiki.gg/wiki/Cursed_Arrow" target="_blank">Cursed Arrow</a></span><br>
+				3 <input type="checkbox" id="Chlorophyte Arrow"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Arrow" target="_blank">Chlorophyte Arrow</a></span><br>
+				4 <input type="checkbox" id="Ichor Arrow"><span><a href="https://terraria.wiki.gg/wiki/Ichor_Arrow" target="_blank">Ichor Arrow</a></span><br>
+				5 <input type="checkbox" id="Venom Arrow"><span><a href="https://terraria.wiki.gg/wiki/Venom_Arrow" target="_blank">Venom Arrow</a></span><br>
+				6 <input type="checkbox" id="Endless Quiver"><span><a href="https://terraria.wiki.gg/wiki/Endless_Quiver" target="_blank">Endless Quiver</a></span><br>
+				7 <input type="checkbox" id="Luminite Arrow"><span><a href="https://terraria.wiki.gg/wiki/Luminite_Arrow" target="_blank">Luminite Arrow</a></span><br>
+		</div>
+	</div>
+	<h1>Rockets:</h1>
+	<div id="Rockets">
+			01 <input type="checkbox" id="Rocket I"><span><a href="https://terraria.wiki.gg/wiki/Rocket_I" target="_blank">Rocket I</a></span><br>
+			02 <input type="checkbox" id="Rocket II"><span><a href="https://terraria.wiki.gg/wiki/Rocket_II" target="_blank">Rocket II</a></span><br>
+			03 <input type="checkbox" id="Rocket III"><span><a href="https://terraria.wiki.gg/wiki/Rocket_III" target="_blank">Rocket III</a></span><br>
+			04 <input type="checkbox" id="Rocket IV"><span><a href="https://terraria.wiki.gg/wiki/Rocket_IV" target="_blank">Rocket IV</a></span><br>
+			05 <input type="checkbox" id="Cluster Rocket I"><span><a href="https://terraria.wiki.gg/wiki/Cluster_Rocket I" target="_blank">Cluster Rocket I</a></span><br>
+			06 <input type="checkbox" id="Cluster Rocket II"><span><a href="https://terraria.wiki.gg/wiki/Cluster_Rocket II" target="_blank">Cluster Rocket II</a></span><br>
+			07 <input type="checkbox" id="Dry Rocket"><span><a href="https://terraria.wiki.gg/wiki/Dry_Rocket" target="_blank">Dry Rocket</a></span><br>
+			08 <input type="checkbox" id="Wet Rocket"><span><a href="https://terraria.wiki.gg/wiki/Wet_Rocket" target="_blank">Wet Rocket</a></span><br>
+			09 <input type="checkbox" id="Lava Rocket"><span><a href="https://terraria.wiki.gg/wiki/Lava_Rocket" target="_blank">Lava Rocket</a></span><br>
+			10 <input type="checkbox" id="Honey Rocket"><span><a href="https://terraria.wiki.gg/wiki/Honey_Rocket" target="_blank">Honey Rocket</a></span><br>
+			11 <input type="checkbox" id="Mini Nuke I"><span><a href="https://terraria.wiki.gg/wiki/Mini_Nuke I" target="_blank">Mini Nuke I</a></span><br>
+			12 <input type="checkbox" id="Mini Nuke II"><span><a href="https://terraria.wiki.gg/wiki/Mini_Nuke II" target="_blank">Mini Nuke II</a></span><br>
+	</div>
+	<h1>Darts:</h1>
+	<div id="Darts">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Poison Dart"><span><a href="https://terraria.wiki.gg/wiki/Poison_Dart" target="_blank">Poison Dart</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Crystal Dart"><span><a href="https://terraria.wiki.gg/wiki/Crystal_Dart" target="_blank">Crystal Dart</a></span><br>
+				2 <input type="checkbox" id="Cursed Dart"><span><a href="https://terraria.wiki.gg/wiki/Cursed_Dart" target="_blank">Cursed Dart</a></span><br>
+				3 <input type="checkbox" id="Ichor Dart"><span><a href="https://terraria.wiki.gg/wiki/Ichor_Dart" target="_blank">Ichor Dart</a></span><br>
+		</div>
+	</div>
+	<h1>Others:</h1>
+	<div id="Others">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Fallen Star"><span><a href="https://terraria.wiki.gg/wiki/Fallen_Star" target="_blank">Fallen Star</a></span><br>
+				2 <input type="checkbox" id="Gel"><span><a href="https://terraria.wiki.gg/wiki/Gel" target="_blank">Gel</a></span><br>
+				3 <input type="checkbox" id="Sand"><span><a href="https://terraria.wiki.gg/wiki/Sand" target="_blank">Sand</a></span><br>
+				4 <input type="checkbox" id="Seed"><span><a href="https://terraria.wiki.gg/wiki/Seed" target="_blank">Seed</a></span><br>
+				5 <input type="checkbox" id="Coin"><span><a href="https://terraria.wiki.gg/wiki/Coin" target="_blank">Coin</a></span><br>
+				6 <input type="checkbox" id="Bone"><span><a href="https://terraria.wiki.gg/wiki/Bone" target="_blank">Bone</a></span><br>
+				7 <input type="checkbox" id="Ale"><span><a href="https://terraria.wiki.gg/wiki/Ale" target="_blank">Ale</a></span><br>
+				8 <input type="checkbox" id="Snowball"><span><a href="https://terraria.wiki.gg/wiki/Snowball" target="_blank">Snowball</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Stynger Bolt"><span><a href="https://terraria.wiki.gg/wiki/Stynger_Bolt" target="_blank">Stynger Bolt</a></span><br>
+				2 <input type="checkbox" id="Candy Corn"><span><a href="https://terraria.wiki.gg/wiki/Candy_Corn" target="_blank">Candy Corn</a></span><br>
+				3 <input type="checkbox" id="Explosive Jack 'O Lantern"><span><a href="https://terraria.wiki.gg/wiki/Explosive_Jack 'O Lantern" target="_blank">Explosive Jack 'O Lantern</a></span><br>
+				4 <input type="checkbox" id="Stake"><span><a href="https://terraria.wiki.gg/wiki/Stake" target="_blank">Stake</a></span><br>
+		</div>
+	</div>
+	<h1>Solutions:</h1>
+	<div id="Solutions">
+			1 <input type="checkbox" id="Green Solution"><span><a href="https://terraria.wiki.gg/wiki/Green_Solution" target="_blank">Green Solution</a></span><br>
+			2 <input type="checkbox" id="Yellow Solution"><span><a href="https://terraria.wiki.gg/wiki/Yellow_Solution" target="_blank">Yellow Solution</a></span><br>
+			3 <input type="checkbox" id="White Solution"><span><a href="https://terraria.wiki.gg/wiki/White_Solution" target="_blank">White Solution</a></span><br>
+			4 <input type="checkbox" id="Brown Solution"><span><a href="https://terraria.wiki.gg/wiki/Brown_Solution" target="_blank">Brown Solution</a></span><br>
+			5 <input type="checkbox" id="Blue Solution"><span><a href="https://terraria.wiki.gg/wiki/Blue_Solution" target="_blank">Blue Solution</a></span><br>
+			6 <input type="checkbox" id="Purple Solution"><span><a href="https://terraria.wiki.gg/wiki/Purple_Solution" target="_blank">Purple Solution</a></span><br>
+			7 <input type="checkbox" id="Dark Blue Solution"><span><a href="https://terraria.wiki.gg/wiki/Dark_Blue Solution" target="_blank">Dark Blue Solution</a></span><br>
+			8 <input type="checkbox" id="Red Solution"><span><a href="https://terraria.wiki.gg/wiki/Red_Solution" target="_blank">Red Solution</a></span><br>
+	</div>
+</body>

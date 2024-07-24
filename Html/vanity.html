@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<head>
+	<style>
+	div {
+		border-left-style: solid;
+		padding-left: 20px;
+	}
+	a:link, a:visited {
+		color: blue;
+		text-decoration: none;
+	}
+	</style>
+	<script src="checkbox.js"></script>
+</head>
+<body>
+	<button onclick="saveToFile()">Save to File</button>
+	<button onclick="loadFile()">Load from File</button>
+	<h1>Pieces:</h1>
+	<div id="Pieces">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Beanie"><span><a href="https://terraria.wiki.gg/wiki/Beanie" target="_blank">Beanie</a></span><br>
+				02 <input type="checkbox" id="Bunny Hood"><span><a href="https://terraria.wiki.gg/wiki/Bunny_Hood" target="_blank">Bunny Hood</a></span><br>
+				03 <input type="checkbox" id="Cat Ears"><span><a href="https://terraria.wiki.gg/wiki/Cat_Ears" target="_blank">Cat Ears</a></span><br>
+				04 <input type="checkbox" id="Dead Man's Sweater"><span><a href="https://terraria.wiki.gg/wiki/Dead_Man's Sweater" target="_blank">Dead Man's Sweater</a></span><br>
+				05 <input type="checkbox" id="Demon Horns"><span><a href="https://terraria.wiki.gg/wiki/Demon_Horns" target="_blank">Demon Horns</a></span><br>
+				06 <input type="checkbox" id="Devil Horns"><span><a href="https://terraria.wiki.gg/wiki/Devil_Horns" target="_blank">Devil Horns</a></span><br>
+				07 <input type="checkbox" id="Dizzy's Rare Gecko Chester"><span><a href="https://terraria.wiki.gg/wiki/Dizzy's_Rare Gecko Chester" target="_blank">Dizzy's Rare Gecko Chester</a></span><br>
+				08 <input type="checkbox" id="Engineering Helmet"><span><a href="https://terraria.wiki.gg/wiki/Engineering_Helmet" target="_blank">Engineering Helmet</a></span><br>
+				09 <input type="checkbox" id="Eyebrella"><span><a href="https://terraria.wiki.gg/wiki/Eyebrella" target="_blank">Eyebrella</a></span><br>
+				10 <input type="checkbox" id="Fedora"><span><a href="https://terraria.wiki.gg/wiki/Fedora" target="_blank">Fedora</a></span><br>
+				11 <input type="checkbox" id="Fez"><span><a href="https://terraria.wiki.gg/wiki/Fez" target="_blank">Fez</a></span><br>
+				12 <input type="checkbox" id="Fish Bowl"><span><a href="https://terraria.wiki.gg/wiki/Fish_Bowl" target="_blank">Fish Bowl</a></span><br>
+				13 <input type="checkbox" id="Pupfish Bowl"><span><a href="https://terraria.wiki.gg/wiki/Pupfish_Bowl" target="_blank">Pupfish Bowl</a></span><br>
+				14 <input type="checkbox" id="Lava Serpent Bowl"><span><a href="https://terraria.wiki.gg/wiki/Lava_Serpent Bowl" target="_blank">Lava Serpent Bowl</a></span><br>
+				15 <input type="checkbox" id="Garland"><span><a href="https://terraria.wiki.gg/wiki/Garland" target="_blank">Garland</a></span><br>
+				16 <input type="checkbox" id="Giant Bow"><span><a href="https://terraria.wiki.gg/wiki/Giant_Bow" target="_blank">Giant Bow</a></span><br>
+				17 <input type="checkbox" id="Goblorc Ears"><span><a href="https://terraria.wiki.gg/wiki/Goblorc_Ears" target="_blank">Goblorc Ears</a></span><br>
+				18 <input type="checkbox" id="Gold Crown"><span><a href="https://terraria.wiki.gg/wiki/Gold_Crown" target="_blank">Gold Crown</a></span><br>
+				19 <input type="checkbox" id="Gold Fish Bowl"><span><a href="https://terraria.wiki.gg/wiki/Gold_Fish Bowl" target="_blank">Gold Fish Bowl</a></span><br>
+				20 <input type="checkbox" id="Guy Fawkes Mask"><span><a href="https://terraria.wiki.gg/wiki/Guy_Fawkes Mask" target="_blank">Guy Fawkes Mask</a></span><br>
+				21 <input type="checkbox" id="Heart Hairpin"><span><a href="https://terraria.wiki.gg/wiki/Heart_Hairpin" target="_blank">Heart Hairpin</a></span><br>
+				22 <input type="checkbox" id="Jim's Cap"><span><a href="https://terraria.wiki.gg/wiki/Jim's_Cap" target="_blank">Jim's Cap</a></span><br>
+				23 <input type="checkbox" id="Kimono"><span><a href="https://terraria.wiki.gg/wiki/Kimono" target="_blank">Kimono</a></span><br>
+				24 <input type="checkbox" id="Mime Mask"><span><a href="https://terraria.wiki.gg/wiki/Mime_Mask" target="_blank">Mime Mask</a></span><br>
+				25 <input type="checkbox" id="Panda Ears"><span><a href="https://terraria.wiki.gg/wiki/Panda_Ears" target="_blank">Panda Ears</a></span><br>
+				26 <input type="checkbox" id="Party Hat"><span><a href="https://terraria.wiki.gg/wiki/Party_Hat" target="_blank">Party Hat</a></span><br>
+				27 <input type="checkbox" id="Peddler's Hat"><span><a href="https://terraria.wiki.gg/wiki/Peddler's_Hat" target="_blank">Peddler's Hat</a></span><br>
+				28 <input type="checkbox" id="Platinum Crown"><span><a href="https://terraria.wiki.gg/wiki/Platinum_Crown" target="_blank">Platinum Crown</a></span><br>
+				29 <input type="checkbox" id="Rabbit Perch"><span><a href="https://terraria.wiki.gg/wiki/Rabbit_Perch" target="_blank">Rabbit Perch</a></span><br>
+				30 <input type="checkbox" id="Reindeer Antlers"><span><a href="https://terraria.wiki.gg/wiki/Reindeer_Antlers" target="_blank">Reindeer Antlers</a></span><br>
+				31 <input type="checkbox" id="Robe"><span><a href="https://terraria.wiki.gg/wiki/Robe" target="_blank">Robe</a></span><br>
+				32 <input type="checkbox" id="Amber Robe"><span><a href="https://terraria.wiki.gg/wiki/Amber_Robe" target="_blank">Amber Robe</a></span><br>
+				33 <input type="checkbox" id="Amethyst Robe"><span><a href="https://terraria.wiki.gg/wiki/Amethyst_Robe" target="_blank">Amethyst Robe</a></span><br>
+				34 <input type="checkbox" id="Diamond Robe"><span><a href="https://terraria.wiki.gg/wiki/Diamond_Robe" target="_blank">Diamond Robe</a></span><br>
+				35 <input type="checkbox" id="Emerald Robe"><span><a href="https://terraria.wiki.gg/wiki/Emerald_Robe" target="_blank">Emerald Robe</a></span><br>
+				36 <input type="checkbox" id="Ruby Robe"><span><a href="https://terraria.wiki.gg/wiki/Ruby_Robe" target="_blank">Ruby Robe</a></span><br>
+				37 <input type="checkbox" id="Sapphire Robe"><span><a href="https://terraria.wiki.gg/wiki/Sapphire_Robe" target="_blank">Sapphire Robe</a></span><br>
+				38 <input type="checkbox" id="Topaz Robe"><span><a href="https://terraria.wiki.gg/wiki/Topaz_Robe" target="_blank">Topaz Robe</a></span><br>
+				39 <input type="checkbox" id="Robot Hat"><span><a href="https://terraria.wiki.gg/wiki/Robot_Hat" target="_blank">Robot Hat</a></span><br>
+				40 <input type="checkbox" id="Skull"><span><a href="https://terraria.wiki.gg/wiki/Skull" target="_blank">Skull</a></span><br>
+				01 <input type="checkbox" id="Snow Hat"><span><a href="https://terraria.wiki.gg/wiki/Snow_Hat" target="_blank">Snow Hat</a></span><br>
+				02 <input type="checkbox" id="Star Hairpin"><span><a href="https://terraria.wiki.gg/wiki/Star_Hairpin" target="_blank">Star Hairpin</a></span><br>
+				03 <input type="checkbox" id="Summer Hat"><span><a href="https://terraria.wiki.gg/wiki/Summer_Hat" target="_blank">Summer Hat</a></span><br>
+				04 <input type="checkbox" id="Sunglasses"><span><a href="https://terraria.wiki.gg/wiki/Sunglasses" target="_blank">Sunglasses</a></span><br>
+				05 <input type="checkbox" id="Ugly Sweater"><span><a href="https://terraria.wiki.gg/wiki/Ugly_Sweater" target="_blank">Ugly Sweater</a></span><br>
+				06 <input type="checkbox" id="Umbrella Hat"><span><a href="https://terraria.wiki.gg/wiki/Umbrella_Hat" target="_blank">Umbrella Hat</a></span><br>
+				07 <input type="checkbox" id="Vulkelf Ears"><span><a href="https://terraria.wiki.gg/wiki/Vulkelf_Ears" target="_blank">Vulkelf Ears</a></span><br>
+				08 <input type="checkbox" id="Wizard's Hat"><span><a href="https://terraria.wiki.gg/wiki/Wizard's_Hat" target="_blank">Wizard's Hat</a></span><br>
+		</div>
+		<h1>Hardmode:</h1>
+		<div id="Hardmode">
+				01 <input type="checkbox" id="Badger's Hat"><span><a href="https://terraria.wiki.gg/wiki/Badger's_Hat" target="_blank">Badger's Hat</a></span><br>
+				02 <input type="checkbox" id="Balla Hat"><span><a href="https://terraria.wiki.gg/wiki/Balla_Hat" target="_blank">Balla Hat</a></span><br>
+				03 <input type="checkbox" id="Eye Patch"><span><a href="https://terraria.wiki.gg/wiki/Eye_Patch" target="_blank">Eye Patch</a></span><br>
+				04 <input type="checkbox" id="Gangsta Hat"><span><a href="https://terraria.wiki.gg/wiki/Gangsta_Hat" target="_blank">Gangsta Hat</a></span><br>
+				05 <input type="checkbox" id="HiTek Sunglasses"><span><a href="https://terraria.wiki.gg/wiki/HiTek_Sunglasses" target="_blank">HiTek Sunglasses</a></span><br>
+				06 <input type="checkbox" id="Jack 'O Lantern Mask"><span><a href="https://terraria.wiki.gg/wiki/Jack_'O Lantern Mask" target="_blank">Jack 'O Lantern Mask</a></span><br>
+				07 <input type="checkbox" id="Moon Mask"><span><a href="https://terraria.wiki.gg/wiki/Moon_Mask" target="_blank">Moon Mask</a></span><br>
+				08 <input type="checkbox" id="Mushroom Cap"><span><a href="https://terraria.wiki.gg/wiki/Mushroom_Cap" target="_blank">Mushroom Cap</a></span><br>
+				09 <input type="checkbox" id="Rock Golem Head"><span><a href="https://terraria.wiki.gg/wiki/Rock_Golem Head" target="_blank">Rock Golem Head</a></span><br>
+				10 <input type="checkbox" id="SWAT Helmet"><span><a href="https://terraria.wiki.gg/wiki/SWAT_Helmet" target="_blank">SWAT Helmet</a></span><br>
+				11 <input type="checkbox" id="Steampunk Goggles"><span><a href="https://terraria.wiki.gg/wiki/Steampunk_Goggles" target="_blank">Steampunk Goggles</a></span><br>
+				12 <input type="checkbox" id="Sun Mask"><span><a href="https://terraria.wiki.gg/wiki/Sun_Mask" target="_blank">Sun Mask</a></span><br>
+				13 <input type="checkbox" id="Tam O' Shanter"><span><a href="https://terraria.wiki.gg/wiki/Tam_O' Shanter" target="_blank">Tam O' Shanter</a></span><br>
+		</div>
+		<h1>MasterMode:</h1>
+		<div id="MasterMode">
+				1 <input type="checkbox" id="0x33's Aviators"><span><a href="https://terraria.wiki.gg/wiki/0x33's_Aviators" target="_blank">0x33's Aviators</a></span><br>
+		</div>
+	</div>
+	<h1>Halloween Sets:</h1>
+	<div id="Halloween Sets">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Bride of Frankenstein set"><span><a href="https://terraria.wiki.gg/wiki/Bride_of Frankenstein set" target="_blank">Bride of Frankenstein set</a></span><br>
+				02 <input type="checkbox" id="Cat set"><span><a href="https://terraria.wiki.gg/wiki/Cat_set" target="_blank">Cat set</a></span><br>
+				03 <input type="checkbox" id="Clothier's set"><span><a href="https://terraria.wiki.gg/wiki/Clothier's_set" target="_blank">Clothier's set</a></span><br>
+				04 <input type="checkbox" id="Creeper set"><span><a href="https://terraria.wiki.gg/wiki/Creeper_set" target="_blank">Creeper set</a></span><br>
+				05 <input type="checkbox" id="Dryad set"><span><a href="https://terraria.wiki.gg/wiki/Dryad_set" target="_blank">Dryad set</a></span><br>
+				06 <input type="checkbox" id="Dye Trader's set"><span><a href="https://terraria.wiki.gg/wiki/Dye_Trader's set" target="_blank">Dye Trader's set</a></span><br>
+				07 <input type="checkbox" id="Fox set"><span><a href="https://terraria.wiki.gg/wiki/Fox_set" target="_blank">Fox set</a></span><br>
+				08 <input type="checkbox" id="Ghost set"><span><a href="https://terraria.wiki.gg/wiki/Ghost_set" target="_blank">Ghost set</a></span><br>
+				09 <input type="checkbox" id="Karate Tortoise set"><span><a href="https://terraria.wiki.gg/wiki/Karate_Tortoise set" target="_blank">Karate Tortoise set</a></span><br>
+				10 <input type="checkbox" id="Leprechaun set"><span><a href="https://terraria.wiki.gg/wiki/Leprechaun_set" target="_blank">Leprechaun set</a></span><br>
+				11 <input type="checkbox" id="Nurse set"><span><a href="https://terraria.wiki.gg/wiki/Nurse_set" target="_blank">Nurse set</a></span><br>
+				12 <input type="checkbox" id="Pixie set"><span><a href="https://terraria.wiki.gg/wiki/Pixie_set" target="_blank">Pixie set</a></span><br>
+				13 <input type="checkbox" id="Princess set"><span><a href="https://terraria.wiki.gg/wiki/Princess_set" target="_blank">Princess set</a></span><br>
+				14 <input type="checkbox" id="Pumpkin set"><span><a href="https://terraria.wiki.gg/wiki/Pumpkin_set" target="_blank">Pumpkin set</a></span><br>
+				15 <input type="checkbox" id="Reaper set"><span><a href="https://terraria.wiki.gg/wiki/Reaper_set" target="_blank">Reaper set</a></span><br>
+				16 <input type="checkbox" id="Robot set"><span><a href="https://terraria.wiki.gg/wiki/Robot_set" target="_blank">Robot set</a></span><br>
+				17 <input type="checkbox" id="Space Creature set"><span><a href="https://terraria.wiki.gg/wiki/Space_Creature set" target="_blank">Space Creature set</a></span><br>
+				18 <input type="checkbox" id="Treasure Hunter set"><span><a href="https://terraria.wiki.gg/wiki/Treasure_Hunter set" target="_blank">Treasure Hunter set</a></span><br>
+				19 <input type="checkbox" id="Unicorn set"><span><a href="https://terraria.wiki.gg/wiki/Unicorn_set" target="_blank">Unicorn set</a></span><br>
+				20 <input type="checkbox" id="Vampire set"><span><a href="https://terraria.wiki.gg/wiki/Vampire_set" target="_blank">Vampire set</a></span><br>
+				21 <input type="checkbox" id="Witch set"><span><a href="https://terraria.wiki.gg/wiki/Witch_set" target="_blank">Witch set</a></span><br>
+				22 <input type="checkbox" id="Wolf set"><span><a href="https://terraria.wiki.gg/wiki/Wolf_set" target="_blank">Wolf set</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Cyborg set"><span><a href="https://terraria.wiki.gg/wiki/Cyborg_set" target="_blank">Cyborg set</a></span><br>
+		</div>
+	</div>
+	<h1>Christmas Sets:</h1>
+	<div id="Christmas Sets">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Mrs. Claus set"><span><a href="https://terraria.wiki.gg/wiki/Mrs._Claus set" target="_blank">Mrs. Claus set</a></span><br>
+				2 <input type="checkbox" id="Parka set"><span><a href="https://terraria.wiki.gg/wiki/Parka_set" target="_blank">Parka set</a></span><br>
+				3 <input type="checkbox" id="Tree set"><span><a href="https://terraria.wiki.gg/wiki/Tree_set" target="_blank">Tree set</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Santa set"><span><a href="https://terraria.wiki.gg/wiki/Santa_set" target="_blank">Santa set</a></span><br>
+		</div>
+	</div>
+	<h1>Sets:</h1>
+	<div id="Sets">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Archaeologist's set"><span><a href="https://terraria.wiki.gg/wiki/Archaeologist's_set" target="_blank">Archaeologist's set</a></span><br>
+				02 <input type="checkbox" id="Bee set"><span><a href="https://terraria.wiki.gg/wiki/Bee_set" target="_blank">Bee set</a></span><br>
+				03 <input type="checkbox" id="Bunny set"><span><a href="https://terraria.wiki.gg/wiki/Bunny_set" target="_blank">Bunny set</a></span><br>
+				04 <input type="checkbox" id="Capricorn set"><span><a href="https://terraria.wiki.gg/wiki/Capricorn_set" target="_blank">Capricorn set</a></span><br>
+				05 <input type="checkbox" id="Chef set"><span><a href="https://terraria.wiki.gg/wiki/Chef_set" target="_blank">Chef set</a></span><br>
+				06 <input type="checkbox" id="Country Club set"><span><a href="https://terraria.wiki.gg/wiki/Country_Club set" target="_blank">Country Club set</a></span><br>
+				07 <input type="checkbox" id="Dog set"><span><a href="https://terraria.wiki.gg/wiki/Dog_set" target="_blank">Dog set</a></span><br>
+				08 <input type="checkbox" id="Fallen Tuxedo set"><span><a href="https://terraria.wiki.gg/wiki/Fallen_Tuxedo set" target="_blank">Fallen Tuxedo set</a></span><br>
+				09 <input type="checkbox" id="Familiar set"><span><a href="https://terraria.wiki.gg/wiki/Familiar_set" target="_blank">Familiar set</a></span><br>
+				10 <input type="checkbox" id="Firestarter's set"><span><a href="https://terraria.wiki.gg/wiki/Firestarter's_set" target="_blank">Firestarter's set</a></span><br>
+				11 <input type="checkbox" id="Fish Costume set"><span><a href="https://terraria.wiki.gg/wiki/Fish_Costume set" target="_blank">Fish Costume set</a></span><br>
+				12 <input type="checkbox" id="Floret Protector set"><span><a href="https://terraria.wiki.gg/wiki/Floret_Protector set" target="_blank">Floret Protector set</a></span><br>
+				13 <input type="checkbox" id="Fox set (Zoologist)"><span><a href="https://terraria.wiki.gg/wiki/Fox_set (Zoologist)" target="_blank">Fox set (Zoologist)</a></span><br>
+				14 <input type="checkbox" id="Funeral set"><span><a href="https://terraria.wiki.gg/wiki/Funeral_set" target="_blank">Funeral set</a></span><br>
+				15 <input type="checkbox" id="Gentleman's set"><span><a href="https://terraria.wiki.gg/wiki/Gentleman's_set" target="_blank">Gentleman's set</a></span><br>
+				16 <input type="checkbox" id="Gravedigger set"><span><a href="https://terraria.wiki.gg/wiki/Gravedigger_set" target="_blank">Gravedigger set</a></span><br>
+				17 <input type="checkbox" id="Hero's set"><span><a href="https://terraria.wiki.gg/wiki/Hero's_set" target="_blank">Hero's set</a></span><br>
+				18 <input type="checkbox" id="Lizard set"><span><a href="https://terraria.wiki.gg/wiki/Lizard_set" target="_blank">Lizard set</a></span><br>
+				19 <input type="checkbox" id="Maid set"><span><a href="https://terraria.wiki.gg/wiki/Maid_set" target="_blank">Maid set</a></span><br>
+				20 <input type="checkbox" id="Master Gamer's set"><span><a href="https://terraria.wiki.gg/wiki/Master_Gamer's set" target="_blank">Master Gamer's set</a></span><br>
+				21 <input type="checkbox" id="Mermaid set"><span><a href="https://terraria.wiki.gg/wiki/Mermaid_set" target="_blank">Mermaid set</a></span><br>
+				22 <input type="checkbox" id="Mushroom set"><span><a href="https://terraria.wiki.gg/wiki/Mushroom_set" target="_blank">Mushroom set</a></span><br>
+				23 <input type="checkbox" id="Pedguin's set"><span><a href="https://terraria.wiki.gg/wiki/Pedguin's_set" target="_blank">Pedguin's set</a></span><br>
+				24 <input type="checkbox" id="Pharaoh's set"><span><a href="https://terraria.wiki.gg/wiki/Pharaoh's_set" target="_blank">Pharaoh's set</a></span><br>
+				25 <input type="checkbox" id="Pink Maid set"><span><a href="https://terraria.wiki.gg/wiki/Pink_Maid set" target="_blank">Pink Maid set</a></span><br>
+				26 <input type="checkbox" id="Plaguebringer's set"><span><a href="https://terraria.wiki.gg/wiki/Plaguebringer's_set" target="_blank">Plaguebringer's set</a></span><br>
+				27 <input type="checkbox" id="Plumber's set"><span><a href="https://terraria.wiki.gg/wiki/Plumber's_set" target="_blank">Plumber's set</a></span><br>
+				28 <input type="checkbox" id="Pretty Pink set"><span><a href="https://terraria.wiki.gg/wiki/Pretty_Pink set" target="_blank">Pretty Pink set</a></span><br>
+				29 <input type="checkbox" id="Raynebro's set"><span><a href="https://terraria.wiki.gg/wiki/Raynebro's_set" target="_blank">Raynebro's set</a></span><br>
+				30 <input type="checkbox" id="Silly Sunflower set"><span><a href="https://terraria.wiki.gg/wiki/Silly_Sunflower set" target="_blank">Silly Sunflower set</a></span><br>
+				31 <input type="checkbox" id="Star Princess set"><span><a href="https://terraria.wiki.gg/wiki/Star_Princess set" target="_blank">Star Princess set</a></span><br>
+				32 <input type="checkbox" id="Superhero set"><span><a href="https://terraria.wiki.gg/wiki/Superhero_set" target="_blank">Superhero set</a></span><br>
+				33 <input type="checkbox" id="The Doctor's set"><span><a href="https://terraria.wiki.gg/wiki/The_Doctor's set" target="_blank">The Doctor's set</a></span><br>
+				34 <input type="checkbox" id="Timeless Traveler's set"><span><a href="https://terraria.wiki.gg/wiki/Timeless_Traveler's set" target="_blank">Timeless Traveler's set</a></span><br>
+				35 <input type="checkbox" id="Tuxedo set"><span><a href="https://terraria.wiki.gg/wiki/Tuxedo_set" target="_blank">Tuxedo set</a></span><br>
+				36 <input type="checkbox" id="TV Head set"><span><a href="https://terraria.wiki.gg/wiki/TV_Head set" target="_blank">TV Head set</a></span><br>
+				37 <input type="checkbox" id="Victorian Goth set"><span><a href="https://terraria.wiki.gg/wiki/Victorian_Goth set" target="_blank">Victorian Goth set</a></span><br>
+				38 <input type="checkbox" id="Wandering set"><span><a href="https://terraria.wiki.gg/wiki/Wandering_set" target="_blank">Wandering set</a></span><br>
+				39 <input type="checkbox" id="Wedding set"><span><a href="https://terraria.wiki.gg/wiki/Wedding_set" target="_blank">Wedding set</a></span><br>
+				40 <input type="checkbox" id="White Tuxedo set"><span><a href="https://terraria.wiki.gg/wiki/White_Tuxedo set" target="_blank">White Tuxedo set</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				01 <input type="checkbox" id="Ancient set"><span><a href="https://terraria.wiki.gg/wiki/Ancient_set" target="_blank">Ancient set</a></span><br>
+				02 <input type="checkbox" id="Black Graduation set"><span><a href="https://terraria.wiki.gg/wiki/Black_Graduation set" target="_blank">Black Graduation set</a></span><br>
+				03 <input type="checkbox" id="Blue Graduation set"><span><a href="https://terraria.wiki.gg/wiki/Blue_Graduation set" target="_blank">Blue Graduation set</a></span><br>
+				04 <input type="checkbox" id="Buccaneer set"><span><a href="https://terraria.wiki.gg/wiki/Buccaneer_set" target="_blank">Buccaneer set</a></span><br>
+				05 <input type="checkbox" id="Butcher's set"><span><a href="https://terraria.wiki.gg/wiki/Butcher's_set" target="_blank">Butcher's set</a></span><br>
+				06 <input type="checkbox" id="Clown set"><span><a href="https://terraria.wiki.gg/wiki/Clown_set" target="_blank">Clown set</a></span><br>
+				07 <input type="checkbox" id="Cowboy set"><span><a href="https://terraria.wiki.gg/wiki/Cowboy_set" target="_blank">Cowboy set</a></span><br>
+				08 <input type="checkbox" id="Dr. Man Fly set"><span><a href="https://terraria.wiki.gg/wiki/Dr._Man Fly set" target="_blank">Dr. Man Fly set</a></span><br>
+				09 <input type="checkbox" id="Elf set"><span><a href="https://terraria.wiki.gg/wiki/Elf_set" target="_blank">Elf set</a></span><br>
+				10 <input type="checkbox" id="Lamia set"><span><a href="https://terraria.wiki.gg/wiki/Lamia_set" target="_blank">Lamia set</a></span><br>
+				11 <input type="checkbox" id="Lunar Cultist set"><span><a href="https://terraria.wiki.gg/wiki/Lunar_Cultist set" target="_blank">Lunar Cultist set</a></span><br>
+				12 <input type="checkbox" id="Maroon Graduation set"><span><a href="https://terraria.wiki.gg/wiki/Maroon_Graduation set" target="_blank">Maroon Graduation set</a></span><br>
+				13 <input type="checkbox" id="Martian Costume set"><span><a href="https://terraria.wiki.gg/wiki/Martian_Costume set" target="_blank">Martian Costume set</a></span><br>
+				14 <input type="checkbox" id="Martian Uniform set"><span><a href="https://terraria.wiki.gg/wiki/Martian_Uniform set" target="_blank">Martian Uniform set</a></span><br>
+				15 <input type="checkbox" id="Mummy set"><span><a href="https://terraria.wiki.gg/wiki/Mummy_set" target="_blank">Mummy set</a></span><br>
+				16 <input type="checkbox" id="Pirate set"><span><a href="https://terraria.wiki.gg/wiki/Pirate_set" target="_blank">Pirate set</a></span><br>
+				17 <input type="checkbox" id="Prince set"><span><a href="https://terraria.wiki.gg/wiki/Prince_set" target="_blank">Prince set</a></span><br>
+				18 <input type="checkbox" id="Princess set (Clothier)"><span><a href="https://terraria.wiki.gg/wiki/Princess_set (Clothier)" target="_blank">Princess set (Clothier)</a></span><br>
+				19 <input type="checkbox" id="Royal set"><span><a href="https://terraria.wiki.gg/wiki/Royal_set" target="_blank">Royal set</a></span><br>
+				20 <input type="checkbox" id="Rune set"><span><a href="https://terraria.wiki.gg/wiki/Rune_set" target="_blank">Rune set</a></span><br>
+				21 <input type="checkbox" id="Sailor set"><span><a href="https://terraria.wiki.gg/wiki/Sailor_set" target="_blank">Sailor set</a></span><br>
+				22 <input type="checkbox" id="Scarecrow set"><span><a href="https://terraria.wiki.gg/wiki/Scarecrow_set" target="_blank">Scarecrow set</a></span><br>
+				23 <input type="checkbox" id="Solar Cultist set"><span><a href="https://terraria.wiki.gg/wiki/Solar_Cultist set" target="_blank">Solar Cultist set</a></span><br>
+				24 <input type="checkbox" id="Steampunk set"><span><a href="https://terraria.wiki.gg/wiki/Steampunk_set" target="_blank">Steampunk set</a></span><br>
+				25 <input type="checkbox" id="Tax Collector's set"><span><a href="https://terraria.wiki.gg/wiki/Tax_Collector's set" target="_blank">Tax Collector's set</a></span><br>
+		</div>
+	</div>
+	<h1>Boss Masks:</h1>
+	<div id="Boss Masks">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Brain of Cthulhu Mask"><span><a href="https://terraria.wiki.gg/wiki/Brain_of Cthulhu Mask" target="_blank">Brain of Cthulhu Mask</a></span><br>
+				2 <input type="checkbox" id="Dark Mage Mask"><span><a href="https://terraria.wiki.gg/wiki/Dark_Mage Mask" target="_blank">Dark Mage Mask</a></span><br>
+				3 <input type="checkbox" id="Deerclops Mask"><span><a href="https://terraria.wiki.gg/wiki/Deerclops_Mask" target="_blank">Deerclops Mask</a></span><br>
+				4 <input type="checkbox" id="Eater of Worlds Mask"><span><a href="https://terraria.wiki.gg/wiki/Eater_of Worlds Mask" target="_blank">Eater of Worlds Mask</a></span><br>
+				5 <input type="checkbox" id="Eye of Cthulhu Mask"><span><a href="https://terraria.wiki.gg/wiki/Eye_of Cthulhu Mask" target="_blank">Eye of Cthulhu Mask</a></span><br>
+				6 <input type="checkbox" id="King Slime Mask"><span><a href="https://terraria.wiki.gg/wiki/King_Slime Mask" target="_blank">King Slime Mask</a></span><br>
+				7 <input type="checkbox" id="Queen Bee Mask"><span><a href="https://terraria.wiki.gg/wiki/Queen_Bee Mask" target="_blank">Queen Bee Mask</a></span><br>
+				8 <input type="checkbox" id="Skeletron Mask"><span><a href="https://terraria.wiki.gg/wiki/Skeletron_Mask" target="_blank">Skeletron Mask</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				01 <input type="checkbox" id="Betsy Mask"><span><a href="https://terraria.wiki.gg/wiki/Betsy_Mask" target="_blank">Betsy Mask</a></span><br>
+				02 <input type="checkbox" id="Destroyer Mask"><span><a href="https://terraria.wiki.gg/wiki/Destroyer_Mask" target="_blank">Destroyer Mask</a></span><br>
+				03 <input type="checkbox" id="Duke Fishron Mask"><span><a href="https://terraria.wiki.gg/wiki/Duke_Fishron Mask" target="_blank">Duke Fishron Mask</a></span><br>
+				04 <input type="checkbox" id="Empress of Light Mask"><span><a href="https://terraria.wiki.gg/wiki/Empress_of Light Mask" target="_blank">Empress of Light Mask</a></span><br>
+				05 <input type="checkbox" id="Golem Mask"><span><a href="https://terraria.wiki.gg/wiki/Golem_Mask" target="_blank">Golem Mask</a></span><br>
+				06 <input type="checkbox" id="Lunatic Cultist Mask"><span><a href="https://terraria.wiki.gg/wiki/Lunatic_Cultist Mask" target="_blank">Lunatic Cultist Mask</a></span><br>
+				07 <input type="checkbox" id="Moon Lord Mask"><span><a href="https://terraria.wiki.gg/wiki/Moon_Lord Mask" target="_blank">Moon Lord Mask</a></span><br>
+				08 <input type="checkbox" id="Ogre Mask"><span><a href="https://terraria.wiki.gg/wiki/Ogre_Mask" target="_blank">Ogre Mask</a></span><br>
+				09 <input type="checkbox" id="Plantera Mask"><span><a href="https://terraria.wiki.gg/wiki/Plantera_Mask" target="_blank">Plantera Mask</a></span><br>
+				10 <input type="checkbox" id="Queen Slime Mask"><span><a href="https://terraria.wiki.gg/wiki/Queen_Slime Mask" target="_blank">Queen Slime Mask</a></span><br>
+				11 <input type="checkbox" id="Skeletron Prime Mask"><span><a href="https://terraria.wiki.gg/wiki/Skeletron_Prime Mask" target="_blank">Skeletron Prime Mask</a></span><br>
+				12 <input type="checkbox" id="Twin Mask"><span><a href="https://terraria.wiki.gg/wiki/Twin_Mask" target="_blank">Twin Mask</a></span><br>
+				13 <input type="checkbox" id="Wall of Flesh Mask"><span><a href="https://terraria.wiki.gg/wiki/Wall_of Flesh Mask" target="_blank">Wall of Flesh Mask</a></span><br>
+		</div>
+	</div>
+	<h1>Accessories:</h1>
+	<div id="Accessories">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Angel Halo"><span><a href="https://terraria.wiki.gg/wiki/Angel_Halo" target="_blank">Angel Halo</a></span><br>
+				02 <input type="checkbox" id="Balloon Animal"><span><a href="https://terraria.wiki.gg/wiki/Balloon_Animal" target="_blank">Balloon Animal</a></span><br>
+				03 <input type="checkbox" id="Bundled Party Balloons"><span><a href="https://terraria.wiki.gg/wiki/Bundled_Party Balloons" target="_blank">Bundled Party Balloons</a></span><br>
+				04 <input type="checkbox" id="Crimson Cloak"><span><a href="https://terraria.wiki.gg/wiki/Crimson_Cloak" target="_blank">Crimson Cloak</a></span><br>
+				05 <input type="checkbox" id="Diamond Ring"><span><a href="https://terraria.wiki.gg/wiki/Diamond_Ring" target="_blank">Diamond Ring</a></span><br>
+				06 <input type="checkbox" id="Fake Unicorn Horn"><span><a href="https://terraria.wiki.gg/wiki/Fake_Unicorn Horn" target="_blank">Fake Unicorn Horn</a></span><br>
+				07 <input type="checkbox" id="Flame Waker Boots"><span><a href="https://terraria.wiki.gg/wiki/Flame_Waker Boots" target="_blank">Flame Waker Boots</a></span><br>
+				08 <input type="checkbox" id="Ginger Beard"><span><a href="https://terraria.wiki.gg/wiki/Ginger_Beard" target="_blank">Ginger Beard</a></span><br>
+				09 <input type="checkbox" id="Hunter Cloak"><span><a href="https://terraria.wiki.gg/wiki/Hunter_Cloak" target="_blank">Hunter Cloak</a></span><br>
+				10 <input type="checkbox" id="Jungle Rose"><span><a href="https://terraria.wiki.gg/wiki/Jungle_Rose" target="_blank">Jungle Rose</a></span><br>
+				11 <input type="checkbox" id="Mysterious Cape"><span><a href="https://terraria.wiki.gg/wiki/Mysterious_Cape" target="_blank">Mysterious Cape</a></span><br>
+				12 <input type="checkbox" id="Red Cape"><span><a href="https://terraria.wiki.gg/wiki/Red_Cape" target="_blank">Red Cape</a></span><br>
+				13 <input type="checkbox" id="Winter Cape"><span><a href="https://terraria.wiki.gg/wiki/Winter_Cape" target="_blank">Winter Cape</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Glass Slipper"><span><a href="https://terraria.wiki.gg/wiki/Glass_Slipper" target="_blank">Glass Slipper</a></span><br>
+				2 <input type="checkbox" id="Leinfors' Luxury Shampoo"><span><a href="https://terraria.wiki.gg/wiki/Leinfors'_Luxury Shampoo" target="_blank">Leinfors' Luxury Shampoo</a></span><br>
+				3 <input type="checkbox" id="Royal Scepter"><span><a href="https://terraria.wiki.gg/wiki/Royal_Scepter" target="_blank">Royal Scepter</a></span><br>
+				4 <input type="checkbox" id="Yoraiz0r's Scowl"><span><a href="https://terraria.wiki.gg/wiki/Yoraiz0r's_Scowl" target="_blank">Yoraiz0r's Scowl</a></span><br>
+		</div>
+	</div>
+	<h1>Developer Sets:</h1>
+	<div id="Developer Sets">
+			01 <input type="checkbox" id="Aaron's set"><span><a href="https://terraria.wiki.gg/wiki/Aaron's_set" target="_blank">Aaron's set</a></span><br>
+			02 <input type="checkbox" id="Arkhalis' set"><span><a href="https://terraria.wiki.gg/wiki/Arkhalis'_set" target="_blank">Arkhalis' set</a></span><br>
+			03 <input type="checkbox" id="Cenx's Dress set"><span><a href="https://terraria.wiki.gg/wiki/Cenx's_Dress set" target="_blank">Cenx's Dress set</a></span><br>
+			04 <input type="checkbox" id="Cenx's set"><span><a href="https://terraria.wiki.gg/wiki/Cenx's_set" target="_blank">Cenx's set</a></span><br>
+			05 <input type="checkbox" id="Crowno's set"><span><a href="https://terraria.wiki.gg/wiki/Crowno's_set" target="_blank">Crowno's set</a></span><br>
+			06 <input type="checkbox" id="D-Town's set"><span><a href="https://terraria.wiki.gg/wiki/D-Town's_set" target="_blank">D-Town's set</a></span><br>
+			07 <input type="checkbox" id="FoodBarbarian's set"><span><a href="https://terraria.wiki.gg/wiki/FoodBarbarian's_set" target="_blank">FoodBarbarian's set</a></span><br>
+			08 <input type="checkbox" id="Ghostar's set"><span><a href="https://terraria.wiki.gg/wiki/Ghostar's_set" target="_blank">Ghostar's set</a></span><br>
+			09 <input type="checkbox" id="Grox The Great's set"><span><a href="https://terraria.wiki.gg/wiki/Grox_The Great's set" target="_blank">Grox The Great's set</a></span><br>
+			10 <input type="checkbox" id="Jim's set"><span><a href="https://terraria.wiki.gg/wiki/Jim's_set" target="_blank">Jim's set</a></span><br>
+			11 <input type="checkbox" id="Lazure's set"><span><a href="https://terraria.wiki.gg/wiki/Lazure's_set" target="_blank">Lazure's set</a></span><br>
+			12 <input type="checkbox" id="Leinfors' set"><span><a href="https://terraria.wiki.gg/wiki/Leinfors'_set" target="_blank">Leinfors' set</a></span><br>
+			13 <input type="checkbox" id="Loki's set"><span><a href="https://terraria.wiki.gg/wiki/Loki's_set" target="_blank">Loki's set</a></span><br>
+			14 <input type="checkbox" id="Red's set"><span><a href="https://terraria.wiki.gg/wiki/Red's_set" target="_blank">Red's set</a></span><br>
+			15 <input type="checkbox" id="Safeman's set"><span><a href="https://terraria.wiki.gg/wiki/Safeman's_set" target="_blank">Safeman's set</a></span><br>
+			16 <input type="checkbox" id="Skiphs' set"><span><a href="https://terraria.wiki.gg/wiki/Skiphs'_set" target="_blank">Skiphs' set</a></span><br>
+			17 <input type="checkbox" id="Will's set"><span><a href="https://terraria.wiki.gg/wiki/Will's_set" target="_blank">Will's set</a></span><br>
+			18 <input type="checkbox" id="Yoraiz0r's set"><span><a href="https://terraria.wiki.gg/wiki/Yoraiz0r's_set" target="_blank">Yoraiz0r's set</a></span><br>
+	</div>
+</body>

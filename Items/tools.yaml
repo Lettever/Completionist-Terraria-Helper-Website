@@ -1,0 +1,262 @@
+Pickaxes:
+    Pre-HardMode:
+        - Cactus Pickaxe
+        - Copper Pickaxe
+        - Tin Pickaxe
+        - Iron Pickaxe
+        - Lead Pickaxe
+        - Silver Pickaxe
+        - Tungsten Pickaxe
+        - Gold Pickaxe
+        - Candy Cane Pickaxe
+        - Fossil Pickaxe
+        - Bone Pickaxe
+        - Platinum Pickaxe
+        - Reaver Shark
+        - Nightmare Pickaxe
+        - Deathbringer Pickaxe
+        - Molten Pickaxe
+    HardMode:
+        - Cobalt Pickaxe
+        - Palladium Pickaxe
+        - Mythril Pickaxe
+        - Orichalcum Pickaxe
+        - Adamantite Pickaxe
+        - Titanium Pickaxe
+        - Spectre Pickaxe
+        - Chlorophyte Pickaxe
+        - Pickaxe Axe
+        - Shroomite Digging Claw
+        - Picksaw
+        - Vortex Pickaxe
+        - Nebula Pickaxe
+        - Solar Flare Pickaxe
+        - Stardust Pickaxe
+Drills:
+    - Cobalt Drill
+    - Palladium Drill
+    - Mythril Drill
+    - Orichalcum Drill
+    - Adamantite Drill
+    - Titanium Drill
+    - Chlorophyte Drill
+    - Drax
+    - Vortex Drill
+    - Nebula Drill
+    - Solar Flare Drill
+    - Stardust Drill
+    - Laser Drill
+Axes:
+    Pre-HardMode:
+        - Copper Axe
+        - Tin Axe
+        - Iron Axe
+        - Lead Axe
+        - Silver Axe
+        - Tungsten Axe
+        - Gold Axe
+        - Platinum Axe
+        - Cobalt Waraxe
+        - War Axe of the Night
+        - Blood Lust Cluster
+        - Lucy the Axe
+        - Axe of Regrowth
+        - Molten Hamaxe
+    HardMode:
+        - Palladium Waraxe
+        - Mythril Waraxe
+        - Orichalcum Waraxe
+        - Adamantite Waraxe
+        - Meteor Hamaxe
+        - Titanium Waraxe
+        - Pickaxe Axe
+        - Chlorophyte Greataxe
+        - Picksaw
+        - Shroomite Digging Claw
+        - Haemorrhaxe
+        - Spectre Hamaxe
+        - Solar Flare Hamaxe
+        - Vortex Hamaxe
+        - Nebula Hamaxe
+        - Stardust Hamaxe
+        - The Axe
+Chainsaws:
+    Pre-HardMode:
+        - Sawtooth Shark
+    HardMode:
+        - Cobalt Chainsaw
+        - Palladium Chainsaw
+        - Mythril Chainsaw
+        - Orichalcum Chainsaw
+        - Adamantite Chainsaw
+        - Titanium Chainsaw
+        - Drax
+        - Chlorophyte Chainsaw
+        - Butcher's Chainsaw
+Hammers:
+    Pre-HardMode:
+        - Wooden Hammer
+        - Rich Mahogany Hammer
+        - Palm Wood Hammer
+        - Boreal Wood Hammer
+        - Copper Hammer
+        - Tin Hammer
+        - Iron Hammer
+        - Ebonwood Hammer
+        - Shadewood Hammer
+        - Lead Hammer
+        - Ash Wood Hammer
+        - Silver Hammer
+        - Tungsten Hammer
+        - Gold Hammer
+        - The Breaker
+        - Pearlwood Hammer
+        - Flesh Grinder
+        - Platinum Hammer
+        - Meteor Hamaxe
+        - Rockfish
+        - Molten Hamaxe
+    HardMode:
+        - Pwnhammer
+        - Haemorrhaxe
+        - Hammush
+        - Chlorophyte Warhammer
+        - Chlorophyte Jackhammer
+        - Spectre Hamaxe
+        - Solar Flare Hamaxe
+        - Vortex Hamaxe
+        - Nebula Hamaxe
+        - Stardust Hamaxe
+        - The Axe
+Wiring:
+    - Red Wrench
+    - Wire Cutter
+    - Blue Wrench
+    - Green Wrench
+    - The Grand Design
+    - Yellow Wrench
+    - Actuation Rod
+    - Multicolor Wrench
+Painting:
+    Pre-HardMode:
+        - Paintbrush
+        - Paint Roller
+        - Paint Scraper
+    HardMode:
+        - Spectre Paintbrush
+        - Spectre Paint Roller
+        - Spectre Paint Scraper
+Hooks:
+    Pre-HardMode:
+        - Grappling Hook
+        - Ivy Whip
+        - Web Slinger
+        - Amethyst Hook
+        - Topaz Hook
+        - Sapphire Hook
+        - Emerald Hook
+        - Ruby Hook
+        - Diamond Hook
+        - Skeletron Hand
+        - Bat Hook
+        - Candy Cane Hook
+        - Fish Hook
+        - Slime Hook
+        - Amber Hook
+        - Squirrel Hook
+    HardMode:
+        - Dual Hook
+        - Spooky Hook
+        - Christmas Hook
+        - Anti-Gravity Hook
+        - Tendon Hook
+        - Thorn Hook
+        - Illuminant Hook
+        - Worm Hook
+        - Lunar Hook
+        - Static Hook
+        - Hook of Dissonance
+Fishing poles:
+    Pre-HardMode:
+        - Wood Fishing Pole
+        - Reinforced Fishing Pole
+        - Fiberglass Fishing Pole
+        - Fisher of Souls
+        - Golden Fishing Rod
+        - Mechanic's Rod
+        - Sitting Duck's Fishing Pole
+        - Fleshcatcher
+        - Chum Caster
+        - Scarab Fishing Rod
+    HardMode:
+        - Hotline Fishing Hook
+Miscellaneous:
+    Movement:
+        Pre-HardMode:
+            - Ice Mirror
+            - Magic Mirror
+            - Cell Phone
+            - Shellphone
+            - Trident
+            - Umbrella
+            - Tragic Umbrella
+            - Magic Conch
+            - Demon Conch
+            - Snake Charmer's Flute
+        HardMode:
+            - Rod of Discord
+            - Rod of Harmony
+            - Portal Gun        
+    Block-placing:
+        - Leaf Wand
+        - Living Wood Wand
+        - Rich Mahogany Leaf Wand
+        - Living Mahogany Wand
+        - Hive Wand
+        - Bone Wand
+    Others:    
+        Pre-HardMode:
+            - Bucket
+            - Bottomless Water Bucket
+            - Bottomless Lava Bucket
+            - Bottomless Honey Bucket
+            - Super Absorbant Sponge
+            - Lava Absorbant Sponge
+            - Honey Absorbant Sponge
+            - Ultra Absorbant Sponge
+            - Bug Net
+            - Golden Bug Net
+            - Lavaproof Bug Net
+            - Sickle
+            - Staff of Regrowth
+            - Clentaminator
+            - Breathing Reed
+            - Binoculars
+            - Golf Clubs
+            - Golf Whistle
+            - Golden Key
+            - Shadow Key
+            - Guide to Critter Companionship
+            - Guide to Environmental Preservation
+            - Guide to Peaceful Coexistence
+            - Chum Bucket
+            - Gravedigger's Shovel
+            - Encumbering Stone
+            - Lawn Mower
+            - Sandcastle Bucket
+            - Ice Rod
+            - Dirt Rod
+            - Flare Gun
+        HardMode:
+            - Bottomless Shimmer Bucket
+            - Terraformer
+            - Temple Key
+            - Jungle Key
+            - Frozen Key
+            - Hallowed Key
+            - Corruption Key
+            - Crimson Key
+            - Desert Key
+            - Key of Light
+            - Key of Night
+            - Rubblemaker

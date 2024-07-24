@@ -1,0 +1,463 @@
+Movement:
+    Pre-Hardmode:
+        - Aglet
+        - Amber Horseshoe Balloon
+        - Amphibian Boots
+        - Anklet of the Wind
+        - Arctic Diving Gear
+        - Balloon Pufferfish
+        - Blizzard in a Balloon
+        - Blizzard in a Bottle
+        - Blue Horseshoe Balloon
+        - Bundle of Balloons
+        - Bundle of Horseshoe Balloons
+        - Climbing Claws
+        - Cloud in a Balloon
+        - Cloud in a Bottle
+        - Diving Gear
+        - Dunerider Boots
+        - Fairy Boots
+        - Fart in a Balloon
+        - Fart in a Jar
+        - Flipper
+        - Flurry Boots
+        - Flying Carpet
+        - Frog Flipper
+        - Frog Gear
+        - Frog Leg
+        - Frog Webbing
+        - Frostspark Boots
+        - Green Horseshoe Balloon
+        - Hellfire Treads
+        - Hermes Boots
+        - Honey Balloon
+        - Ice Skates
+        - Inner Tube
+        - Jellyfish Diving Gear
+        - Lava Charm
+        - Lava Waders
+        - Lightning Boots
+        - Lucky Horseshoe
+        - Magiluminescence
+        - Magma Skull
+        - Molten Charm
+        - Obsidian Horseshoe
+        - Obsidian Water Walking Boots
+        - Pink Horseshoe Balloon
+        - Rocket Boots
+        - Sailfish Boots
+        - Sandstorm in a Balloon
+        - Sandstorm in a Bottle
+        - Sharkron Balloon
+        - Shiny Red Balloon
+        - Shoe Spikes
+        - Spectre Boots
+        - Step Stool
+        - Terraspark Boots
+        - Tiger Climbing Gear
+        - Tsunami in a Bottle
+        - Water Walking Boots
+        - White Horseshoe Balloon
+        - Yellow Horseshoe Balloon
+        - Fledgling Wings
+    HardMode:
+        - Celestial Shell
+        - Master Ninja Gear
+        - Moon Charm
+        - Moon Shell
+        - Neptune's Shell
+        - Tabi
+        - Angel Wings
+        - Demon Wings
+        - Leaf Wings
+        - Sparkly Wings
+        - Frozen Wings
+        - Harpy Wings
+        - Fin Wings
+        - Fairy Wings
+        - Jetpack
+        - Will's Wings
+        - Crowno's Wings
+        - D-Town's Wings
+        - Cenx's Wings
+        - Lazure's Barrier Platform
+        - Yoraiz0r's Spell
+        - Loki's Wings
+        - Jim's Wings
+        - Skiphs' Paws
+        - Red's Wings
+        - Arkhalis' Lightwings
+        - Leinfors' Prehensile Cloak
+        - FoodBarbarian's Tattered Dragon Wings
+        - Grox The Great's Wings
+        - Safeman's Blanket Cape
+        - Ghostar's Infinity Eight
+        - Bee Wings
+        - Butterfly Wings
+        - Bat Wings
+        - Flame Wings
+        - Spectre Wings
+        - Beetle Wings
+        - Ghost Wings
+        - Bone Wings
+        - Hoverboard
+        - Mothron Wings
+        - Festive Wings
+        - Spooky Wings
+        - Tattered Fairy Wings
+        - Steampunk Wings
+        - Betsy's Wings
+        - Empress Wings
+        - Fishron Wings
+        - Nebula Mantle
+        - Vortex Booster
+        - Stardust Wings
+        - Solar Wings
+        - Celestial Starboard
+Informational:
+    - Copper Watch
+    - Tin Watch
+    - Silver Watch
+    - Tungsten Watch
+    - Gold Watch
+    - Platinum Watch
+    - Depth Meter
+    - Compass
+    - Radar
+    - Lifeform Analyzer
+    - Tally Counter
+    - Metal Detector
+    - Stopwatch
+    - DPS Meter
+    - Fisherman's Pocket Guide
+    - Weather Radio
+    - Sextant
+    - GPS
+    - R.E.K. 3000
+    - Goblin Tech
+    - Fish Finder
+    - PDA
+    - Mechanical Lens
+    - Ruler
+    - Mechanical Ruler
+Health and Mana:
+    Pre-Hardmode:
+        - Band of Regeneration
+        - Band of Starpower
+        - Celestial Cuffs
+        - Celestial Magnet
+        - Magic Cuffs
+        - Magnet Flower
+        - Mana Flower
+        - Mana Regeneration Band
+        - Nature's Gift
+        - Valentine Ring
+    HardMode:
+        - Arcane Flower
+        - Celestial Emblem
+        - Charm of Myths
+        - Mana Cloak
+        - Philosopher's Stone
+Combat:
+    Pre-Hardmode:
+        - Adhesive Bandage
+        - Bezoar
+        - Cobalt Shield
+        - Countercurse Mantra
+        - Feral Claws
+        - Hand Warmer
+        - Honey Comb
+        - Magma Stone
+        - Medicated Bandage
+        - Megaphone
+        - Molten Skull Rose
+        - Nazar
+        - Obsidian Rose
+        - Obsidian Shield
+        - Obsidian Skull
+        - Obsidian Skull Rose
+        - Panic Necklace
+        - Shackle
+        - Shark Tooth Necklace
+        - Stinger Necklace
+        - Sweetheart Necklace
+        - Apprentice's Scarf
+        - Squire's Shield
+        - Pygmy Necklace
+    HardMode:
+        - Ankh Charm
+        - Ankh Shield
+        - Armor Bracing
+        - Armor Polish
+        - Avenger Emblem
+        - Bee Cloak
+        - Berserker's Glove
+        - Black Belt
+        - Blindfold
+        - Celestial Emblem
+        - Moon Charm
+        - Moon Shell
+        - Celestial Stone
+        - Celestial Shell
+        - Cross Necklace
+        - Destroyer Emblem
+        - Eye of the Golem
+        - Fast Clock
+        - Fire Gauntlet
+        - Flesh Knuckles
+        - Frozen Turtle Shell
+        - Frozen Shield
+        - Hero Shield
+        - Magic Quiver
+        - Mechanical Glove
+        - Moon Stone
+        - Molten Quiver
+        - Paladin's Shield
+        - Pocket Mirror
+        - Power Glove
+        - Putrid Scent
+        - Ranger Emblem
+        - Recon Scope
+        - Rifle Scope
+        - Sniper Scope
+        - Sorcerer Emblem
+        - Stalker's Quiver
+        - Star Cloak
+        - Star Veil
+        - Summoner Emblem
+        - Sun Stone
+        - The Plan
+        - Titan Glove
+        - Trifold Map
+        - Vitamins
+        - Warrior Emblem
+        - Huntress's Buckler
+        - Monk's Belt
+        - Hercules Beetle
+        - Necromantic Scroll
+        - Papyrus Scarab
+Construction:
+    - Toolbelt
+    - Toolbox
+    - Paint Sprayer
+    - Extendo Grip
+    - Portable Cement Mixer
+    - Brick Layer
+    - Architect Gizmo Pack
+    - Presserator
+    - Ancient Chisel
+    - Hand Of Creation
+Fishing:
+    - High Test Fishing Line
+    - Angler Earring
+    - Tackle Box
+    - Angler Tackle Bag
+    - Lavaproof Fishing Hook
+    - Lavaproof Tackle Bag
+    - Fishing Bobber
+    - Glowing Fishing Bobber
+    - Argon Moss Fishing Bobber
+    - Krypton Moss Fishing Bobber
+    - Lava Moss Fishing Bobber
+    - Neon Moss Fishing Bobber
+    - Xenon Moss Fishing Bobber
+    - Helium Moss Fishing Bobber
+Yoyos:
+    Pre-HardMode:
+        - White String
+        - Red String
+        - Orange String
+        - Yellow String
+        - Lime String
+        - Green String
+        - Teal String
+        - Cyan String
+        - Sky Blue String
+        - Blue String
+        - Purple String
+        - Violet String
+        - Pink String
+        - Black String
+        - Brown String
+        - Rainbow String
+        - Black Counterweight
+        - Yellow Counterweight
+        - Blue Counterweight
+        - Red Counterweight
+        - Purple Counterweight
+        - Green Counterweight
+    HardMode:
+        - Yoyo Glove
+        - Yoyo Bag
+Miscellaneous:
+    Pre-HardMode:
+        - Clothier Voodoo Doll
+        - Flower Boots
+        - Guide to Plant Fiber Cordage
+        - Guide Voodoo Doll
+        - Jellyfish Necklace
+        - Radio Thing
+        - Treasure Magnet
+    HardMode:
+        - Coin Ring
+        - Discount Card
+        - Gold Ring
+        - Greedy Ring
+        - Lucky Coin
+        - Spectre Goggles
+        - Chromatic Cloak
+Vanity:
+    Pre-HardMode:
+        - Jungle Rose
+        - Winter Cape
+        - Mysterious Cape
+        - Red Cape
+        - Crimson Cloak
+        - Diamond Ring
+        - Angel Halo
+        - Ginger Beard
+        - Balloon Animal
+        - Bundled Party Balloons
+        - Flame Waker Boots
+        - Critter Shampoo
+        - Bunny Tail
+        - Fox Tail
+        - Dog Tail
+        - Lizard Tail
+        - Fake Unicorn Horn
+        - Hunter Cloak
+    HardMode:
+        - Prince Cape
+        - Yoraiz0r's Scowl
+        - Leinfors' Luxury Shampoo
+        - Royal Scepter
+        - Glass Slipper
+        - Rainbow Cursor
+        - Aether Monolith
+        - Blood Moon Monolith
+        - Vortex Monolith
+        - Nebula Monolith
+        - Stardust Monolith
+        - Solar Monolith
+        - Void Monolith
+Music Boxes:
+    - Music Box
+    - Music Box (Overworld Day)
+    - Music Box (Alt Overworld Day)
+    - Music Box (Night)
+    - Music Box (Rain)
+    - Music Box (Snow)
+    - Music Box (Ice)
+    - Music Box (Desert)
+    - Music Box (Ocean Day)
+    - Music Box (Ocean Night)
+    - Music Box (Space Day)
+    - Music Box (Space Night)
+    - Music Box (Underground)
+    - Music Box (Alt Underground)
+    - Music Box (Mushrooms)
+    - Music Box (Jungle)
+    - Music Box (Corruption)
+    - Music Box (Underground Corruption)
+    - Music Box (Crimson)
+    - Music Box (Underground Crimson)
+    - Music Box (The Hallow)
+    - Music Box (Underground Hallow)
+    - Music Box (Hell)
+    - Music Box (Dungeon)
+    - Music Box (Temple)
+    - Music Box (Boss 1)
+    - Music Box (Boss 2)
+    - Music Box (Boss 3)
+    - Music Box (Boss 4)
+    - Music Box (Boss 5)
+    - Music Box (Deerclops)
+    - Music Box (Queen Slime)
+    - Music Box (Plantera)
+    - Music Box (Empress Of Light)
+    - Music Box (Duke Fishron)
+    - Music Box (Eerie)
+    - Music Box (Eclipse)
+    - Music Box (Goblin Invasion)
+    - Music Box (Pirate Invasion)
+    - Music Box (Martian Madness)
+    - Music Box (Pumpkin Moon)
+    - Music Box (Frost Moon)
+    - Music Box (The Towers)
+    - Music Box (Lunar Boss)
+    - Music Box (Sandstorm)
+    - Music Box (Old One's Army)
+    - Music Box (Slime Rain)
+    - Music Box (Town Day)
+    - Music Box (Town Night)
+    - Music Box (Windy Day)
+    - Music Box (Storm)
+    - Music Box (Graveyard)
+    - Music Box (Underground Jungle)
+    - Music Box (Jungle Night)
+    - Music Box (Morning Rain)
+    - Music Box (Underground Desert)
+    - Music Box (Aether)
+    - Otherworldly Music Box (Rain)
+    - Otherworldly Music Box (Overworld Day)
+    - Otherworldly Music Box (Night)
+    - Otherworldly Music Box (Underground)
+    - Otherworldly Music Box (Desert)
+    - Otherworldly Music Box (Ocean)
+    - Otherworldly Music Box (Mushrooms)
+    - Otherworldly Music Box (Dungeon)
+    - Otherworldly Music Box (Space)
+    - Otherworldly Music Box (Underworld)
+    - Otherworldly Music Box (Snow)
+    - Otherworldly Music Box (Corruption)
+    - Otherworldly Music Box (Underground Corruption)
+    - Otherworldly Music Box (Crimson)
+    - Otherworldly Music Box (Underground Crimson)
+    - Otherworldly Music Box (Ice)
+    - Otherworldly Music Box (Underground Hallow)
+    - Otherworldly Music Box (Eerie)
+    - Otherworldly Music Box (Boss 2)
+    - Otherworldly Music Box (Boss 1)
+    - Otherworldly Music Box (Invasion)
+    - Otherworldly Music Box (The Towers)
+    - Otherworldly Music Box (Lunar Boss)
+    - Otherworldly Music Box (Plantera)
+    - Otherworldly Music Box (Jungle)
+    - Otherworldly Music Box (Wall of Flesh)
+    - Otherworldly Music Box (Hallow)
+    - Music Box (Day Remix)
+    - Music Box (Journey's Beginning)
+    - Music Box (Journey's End)
+    - Music Box (Title)
+    - Music Box (Alt Title)
+Golf Balls:
+    - Golf Ball
+    - Black Golf Ball
+    - Blue Golf Ball
+    - Brown Golf Ball
+    - Cyan Golf Ball
+    - Green Golf Ball
+    - Lime Golf Ball
+    - Orange Golf Ball
+    - Pink Golf Ball
+    - Purple Golf Ball
+    - Red Golf Ball
+    - Sky Blue Golf Ball
+    - Teal Golf Ball
+    - Violet Golf Ball
+    - Yellow Golf Ball
+Expert mode Exclusive:
+    Pre-HardMode:
+        - Royal Gel
+        - Shield of Cthulhu
+        - Worm Scarf
+        - Brain of Confusion
+        - Hive Pack
+        - Bone Glove
+        - Bone Helm
+    HardMode:
+        - Volatile Gelatin
+        - Spore Sac
+        - Shiny Stone
+        - Soaring Insignia
+        - Gravity Globe

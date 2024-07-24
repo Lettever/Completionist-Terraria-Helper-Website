@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+	<style>
+	div {
+		border-left-style: solid;
+		padding-left: 20px;
+	}
+	a:link, a:visited {
+		color: blue;
+		text-decoration: none;
+	}
+	</style>
+	<script src="checkbox.js"></script>
+</head>
+<body>
+	<button onclick="saveToFile()">Save to File</button>
+	<button onclick="loadFile()">Load from File</button>
+	<h1>Regular:</h1>
+	<div id="Regular">
+			01 <input type="checkbox" id="Amber Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Amber_Bunny Cage" target="_blank">Amber Bunny Cage</a></span><br>
+			02 <input type="checkbox" id="Amber Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Amber_Squirrel Cage" target="_blank">Amber Squirrel Cage</a></span><br>
+			03 <input type="checkbox" id="Amethyst Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Amethyst_Bunny Cage" target="_blank">Amethyst Bunny Cage</a></span><br>
+			04 <input type="checkbox" id="Amethyst Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Amethyst_Squirrel Cage" target="_blank">Amethyst Squirrel Cage</a></span><br>
+			05 <input type="checkbox" id="Bird Cage"><span><a href="https://terraria.wiki.gg/wiki/Bird_Cage" target="_blank">Bird Cage</a></span><br>
+			06 <input type="checkbox" id="Black Scorpion Cage"><span><a href="https://terraria.wiki.gg/wiki/Black_Scorpion Cage" target="_blank">Black Scorpion Cage</a></span><br>
+			07 <input type="checkbox" id="Blue Jay Cage"><span><a href="https://terraria.wiki.gg/wiki/Blue_Jay Cage" target="_blank">Blue Jay Cage</a></span><br>
+			08 <input type="checkbox" id="Blue Macaw Cage"><span><a href="https://terraria.wiki.gg/wiki/Blue_Macaw Cage" target="_blank">Blue Macaw Cage</a></span><br>
+			09 <input type="checkbox" id="Buggy Cage"><span><a href="https://terraria.wiki.gg/wiki/Buggy_Cage" target="_blank">Buggy Cage</a></span><br>
+			10 <input type="checkbox" id="Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Bunny_Cage" target="_blank">Bunny Cage</a></span><br>
+			11 <input type="checkbox" id="Cardinal Cage"><span><a href="https://terraria.wiki.gg/wiki/Cardinal_Cage" target="_blank">Cardinal Cage</a></span><br>
+			12 <input type="checkbox" id="Diamond Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Diamond_Bunny Cage" target="_blank">Diamond Bunny Cage</a></span><br>
+			13 <input type="checkbox" id="Diamond Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Diamond_Squirrel Cage" target="_blank">Diamond Squirrel Cage</a></span><br>
+			14 <input type="checkbox" id="Duck Cage"><span><a href="https://terraria.wiki.gg/wiki/Duck_Cage" target="_blank">Duck Cage</a></span><br>
+			15 <input type="checkbox" id="Emerald Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Emerald_Bunny Cage" target="_blank">Emerald Bunny Cage</a></span><br>
+			16 <input type="checkbox" id="Emerald Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Emerald_Squirrel Cage" target="_blank">Emerald Squirrel Cage</a></span><br>
+			17 <input type="checkbox" id="Enchanted Nightcrawler Cage"><span><a href="https://terraria.wiki.gg/wiki/Enchanted_Nightcrawler Cage" target="_blank">Enchanted Nightcrawler Cage</a></span><br>
+			18 <input type="checkbox" id="Frog Cage"><span><a href="https://terraria.wiki.gg/wiki/Frog_Cage" target="_blank">Frog Cage</a></span><br>
+			19 <input type="checkbox" id="Glowing Snail Cage"><span><a href="https://terraria.wiki.gg/wiki/Glowing_Snail Cage" target="_blank">Glowing Snail Cage</a></span><br>
+			20 <input type="checkbox" id="Grasshopper Cage"><span><a href="https://terraria.wiki.gg/wiki/Grasshopper_Cage" target="_blank">Grasshopper Cage</a></span><br>
+			21 <input type="checkbox" id="Gray Cockatiel Cage"><span><a href="https://terraria.wiki.gg/wiki/Gray_Cockatiel Cage" target="_blank">Gray Cockatiel Cage</a></span><br>
+			22 <input type="checkbox" id="Grebe Cage"><span><a href="https://terraria.wiki.gg/wiki/Grebe_Cage" target="_blank">Grebe Cage</a></span><br>
+			23 <input type="checkbox" id="Grubby Cage"><span><a href="https://terraria.wiki.gg/wiki/Grubby_Cage" target="_blank">Grubby Cage</a></span><br>
+			24 <input type="checkbox" id="Jungle Turtle Cage"><span><a href="https://terraria.wiki.gg/wiki/Jungle_Turtle Cage" target="_blank">Jungle Turtle Cage</a></span><br>
+			25 <input type="checkbox" id="Ladybug Cage"><span><a href="https://terraria.wiki.gg/wiki/Ladybug_Cage" target="_blank">Ladybug Cage</a></span><br>
+			26 <input type="checkbox" id="Maggot Cage"><span><a href="https://terraria.wiki.gg/wiki/Maggot_Cage" target="_blank">Maggot Cage</a></span><br>
+			27 <input type="checkbox" id="Magma Snail Cage"><span><a href="https://terraria.wiki.gg/wiki/Magma_Snail Cage" target="_blank">Magma Snail Cage</a></span><br>
+			28 <input type="checkbox" id="Mallard Duck Cage"><span><a href="https://terraria.wiki.gg/wiki/Mallard_Duck Cage" target="_blank">Mallard Duck Cage</a></span><br>
+			29 <input type="checkbox" id="Mouse Cage"><span><a href="https://terraria.wiki.gg/wiki/Mouse_Cage" target="_blank">Mouse Cage</a></span><br>
+			30 <input type="checkbox" id="Owl Cage"><span><a href="https://terraria.wiki.gg/wiki/Owl_Cage" target="_blank">Owl Cage</a></span><br>
+			31 <input type="checkbox" id="Penguin Cage"><span><a href="https://terraria.wiki.gg/wiki/Penguin_Cage" target="_blank">Penguin Cage</a></span><br>
+			32 <input type="checkbox" id="Rat Cage"><span><a href="https://terraria.wiki.gg/wiki/Rat_Cage" target="_blank">Rat Cage</a></span><br>
+			33 <input type="checkbox" id="Red Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Red_Squirrel Cage" target="_blank">Red Squirrel Cage</a></span><br>
+			34 <input type="checkbox" id="Ruby Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Ruby_Bunny Cage" target="_blank">Ruby Bunny Cage</a></span><br>
+			35 <input type="checkbox" id="Ruby Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Ruby_Squirrel Cage" target="_blank">Ruby Squirrel Cage</a></span><br>
+			36 <input type="checkbox" id="Sapphire Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Sapphire_Bunny Cage" target="_blank">Sapphire Bunny Cage</a></span><br>
+			37 <input type="checkbox" id="Sapphire Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Sapphire_Squirrel Cage" target="_blank">Sapphire Squirrel Cage</a></span><br>
+			38 <input type="checkbox" id="Scarlet Macaw Cage"><span><a href="https://terraria.wiki.gg/wiki/Scarlet_Macaw Cage" target="_blank">Scarlet Macaw Cage</a></span><br>
+			39 <input type="checkbox" id="Scorpion Cage"><span><a href="https://terraria.wiki.gg/wiki/Scorpion_Cage" target="_blank">Scorpion Cage</a></span><br>
+			40 <input type="checkbox" id="Seagull Cage"><span><a href="https://terraria.wiki.gg/wiki/Seagull_Cage" target="_blank">Seagull Cage</a></span><br>
+			01 <input type="checkbox" id="Seahorse Cage"><span><a href="https://terraria.wiki.gg/wiki/Seahorse_Cage" target="_blank">Seahorse Cage</a></span><br>
+			02 <input type="checkbox" id="Sluggy Cage"><span><a href="https://terraria.wiki.gg/wiki/Sluggy_Cage" target="_blank">Sluggy Cage</a></span><br>
+			03 <input type="checkbox" id="Snail Cage"><span><a href="https://terraria.wiki.gg/wiki/Snail_Cage" target="_blank">Snail Cage</a></span><br>
+			04 <input type="checkbox" id="Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Squirrel_Cage" target="_blank">Squirrel Cage</a></span><br>
+			05 <input type="checkbox" id="Stinkbug Cage"><span><a href="https://terraria.wiki.gg/wiki/Stinkbug_Cage" target="_blank">Stinkbug Cage</a></span><br>
+			06 <input type="checkbox" id="Topaz Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Topaz_Bunny Cage" target="_blank">Topaz Bunny Cage</a></span><br>
+			07 <input type="checkbox" id="Topaz Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Topaz_Squirrel Cage" target="_blank">Topaz Squirrel Cage</a></span><br>
+			08 <input type="checkbox" id="Toucan Cage"><span><a href="https://terraria.wiki.gg/wiki/Toucan_Cage" target="_blank">Toucan Cage</a></span><br>
+			09 <input type="checkbox" id="Truffle Worm Cage"><span><a href="https://terraria.wiki.gg/wiki/Truffle_Worm Cage" target="_blank">Truffle Worm Cage</a></span><br>
+			10 <input type="checkbox" id="Turtle Cage"><span><a href="https://terraria.wiki.gg/wiki/Turtle_Cage" target="_blank">Turtle Cage</a></span><br>
+			11 <input type="checkbox" id="Water Strider Cage"><span><a href="https://terraria.wiki.gg/wiki/Water_Strider Cage" target="_blank">Water Strider Cage</a></span><br>
+			12 <input type="checkbox" id="Worm Cage"><span><a href="https://terraria.wiki.gg/wiki/Worm_Cage" target="_blank">Worm Cage</a></span><br>
+			13 <input type="checkbox" id="Yellow Cockatiel Cage"><span><a href="https://terraria.wiki.gg/wiki/Yellow_Cockatiel Cage" target="_blank">Yellow Cockatiel Cage</a></span><br>
+	</div>
+	<h1>Golden:</h1>
+	<div id="Golden">
+			01 <input type="checkbox" id="Gold Bird Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Bird Cage" target="_blank">Gold Bird Cage</a></span><br>
+			02 <input type="checkbox" id="Gold Bunny Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Bunny Cage" target="_blank">Gold Bunny Cage</a></span><br>
+			03 <input type="checkbox" id="Gold Frog Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Frog Cage" target="_blank">Gold Frog Cage</a></span><br>
+			04 <input type="checkbox" id="Gold Grasshopper Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Grasshopper Cage" target="_blank">Gold Grasshopper Cage</a></span><br>
+			05 <input type="checkbox" id="Gold Ladybug Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Ladybug Cage" target="_blank">Gold Ladybug Cage</a></span><br>
+			06 <input type="checkbox" id="Gold Mouse Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Mouse Cage" target="_blank">Gold Mouse Cage</a></span><br>
+			07 <input type="checkbox" id="Gold Seahorse Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Seahorse Cage" target="_blank">Gold Seahorse Cage</a></span><br>
+			08 <input type="checkbox" id="Gold Squirrel Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Squirrel Cage" target="_blank">Gold Squirrel Cage</a></span><br>
+			09 <input type="checkbox" id="Gold Water Strider Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Water Strider Cage" target="_blank">Gold Water Strider Cage</a></span><br>
+			10 <input type="checkbox" id="Gold Worm Cage"><span><a href="https://terraria.wiki.gg/wiki/Gold_Worm Cage" target="_blank">Gold Worm Cage</a></span><br>
+	</div>
+</body>

@@ -1,0 +1,88 @@
+Pre-HardMode:
+    - Amber Mosquito
+    - Eater's Bone
+    - Bone Rattle
+    - Nectar
+    - Slice of Hell Cake
+    - Fish (item)
+    - Bamboo Leaf
+    - Bone Key
+    - Full Moon Squeaky Toy
+    - Unlucky Yarn
+    - Blue Chicken Egg
+    - Carrot
+    - Glow Tulip
+    - Eye Bone
+    - Companion Cube
+    - The Dirtiest Block
+    - Celestial Wand
+    - Exotic Chew Toy
+    - Bedazzled Nectar
+    - Dragon Egg
+    - Stardrop
+    - Birdie Rattle
+    - Tartar Sauce
+    - Parrot Cracker
+    - Monster Meat
+    - Gato Egg
+    - Dog Whistle
+    - Ornate Shadow Key
+    - Shark Bait
+    - Spiffo Plush
+    - Magical Pumpkin Seed
+    - Eucalyptus Sap
+    - Tiki Totem
+    - Seaweed
+    - Lightning Carrot
+    - Zephyr Fish
+HardMode:
+    - Baby Grinch's Mischief Whistle
+    - Toy Sled
+    - Strange Glowing Mushroom
+    - Bernie's Button
+    - Cursed Sapling
+    - Ball O' Fuse Wire
+    - Eye Spring
+    - Glommer's Flower
+    - Lizard Egg
+    - Mud Bud
+    - Seedling
+    - Spider Egg
+MasterMode:
+    Pre-HardMode:
+        - Writhing Remains
+        - Sparkling Honey
+        - Possessed Skull
+        - Royal Delight
+        - Brain in a Jar
+        - Suspicious Grinning Eye
+        - Deerclops Eyeball
+    HardMode:
+        - Cosmic Skateboard
+        - Ogre's Club
+        - Deactivated Probe
+        - Shrub Star
+        - Frozen Crown
+        - Betsy's Egg
+        - Robotic Skull
+        - Piece of Moon Squid
+        - Tablet Fragment
+        - Plantera Seedling
+        - Pair of Eyeballs
+        - Regal Delicacy
+        - Resplendent Dessert
+        - Pork of the Sea
+Light:
+    Pre-HardMode:
+        - Shadow Orb (item)
+        - Crimson Heart (item)
+        - Magic Lantern
+    HardMode:
+        - Fairy Bell
+        - Creeper Egg
+        - Wisp in a Bottle
+        - Suspicious Looking Tentacle
+    MasterMode:
+        - Pumpkin Scented Candle
+        - Guardian Golem
+        - Jewel of Light

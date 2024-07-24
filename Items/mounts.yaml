@@ -1,0 +1,32 @@
+Pre-HardMode:
+    - Slimy Saddle
+    - Honeyed Goggles
+    - Hardy Saddle
+    - Fuzzy Carrot
+    - Pogo Stick
+    - Golf Cart Keys
+    - Mollusk Whistle
+    - Dusty Rawhide Saddle
+    - Royal Gilded Saddle
+    - Black Studded Saddle
+    - Superheated Blood
+HardMode:
+    - Ancient Horn
+    - Lilith's Necklace
+    - Blessed Apple
+    - Scaly Truffle
+    - Gelatinous Pillion
+    - Reindeer BellsReindeer Bells
+    - Brain Scrambler (item)
+    - Cosmic Car Key
+    - Witch's Broom
+    - Shrimpy Truffle
+    - Drill Containment Unit
+MasterMode:
+    Pre-HardMode:
+        - Dark Mage's Tome
+    HardMode:
+        - Goat Skull
+        - The Black Spot
+        - Hexxed Branch
+        - Toy Tank

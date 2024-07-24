@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<head>
+	<style>
+	div {
+		border-left-style: solid;
+		padding-left: 20px;
+	}
+	a:link, a:visited {
+		color: blue;
+		text-decoration: none;
+	}
+	</style>
+	<script src="checkbox.js"></script>
+</head>
+<body>
+	<button onclick="saveToFile()">Save to File</button>
+	<button onclick="loadFile()">Load from File</button>
+	<h1>Pickaxes:</h1>
+	<div id="Pickaxes">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Cactus Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Cactus_Pickaxe" target="_blank">Cactus Pickaxe</a></span><br>
+				02 <input type="checkbox" id="Copper Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Copper_Pickaxe" target="_blank">Copper Pickaxe</a></span><br>
+				03 <input type="checkbox" id="Tin Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Tin_Pickaxe" target="_blank">Tin Pickaxe</a></span><br>
+				04 <input type="checkbox" id="Iron Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Iron_Pickaxe" target="_blank">Iron Pickaxe</a></span><br>
+				05 <input type="checkbox" id="Lead Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Lead_Pickaxe" target="_blank">Lead Pickaxe</a></span><br>
+				06 <input type="checkbox" id="Silver Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Silver_Pickaxe" target="_blank">Silver Pickaxe</a></span><br>
+				07 <input type="checkbox" id="Tungsten Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Tungsten_Pickaxe" target="_blank">Tungsten Pickaxe</a></span><br>
+				08 <input type="checkbox" id="Gold Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Gold_Pickaxe" target="_blank">Gold Pickaxe</a></span><br>
+				09 <input type="checkbox" id="Candy Cane Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Candy_Cane Pickaxe" target="_blank">Candy Cane Pickaxe</a></span><br>
+				10 <input type="checkbox" id="Fossil Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Fossil_Pickaxe" target="_blank">Fossil Pickaxe</a></span><br>
+				11 <input type="checkbox" id="Bone Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Bone_Pickaxe" target="_blank">Bone Pickaxe</a></span><br>
+				12 <input type="checkbox" id="Platinum Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Platinum_Pickaxe" target="_blank">Platinum Pickaxe</a></span><br>
+				13 <input type="checkbox" id="Reaver Shark"><span><a href="https://terraria.wiki.gg/wiki/Reaver_Shark" target="_blank">Reaver Shark</a></span><br>
+				14 <input type="checkbox" id="Nightmare Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Nightmare_Pickaxe" target="_blank">Nightmare Pickaxe</a></span><br>
+				15 <input type="checkbox" id="Deathbringer Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Deathbringer_Pickaxe" target="_blank">Deathbringer Pickaxe</a></span><br>
+				16 <input type="checkbox" id="Molten Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Molten_Pickaxe" target="_blank">Molten Pickaxe</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				01 <input type="checkbox" id="Cobalt Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Cobalt_Pickaxe" target="_blank">Cobalt Pickaxe</a></span><br>
+				02 <input type="checkbox" id="Palladium Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Palladium_Pickaxe" target="_blank">Palladium Pickaxe</a></span><br>
+				03 <input type="checkbox" id="Mythril Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Mythril_Pickaxe" target="_blank">Mythril Pickaxe</a></span><br>
+				04 <input type="checkbox" id="Orichalcum Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Orichalcum_Pickaxe" target="_blank">Orichalcum Pickaxe</a></span><br>
+				05 <input type="checkbox" id="Adamantite Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Adamantite_Pickaxe" target="_blank">Adamantite Pickaxe</a></span><br>
+				06 <input type="checkbox" id="Titanium Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Titanium_Pickaxe" target="_blank">Titanium Pickaxe</a></span><br>
+				07 <input type="checkbox" id="Spectre Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Spectre_Pickaxe" target="_blank">Spectre Pickaxe</a></span><br>
+				08 <input type="checkbox" id="Chlorophyte Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Pickaxe" target="_blank">Chlorophyte Pickaxe</a></span><br>
+				09 <input type="checkbox" id="Pickaxe Axe"><span><a href="https://terraria.wiki.gg/wiki/Pickaxe_Axe" target="_blank">Pickaxe Axe</a></span><br>
+				10 <input type="checkbox" id="Shroomite Digging Claw"><span><a href="https://terraria.wiki.gg/wiki/Shroomite_Digging Claw" target="_blank">Shroomite Digging Claw</a></span><br>
+				11 <input type="checkbox" id="Picksaw"><span><a href="https://terraria.wiki.gg/wiki/Picksaw" target="_blank">Picksaw</a></span><br>
+				12 <input type="checkbox" id="Vortex Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Vortex_Pickaxe" target="_blank">Vortex Pickaxe</a></span><br>
+				13 <input type="checkbox" id="Nebula Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Nebula_Pickaxe" target="_blank">Nebula Pickaxe</a></span><br>
+				14 <input type="checkbox" id="Solar Flare Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Solar_Flare Pickaxe" target="_blank">Solar Flare Pickaxe</a></span><br>
+				15 <input type="checkbox" id="Stardust Pickaxe"><span><a href="https://terraria.wiki.gg/wiki/Stardust_Pickaxe" target="_blank">Stardust Pickaxe</a></span><br>
+		</div>
+	</div>
+	<h1>Drills:</h1>
+	<div id="Drills">
+			01 <input type="checkbox" id="Cobalt Drill"><span><a href="https://terraria.wiki.gg/wiki/Cobalt_Drill" target="_blank">Cobalt Drill</a></span><br>
+			02 <input type="checkbox" id="Palladium Drill"><span><a href="https://terraria.wiki.gg/wiki/Palladium_Drill" target="_blank">Palladium Drill</a></span><br>
+			03 <input type="checkbox" id="Mythril Drill"><span><a href="https://terraria.wiki.gg/wiki/Mythril_Drill" target="_blank">Mythril Drill</a></span><br>
+			04 <input type="checkbox" id="Orichalcum Drill"><span><a href="https://terraria.wiki.gg/wiki/Orichalcum_Drill" target="_blank">Orichalcum Drill</a></span><br>
+			05 <input type="checkbox" id="Adamantite Drill"><span><a href="https://terraria.wiki.gg/wiki/Adamantite_Drill" target="_blank">Adamantite Drill</a></span><br>
+			06 <input type="checkbox" id="Titanium Drill"><span><a href="https://terraria.wiki.gg/wiki/Titanium_Drill" target="_blank">Titanium Drill</a></span><br>
+			07 <input type="checkbox" id="Chlorophyte Drill"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Drill" target="_blank">Chlorophyte Drill</a></span><br>
+			08 <input type="checkbox" id="Drax"><span><a href="https://terraria.wiki.gg/wiki/Drax" target="_blank">Drax</a></span><br>
+			09 <input type="checkbox" id="Vortex Drill"><span><a href="https://terraria.wiki.gg/wiki/Vortex_Drill" target="_blank">Vortex Drill</a></span><br>
+			10 <input type="checkbox" id="Nebula Drill"><span><a href="https://terraria.wiki.gg/wiki/Nebula_Drill" target="_blank">Nebula Drill</a></span><br>
+			11 <input type="checkbox" id="Solar Flare Drill"><span><a href="https://terraria.wiki.gg/wiki/Solar_Flare Drill" target="_blank">Solar Flare Drill</a></span><br>
+			12 <input type="checkbox" id="Stardust Drill"><span><a href="https://terraria.wiki.gg/wiki/Stardust_Drill" target="_blank">Stardust Drill</a></span><br>
+			13 <input type="checkbox" id="Laser Drill"><span><a href="https://terraria.wiki.gg/wiki/Laser_Drill" target="_blank">Laser Drill</a></span><br>
+	</div>
+	<h1>Axes:</h1>
+	<div id="Axes">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Copper Axe"><span><a href="https://terraria.wiki.gg/wiki/Copper_Axe" target="_blank">Copper Axe</a></span><br>
+				02 <input type="checkbox" id="Tin Axe"><span><a href="https://terraria.wiki.gg/wiki/Tin_Axe" target="_blank">Tin Axe</a></span><br>
+				03 <input type="checkbox" id="Iron Axe"><span><a href="https://terraria.wiki.gg/wiki/Iron_Axe" target="_blank">Iron Axe</a></span><br>
+				04 <input type="checkbox" id="Lead Axe"><span><a href="https://terraria.wiki.gg/wiki/Lead_Axe" target="_blank">Lead Axe</a></span><br>
+				05 <input type="checkbox" id="Silver Axe"><span><a href="https://terraria.wiki.gg/wiki/Silver_Axe" target="_blank">Silver Axe</a></span><br>
+				06 <input type="checkbox" id="Tungsten Axe"><span><a href="https://terraria.wiki.gg/wiki/Tungsten_Axe" target="_blank">Tungsten Axe</a></span><br>
+				07 <input type="checkbox" id="Gold Axe"><span><a href="https://terraria.wiki.gg/wiki/Gold_Axe" target="_blank">Gold Axe</a></span><br>
+				08 <input type="checkbox" id="Platinum Axe"><span><a href="https://terraria.wiki.gg/wiki/Platinum_Axe" target="_blank">Platinum Axe</a></span><br>
+				09 <input type="checkbox" id="Cobalt Waraxe"><span><a href="https://terraria.wiki.gg/wiki/Cobalt_Waraxe" target="_blank">Cobalt Waraxe</a></span><br>
+				10 <input type="checkbox" id="War Axe of the Night"><span><a href="https://terraria.wiki.gg/wiki/War_Axe of the Night" target="_blank">War Axe of the Night</a></span><br>
+				11 <input type="checkbox" id="Blood Lust Cluster"><span><a href="https://terraria.wiki.gg/wiki/Blood_Lust Cluster" target="_blank">Blood Lust Cluster</a></span><br>
+				12 <input type="checkbox" id="Lucy the Axe"><span><a href="https://terraria.wiki.gg/wiki/Lucy_the Axe" target="_blank">Lucy the Axe</a></span><br>
+				13 <input type="checkbox" id="Axe of Regrowth"><span><a href="https://terraria.wiki.gg/wiki/Axe_of Regrowth" target="_blank">Axe of Regrowth</a></span><br>
+				14 <input type="checkbox" id="Molten Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Molten_Hamaxe" target="_blank">Molten Hamaxe</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				01 <input type="checkbox" id="Palladium Waraxe"><span><a href="https://terraria.wiki.gg/wiki/Palladium_Waraxe" target="_blank">Palladium Waraxe</a></span><br>
+				02 <input type="checkbox" id="Mythril Waraxe"><span><a href="https://terraria.wiki.gg/wiki/Mythril_Waraxe" target="_blank">Mythril Waraxe</a></span><br>
+				03 <input type="checkbox" id="Orichalcum Waraxe"><span><a href="https://terraria.wiki.gg/wiki/Orichalcum_Waraxe" target="_blank">Orichalcum Waraxe</a></span><br>
+				04 <input type="checkbox" id="Adamantite Waraxe"><span><a href="https://terraria.wiki.gg/wiki/Adamantite_Waraxe" target="_blank">Adamantite Waraxe</a></span><br>
+				05 <input type="checkbox" id="Meteor Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Meteor_Hamaxe" target="_blank">Meteor Hamaxe</a></span><br>
+				06 <input type="checkbox" id="Titanium Waraxe"><span><a href="https://terraria.wiki.gg/wiki/Titanium_Waraxe" target="_blank">Titanium Waraxe</a></span><br>
+				07 <input type="checkbox" id="Pickaxe Axe"><span><a href="https://terraria.wiki.gg/wiki/Pickaxe_Axe" target="_blank">Pickaxe Axe</a></span><br>
+				08 <input type="checkbox" id="Chlorophyte Greataxe"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Greataxe" target="_blank">Chlorophyte Greataxe</a></span><br>
+				09 <input type="checkbox" id="Picksaw"><span><a href="https://terraria.wiki.gg/wiki/Picksaw" target="_blank">Picksaw</a></span><br>
+				10 <input type="checkbox" id="Shroomite Digging Claw"><span><a href="https://terraria.wiki.gg/wiki/Shroomite_Digging Claw" target="_blank">Shroomite Digging Claw</a></span><br>
+				11 <input type="checkbox" id="Haemorrhaxe"><span><a href="https://terraria.wiki.gg/wiki/Haemorrhaxe" target="_blank">Haemorrhaxe</a></span><br>
+				12 <input type="checkbox" id="Spectre Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Spectre_Hamaxe" target="_blank">Spectre Hamaxe</a></span><br>
+				13 <input type="checkbox" id="Solar Flare Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Solar_Flare Hamaxe" target="_blank">Solar Flare Hamaxe</a></span><br>
+				14 <input type="checkbox" id="Vortex Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Vortex_Hamaxe" target="_blank">Vortex Hamaxe</a></span><br>
+				15 <input type="checkbox" id="Nebula Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Nebula_Hamaxe" target="_blank">Nebula Hamaxe</a></span><br>
+				16 <input type="checkbox" id="Stardust Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Stardust_Hamaxe" target="_blank">Stardust Hamaxe</a></span><br>
+				17 <input type="checkbox" id="The Axe"><span><a href="https://terraria.wiki.gg/wiki/The_Axe" target="_blank">The Axe</a></span><br>
+		</div>
+	</div>
+	<h1>Chainsaws:</h1>
+	<div id="Chainsaws">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Sawtooth Shark"><span><a href="https://terraria.wiki.gg/wiki/Sawtooth_Shark" target="_blank">Sawtooth Shark</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Cobalt Chainsaw"><span><a href="https://terraria.wiki.gg/wiki/Cobalt_Chainsaw" target="_blank">Cobalt Chainsaw</a></span><br>
+				2 <input type="checkbox" id="Palladium Chainsaw"><span><a href="https://terraria.wiki.gg/wiki/Palladium_Chainsaw" target="_blank">Palladium Chainsaw</a></span><br>
+				3 <input type="checkbox" id="Mythril Chainsaw"><span><a href="https://terraria.wiki.gg/wiki/Mythril_Chainsaw" target="_blank">Mythril Chainsaw</a></span><br>
+				4 <input type="checkbox" id="Orichalcum Chainsaw"><span><a href="https://terraria.wiki.gg/wiki/Orichalcum_Chainsaw" target="_blank">Orichalcum Chainsaw</a></span><br>
+				5 <input type="checkbox" id="Adamantite Chainsaw"><span><a href="https://terraria.wiki.gg/wiki/Adamantite_Chainsaw" target="_blank">Adamantite Chainsaw</a></span><br>
+				6 <input type="checkbox" id="Titanium Chainsaw"><span><a href="https://terraria.wiki.gg/wiki/Titanium_Chainsaw" target="_blank">Titanium Chainsaw</a></span><br>
+				7 <input type="checkbox" id="Drax"><span><a href="https://terraria.wiki.gg/wiki/Drax" target="_blank">Drax</a></span><br>
+				8 <input type="checkbox" id="Chlorophyte Chainsaw"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Chainsaw" target="_blank">Chlorophyte Chainsaw</a></span><br>
+				9 <input type="checkbox" id="Butcher's Chainsaw"><span><a href="https://terraria.wiki.gg/wiki/Butcher's_Chainsaw" target="_blank">Butcher's Chainsaw</a></span><br>
+		</div>
+	</div>
+	<h1>Hammers:</h1>
+	<div id="Hammers">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Wooden Hammer"><span><a href="https://terraria.wiki.gg/wiki/Wooden_Hammer" target="_blank">Wooden Hammer</a></span><br>
+				02 <input type="checkbox" id="Rich Mahogany Hammer"><span><a href="https://terraria.wiki.gg/wiki/Rich_Mahogany Hammer" target="_blank">Rich Mahogany Hammer</a></span><br>
+				03 <input type="checkbox" id="Palm Wood Hammer"><span><a href="https://terraria.wiki.gg/wiki/Palm_Wood Hammer" target="_blank">Palm Wood Hammer</a></span><br>
+				04 <input type="checkbox" id="Boreal Wood Hammer"><span><a href="https://terraria.wiki.gg/wiki/Boreal_Wood Hammer" target="_blank">Boreal Wood Hammer</a></span><br>
+				05 <input type="checkbox" id="Copper Hammer"><span><a href="https://terraria.wiki.gg/wiki/Copper_Hammer" target="_blank">Copper Hammer</a></span><br>
+				06 <input type="checkbox" id="Tin Hammer"><span><a href="https://terraria.wiki.gg/wiki/Tin_Hammer" target="_blank">Tin Hammer</a></span><br>
+				07 <input type="checkbox" id="Iron Hammer"><span><a href="https://terraria.wiki.gg/wiki/Iron_Hammer" target="_blank">Iron Hammer</a></span><br>
+				08 <input type="checkbox" id="Ebonwood Hammer"><span><a href="https://terraria.wiki.gg/wiki/Ebonwood_Hammer" target="_blank">Ebonwood Hammer</a></span><br>
+				09 <input type="checkbox" id="Shadewood Hammer"><span><a href="https://terraria.wiki.gg/wiki/Shadewood_Hammer" target="_blank">Shadewood Hammer</a></span><br>
+				10 <input type="checkbox" id="Lead Hammer"><span><a href="https://terraria.wiki.gg/wiki/Lead_Hammer" target="_blank">Lead Hammer</a></span><br>
+				11 <input type="checkbox" id="Ash Wood Hammer"><span><a href="https://terraria.wiki.gg/wiki/Ash_Wood Hammer" target="_blank">Ash Wood Hammer</a></span><br>
+				12 <input type="checkbox" id="Silver Hammer"><span><a href="https://terraria.wiki.gg/wiki/Silver_Hammer" target="_blank">Silver Hammer</a></span><br>
+				13 <input type="checkbox" id="Tungsten Hammer"><span><a href="https://terraria.wiki.gg/wiki/Tungsten_Hammer" target="_blank">Tungsten Hammer</a></span><br>
+				14 <input type="checkbox" id="Gold Hammer"><span><a href="https://terraria.wiki.gg/wiki/Gold_Hammer" target="_blank">Gold Hammer</a></span><br>
+				15 <input type="checkbox" id="The Breaker"><span><a href="https://terraria.wiki.gg/wiki/The_Breaker" target="_blank">The Breaker</a></span><br>
+				16 <input type="checkbox" id="Pearlwood Hammer"><span><a href="https://terraria.wiki.gg/wiki/Pearlwood_Hammer" target="_blank">Pearlwood Hammer</a></span><br>
+				17 <input type="checkbox" id="Flesh Grinder"><span><a href="https://terraria.wiki.gg/wiki/Flesh_Grinder" target="_blank">Flesh Grinder</a></span><br>
+				18 <input type="checkbox" id="Platinum Hammer"><span><a href="https://terraria.wiki.gg/wiki/Platinum_Hammer" target="_blank">Platinum Hammer</a></span><br>
+				19 <input type="checkbox" id="Meteor Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Meteor_Hamaxe" target="_blank">Meteor Hamaxe</a></span><br>
+				20 <input type="checkbox" id="Rockfish"><span><a href="https://terraria.wiki.gg/wiki/Rockfish" target="_blank">Rockfish</a></span><br>
+				21 <input type="checkbox" id="Molten Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Molten_Hamaxe" target="_blank">Molten Hamaxe</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				01 <input type="checkbox" id="Pwnhammer"><span><a href="https://terraria.wiki.gg/wiki/Pwnhammer" target="_blank">Pwnhammer</a></span><br>
+				02 <input type="checkbox" id="Haemorrhaxe"><span><a href="https://terraria.wiki.gg/wiki/Haemorrhaxe" target="_blank">Haemorrhaxe</a></span><br>
+				03 <input type="checkbox" id="Hammush"><span><a href="https://terraria.wiki.gg/wiki/Hammush" target="_blank">Hammush</a></span><br>
+				04 <input type="checkbox" id="Chlorophyte Warhammer"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Warhammer" target="_blank">Chlorophyte Warhammer</a></span><br>
+				05 <input type="checkbox" id="Chlorophyte Jackhammer"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Jackhammer" target="_blank">Chlorophyte Jackhammer</a></span><br>
+				06 <input type="checkbox" id="Spectre Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Spectre_Hamaxe" target="_blank">Spectre Hamaxe</a></span><br>
+				07 <input type="checkbox" id="Solar Flare Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Solar_Flare Hamaxe" target="_blank">Solar Flare Hamaxe</a></span><br>
+				08 <input type="checkbox" id="Vortex Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Vortex_Hamaxe" target="_blank">Vortex Hamaxe</a></span><br>
+				09 <input type="checkbox" id="Nebula Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Nebula_Hamaxe" target="_blank">Nebula Hamaxe</a></span><br>
+				10 <input type="checkbox" id="Stardust Hamaxe"><span><a href="https://terraria.wiki.gg/wiki/Stardust_Hamaxe" target="_blank">Stardust Hamaxe</a></span><br>
+				11 <input type="checkbox" id="The Axe"><span><a href="https://terraria.wiki.gg/wiki/The_Axe" target="_blank">The Axe</a></span><br>
+		</div>
+	</div>
+	<h1>Wiring:</h1>
+	<div id="Wiring">
+			1 <input type="checkbox" id="Red Wrench"><span><a href="https://terraria.wiki.gg/wiki/Red_Wrench" target="_blank">Red Wrench</a></span><br>
+			2 <input type="checkbox" id="Wire Cutter"><span><a href="https://terraria.wiki.gg/wiki/Wire_Cutter" target="_blank">Wire Cutter</a></span><br>
+			3 <input type="checkbox" id="Blue Wrench"><span><a href="https://terraria.wiki.gg/wiki/Blue_Wrench" target="_blank">Blue Wrench</a></span><br>
+			4 <input type="checkbox" id="Green Wrench"><span><a href="https://terraria.wiki.gg/wiki/Green_Wrench" target="_blank">Green Wrench</a></span><br>
+			5 <input type="checkbox" id="The Grand Design"><span><a href="https://terraria.wiki.gg/wiki/The_Grand Design" target="_blank">The Grand Design</a></span><br>
+			6 <input type="checkbox" id="Yellow Wrench"><span><a href="https://terraria.wiki.gg/wiki/Yellow_Wrench" target="_blank">Yellow Wrench</a></span><br>
+			7 <input type="checkbox" id="Actuation Rod"><span><a href="https://terraria.wiki.gg/wiki/Actuation_Rod" target="_blank">Actuation Rod</a></span><br>
+			8 <input type="checkbox" id="Multicolor Wrench"><span><a href="https://terraria.wiki.gg/wiki/Multicolor_Wrench" target="_blank">Multicolor Wrench</a></span><br>
+	</div>
+	<h1>Painting:</h1>
+	<div id="Painting">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Paintbrush"><span><a href="https://terraria.wiki.gg/wiki/Paintbrush" target="_blank">Paintbrush</a></span><br>
+				2 <input type="checkbox" id="Paint Roller"><span><a href="https://terraria.wiki.gg/wiki/Paint_Roller" target="_blank">Paint Roller</a></span><br>
+				3 <input type="checkbox" id="Paint Scraper"><span><a href="https://terraria.wiki.gg/wiki/Paint_Scraper" target="_blank">Paint Scraper</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Spectre Paintbrush"><span><a href="https://terraria.wiki.gg/wiki/Spectre_Paintbrush" target="_blank">Spectre Paintbrush</a></span><br>
+				2 <input type="checkbox" id="Spectre Paint Roller"><span><a href="https://terraria.wiki.gg/wiki/Spectre_Paint Roller" target="_blank">Spectre Paint Roller</a></span><br>
+				3 <input type="checkbox" id="Spectre Paint Scraper"><span><a href="https://terraria.wiki.gg/wiki/Spectre_Paint Scraper" target="_blank">Spectre Paint Scraper</a></span><br>
+		</div>
+	</div>
+	<h1>Hooks:</h1>
+	<div id="Hooks">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Grappling Hook"><span><a href="https://terraria.wiki.gg/wiki/Grappling_Hook" target="_blank">Grappling Hook</a></span><br>
+				02 <input type="checkbox" id="Ivy Whip"><span><a href="https://terraria.wiki.gg/wiki/Ivy_Whip" target="_blank">Ivy Whip</a></span><br>
+				03 <input type="checkbox" id="Web Slinger"><span><a href="https://terraria.wiki.gg/wiki/Web_Slinger" target="_blank">Web Slinger</a></span><br>
+				04 <input type="checkbox" id="Amethyst Hook"><span><a href="https://terraria.wiki.gg/wiki/Amethyst_Hook" target="_blank">Amethyst Hook</a></span><br>
+				05 <input type="checkbox" id="Topaz Hook"><span><a href="https://terraria.wiki.gg/wiki/Topaz_Hook" target="_blank">Topaz Hook</a></span><br>
+				06 <input type="checkbox" id="Sapphire Hook"><span><a href="https://terraria.wiki.gg/wiki/Sapphire_Hook" target="_blank">Sapphire Hook</a></span><br>
+				07 <input type="checkbox" id="Emerald Hook"><span><a href="https://terraria.wiki.gg/wiki/Emerald_Hook" target="_blank">Emerald Hook</a></span><br>
+				08 <input type="checkbox" id="Ruby Hook"><span><a href="https://terraria.wiki.gg/wiki/Ruby_Hook" target="_blank">Ruby Hook</a></span><br>
+				09 <input type="checkbox" id="Diamond Hook"><span><a href="https://terraria.wiki.gg/wiki/Diamond_Hook" target="_blank">Diamond Hook</a></span><br>
+				10 <input type="checkbox" id="Skeletron Hand"><span><a href="https://terraria.wiki.gg/wiki/Skeletron_Hand" target="_blank">Skeletron Hand</a></span><br>
+				11 <input type="checkbox" id="Bat Hook"><span><a href="https://terraria.wiki.gg/wiki/Bat_Hook" target="_blank">Bat Hook</a></span><br>
+				12 <input type="checkbox" id="Candy Cane Hook"><span><a href="https://terraria.wiki.gg/wiki/Candy_Cane Hook" target="_blank">Candy Cane Hook</a></span><br>
+				13 <input type="checkbox" id="Fish Hook"><span><a href="https://terraria.wiki.gg/wiki/Fish_Hook" target="_blank">Fish Hook</a></span><br>
+				14 <input type="checkbox" id="Slime Hook"><span><a href="https://terraria.wiki.gg/wiki/Slime_Hook" target="_blank">Slime Hook</a></span><br>
+				15 <input type="checkbox" id="Amber Hook"><span><a href="https://terraria.wiki.gg/wiki/Amber_Hook" target="_blank">Amber Hook</a></span><br>
+				16 <input type="checkbox" id="Squirrel Hook"><span><a href="https://terraria.wiki.gg/wiki/Squirrel_Hook" target="_blank">Squirrel Hook</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				01 <input type="checkbox" id="Dual Hook"><span><a href="https://terraria.wiki.gg/wiki/Dual_Hook" target="_blank">Dual Hook</a></span><br>
+				02 <input type="checkbox" id="Spooky Hook"><span><a href="https://terraria.wiki.gg/wiki/Spooky_Hook" target="_blank">Spooky Hook</a></span><br>
+				03 <input type="checkbox" id="Christmas Hook"><span><a href="https://terraria.wiki.gg/wiki/Christmas_Hook" target="_blank">Christmas Hook</a></span><br>
+				04 <input type="checkbox" id="Anti-Gravity Hook"><span><a href="https://terraria.wiki.gg/wiki/Anti-Gravity_Hook" target="_blank">Anti-Gravity Hook</a></span><br>
+				05 <input type="checkbox" id="Tendon Hook"><span><a href="https://terraria.wiki.gg/wiki/Tendon_Hook" target="_blank">Tendon Hook</a></span><br>
+				06 <input type="checkbox" id="Thorn Hook"><span><a href="https://terraria.wiki.gg/wiki/Thorn_Hook" target="_blank">Thorn Hook</a></span><br>
+				07 <input type="checkbox" id="Illuminant Hook"><span><a href="https://terraria.wiki.gg/wiki/Illuminant_Hook" target="_blank">Illuminant Hook</a></span><br>
+				08 <input type="checkbox" id="Worm Hook"><span><a href="https://terraria.wiki.gg/wiki/Worm_Hook" target="_blank">Worm Hook</a></span><br>
+				09 <input type="checkbox" id="Lunar Hook"><span><a href="https://terraria.wiki.gg/wiki/Lunar_Hook" target="_blank">Lunar Hook</a></span><br>
+				10 <input type="checkbox" id="Static Hook"><span><a href="https://terraria.wiki.gg/wiki/Static_Hook" target="_blank">Static Hook</a></span><br>
+				11 <input type="checkbox" id="Hook of Dissonance"><span><a href="https://terraria.wiki.gg/wiki/Hook_of Dissonance" target="_blank">Hook of Dissonance</a></span><br>
+		</div>
+	</div>
+	<h1>Fishing poles:</h1>
+	<div id="Fishing poles">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				01 <input type="checkbox" id="Wood Fishing Pole"><span><a href="https://terraria.wiki.gg/wiki/Wood_Fishing Pole" target="_blank">Wood Fishing Pole</a></span><br>
+				02 <input type="checkbox" id="Reinforced Fishing Pole"><span><a href="https://terraria.wiki.gg/wiki/Reinforced_Fishing Pole" target="_blank">Reinforced Fishing Pole</a></span><br>
+				03 <input type="checkbox" id="Fiberglass Fishing Pole"><span><a href="https://terraria.wiki.gg/wiki/Fiberglass_Fishing Pole" target="_blank">Fiberglass Fishing Pole</a></span><br>
+				04 <input type="checkbox" id="Fisher of Souls"><span><a href="https://terraria.wiki.gg/wiki/Fisher_of Souls" target="_blank">Fisher of Souls</a></span><br>
+				05 <input type="checkbox" id="Golden Fishing Rod"><span><a href="https://terraria.wiki.gg/wiki/Golden_Fishing Rod" target="_blank">Golden Fishing Rod</a></span><br>
+				06 <input type="checkbox" id="Mechanic's Rod"><span><a href="https://terraria.wiki.gg/wiki/Mechanic's_Rod" target="_blank">Mechanic's Rod</a></span><br>
+				07 <input type="checkbox" id="Sitting Duck's Fishing Pole"><span><a href="https://terraria.wiki.gg/wiki/Sitting_Duck's Fishing Pole" target="_blank">Sitting Duck's Fishing Pole</a></span><br>
+				08 <input type="checkbox" id="Fleshcatcher"><span><a href="https://terraria.wiki.gg/wiki/Fleshcatcher" target="_blank">Fleshcatcher</a></span><br>
+				09 <input type="checkbox" id="Chum Caster"><span><a href="https://terraria.wiki.gg/wiki/Chum_Caster" target="_blank">Chum Caster</a></span><br>
+				10 <input type="checkbox" id="Scarab Fishing Rod"><span><a href="https://terraria.wiki.gg/wiki/Scarab_Fishing Rod" target="_blank">Scarab Fishing Rod</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Hotline Fishing Hook"><span><a href="https://terraria.wiki.gg/wiki/Hotline_Fishing Hook" target="_blank">Hotline Fishing Hook</a></span><br>
+		</div>
+	</div>
+	<h1>Miscellaneous:</h1>
+	<div id="Miscellaneous">
+		<h1>Movement:</h1>
+		<div id="Movement">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					01 <input type="checkbox" id="Ice Mirror"><span><a href="https://terraria.wiki.gg/wiki/Ice_Mirror" target="_blank">Ice Mirror</a></span><br>
+					02 <input type="checkbox" id="Magic Mirror"><span><a href="https://terraria.wiki.gg/wiki/Magic_Mirror" target="_blank">Magic Mirror</a></span><br>
+					03 <input type="checkbox" id="Cell Phone"><span><a href="https://terraria.wiki.gg/wiki/Cell_Phone" target="_blank">Cell Phone</a></span><br>
+					04 <input type="checkbox" id="Shellphone"><span><a href="https://terraria.wiki.gg/wiki/Shellphone" target="_blank">Shellphone</a></span><br>
+					05 <input type="checkbox" id="Trident"><span><a href="https://terraria.wiki.gg/wiki/Trident" target="_blank">Trident</a></span><br>
+					06 <input type="checkbox" id="Umbrella"><span><a href="https://terraria.wiki.gg/wiki/Umbrella" target="_blank">Umbrella</a></span><br>
+					07 <input type="checkbox" id="Tragic Umbrella"><span><a href="https://terraria.wiki.gg/wiki/Tragic_Umbrella" target="_blank">Tragic Umbrella</a></span><br>
+					08 <input type="checkbox" id="Magic Conch"><span><a href="https://terraria.wiki.gg/wiki/Magic_Conch" target="_blank">Magic Conch</a></span><br>
+					09 <input type="checkbox" id="Demon Conch"><span><a href="https://terraria.wiki.gg/wiki/Demon_Conch" target="_blank">Demon Conch</a></span><br>
+					10 <input type="checkbox" id="Snake Charmer's Flute"><span><a href="https://terraria.wiki.gg/wiki/Snake_Charmer's Flute" target="_blank">Snake Charmer's Flute</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					1 <input type="checkbox" id="Rod of Discord"><span><a href="https://terraria.wiki.gg/wiki/Rod_of Discord" target="_blank">Rod of Discord</a></span><br>
+					2 <input type="checkbox" id="Rod of Harmony"><span><a href="https://terraria.wiki.gg/wiki/Rod_of Harmony" target="_blank">Rod of Harmony</a></span><br>
+					3 <input type="checkbox" id="Portal Gun"><span><a href="https://terraria.wiki.gg/wiki/Portal_Gun" target="_blank">Portal Gun</a></span><br>
+			</div>
+		</div>
+		<h1>Block-placing:</h1>
+		<div id="Block-placing">
+				1 <input type="checkbox" id="Leaf Wand"><span><a href="https://terraria.wiki.gg/wiki/Leaf_Wand" target="_blank">Leaf Wand</a></span><br>
+				2 <input type="checkbox" id="Living Wood Wand"><span><a href="https://terraria.wiki.gg/wiki/Living_Wood Wand" target="_blank">Living Wood Wand</a></span><br>
+				3 <input type="checkbox" id="Rich Mahogany Leaf Wand"><span><a href="https://terraria.wiki.gg/wiki/Rich_Mahogany Leaf Wand" target="_blank">Rich Mahogany Leaf Wand</a></span><br>
+				4 <input type="checkbox" id="Living Mahogany Wand"><span><a href="https://terraria.wiki.gg/wiki/Living_Mahogany Wand" target="_blank">Living Mahogany Wand</a></span><br>
+				5 <input type="checkbox" id="Hive Wand"><span><a href="https://terraria.wiki.gg/wiki/Hive_Wand" target="_blank">Hive Wand</a></span><br>
+				6 <input type="checkbox" id="Bone Wand"><span><a href="https://terraria.wiki.gg/wiki/Bone_Wand" target="_blank">Bone Wand</a></span><br>
+		</div>
+		<h1>Others:</h1>
+		<div id="Others">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					01 <input type="checkbox" id="Bucket"><span><a href="https://terraria.wiki.gg/wiki/Bucket" target="_blank">Bucket</a></span><br>
+					02 <input type="checkbox" id="Bottomless Water Bucket"><span><a href="https://terraria.wiki.gg/wiki/Bottomless_Water Bucket" target="_blank">Bottomless Water Bucket</a></span><br>
+					03 <input type="checkbox" id="Bottomless Lava Bucket"><span><a href="https://terraria.wiki.gg/wiki/Bottomless_Lava Bucket" target="_blank">Bottomless Lava Bucket</a></span><br>
+					04 <input type="checkbox" id="Bottomless Honey Bucket"><span><a href="https://terraria.wiki.gg/wiki/Bottomless_Honey Bucket" target="_blank">Bottomless Honey Bucket</a></span><br>
+					05 <input type="checkbox" id="Super Absorbant Sponge"><span><a href="https://terraria.wiki.gg/wiki/Super_Absorbant Sponge" target="_blank">Super Absorbant Sponge</a></span><br>
+					06 <input type="checkbox" id="Lava Absorbant Sponge"><span><a href="https://terraria.wiki.gg/wiki/Lava_Absorbant Sponge" target="_blank">Lava Absorbant Sponge</a></span><br>
+					07 <input type="checkbox" id="Honey Absorbant Sponge"><span><a href="https://terraria.wiki.gg/wiki/Honey_Absorbant Sponge" target="_blank">Honey Absorbant Sponge</a></span><br>
+					08 <input type="checkbox" id="Ultra Absorbant Sponge"><span><a href="https://terraria.wiki.gg/wiki/Ultra_Absorbant Sponge" target="_blank">Ultra Absorbant Sponge</a></span><br>
+					09 <input type="checkbox" id="Bug Net"><span><a href="https://terraria.wiki.gg/wiki/Bug_Net" target="_blank">Bug Net</a></span><br>
+					10 <input type="checkbox" id="Golden Bug Net"><span><a href="https://terraria.wiki.gg/wiki/Golden_Bug Net" target="_blank">Golden Bug Net</a></span><br>
+					11 <input type="checkbox" id="Lavaproof Bug Net"><span><a href="https://terraria.wiki.gg/wiki/Lavaproof_Bug Net" target="_blank">Lavaproof Bug Net</a></span><br>
+					12 <input type="checkbox" id="Sickle"><span><a href="https://terraria.wiki.gg/wiki/Sickle" target="_blank">Sickle</a></span><br>
+					13 <input type="checkbox" id="Staff of Regrowth"><span><a href="https://terraria.wiki.gg/wiki/Staff_of Regrowth" target="_blank">Staff of Regrowth</a></span><br>
+					14 <input type="checkbox" id="Clentaminator"><span><a href="https://terraria.wiki.gg/wiki/Clentaminator" target="_blank">Clentaminator</a></span><br>
+					15 <input type="checkbox" id="Breathing Reed"><span><a href="https://terraria.wiki.gg/wiki/Breathing_Reed" target="_blank">Breathing Reed</a></span><br>
+					16 <input type="checkbox" id="Binoculars"><span><a href="https://terraria.wiki.gg/wiki/Binoculars" target="_blank">Binoculars</a></span><br>
+					17 <input type="checkbox" id="Golf Clubs"><span><a href="https://terraria.wiki.gg/wiki/Golf_Clubs" target="_blank">Golf Clubs</a></span><br>
+					18 <input type="checkbox" id="Golf Whistle"><span><a href="https://terraria.wiki.gg/wiki/Golf_Whistle" target="_blank">Golf Whistle</a></span><br>
+					19 <input type="checkbox" id="Golden Key"><span><a href="https://terraria.wiki.gg/wiki/Golden_Key" target="_blank">Golden Key</a></span><br>
+					20 <input type="checkbox" id="Shadow Key"><span><a href="https://terraria.wiki.gg/wiki/Shadow_Key" target="_blank">Shadow Key</a></span><br>
+					21 <input type="checkbox" id="Guide to Critter Companionship"><span><a href="https://terraria.wiki.gg/wiki/Guide_to Critter Companionship" target="_blank">Guide to Critter Companionship</a></span><br>
+					22 <input type="checkbox" id="Guide to Environmental Preservation"><span><a href="https://terraria.wiki.gg/wiki/Guide_to Environmental Preservation" target="_blank">Guide to Environmental Preservation</a></span><br>
+					23 <input type="checkbox" id="Guide to Peaceful Coexistence"><span><a href="https://terraria.wiki.gg/wiki/Guide_to Peaceful Coexistence" target="_blank">Guide to Peaceful Coexistence</a></span><br>
+					24 <input type="checkbox" id="Chum Bucket"><span><a href="https://terraria.wiki.gg/wiki/Chum_Bucket" target="_blank">Chum Bucket</a></span><br>
+					25 <input type="checkbox" id="Gravedigger's Shovel"><span><a href="https://terraria.wiki.gg/wiki/Gravedigger's_Shovel" target="_blank">Gravedigger's Shovel</a></span><br>
+					26 <input type="checkbox" id="Encumbering Stone"><span><a href="https://terraria.wiki.gg/wiki/Encumbering_Stone" target="_blank">Encumbering Stone</a></span><br>
+					27 <input type="checkbox" id="Lawn Mower"><span><a href="https://terraria.wiki.gg/wiki/Lawn_Mower" target="_blank">Lawn Mower</a></span><br>
+					28 <input type="checkbox" id="Sandcastle Bucket"><span><a href="https://terraria.wiki.gg/wiki/Sandcastle_Bucket" target="_blank">Sandcastle Bucket</a></span><br>
+					29 <input type="checkbox" id="Ice Rod"><span><a href="https://terraria.wiki.gg/wiki/Ice_Rod" target="_blank">Ice Rod</a></span><br>
+					30 <input type="checkbox" id="Dirt Rod"><span><a href="https://terraria.wiki.gg/wiki/Dirt_Rod" target="_blank">Dirt Rod</a></span><br>
+					31 <input type="checkbox" id="Flare Gun"><span><a href="https://terraria.wiki.gg/wiki/Flare_Gun" target="_blank">Flare Gun</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Bottomless Shimmer Bucket"><span><a href="https://terraria.wiki.gg/wiki/Bottomless_Shimmer Bucket" target="_blank">Bottomless Shimmer Bucket</a></span><br>
+					02 <input type="checkbox" id="Terraformer"><span><a href="https://terraria.wiki.gg/wiki/Terraformer" target="_blank">Terraformer</a></span><br>
+					03 <input type="checkbox" id="Temple Key"><span><a href="https://terraria.wiki.gg/wiki/Temple_Key" target="_blank">Temple Key</a></span><br>
+					04 <input type="checkbox" id="Jungle Key"><span><a href="https://terraria.wiki.gg/wiki/Jungle_Key" target="_blank">Jungle Key</a></span><br>
+					05 <input type="checkbox" id="Frozen Key"><span><a href="https://terraria.wiki.gg/wiki/Frozen_Key" target="_blank">Frozen Key</a></span><br>
+					06 <input type="checkbox" id="Hallowed Key"><span><a href="https://terraria.wiki.gg/wiki/Hallowed_Key" target="_blank">Hallowed Key</a></span><br>
+					07 <input type="checkbox" id="Corruption Key"><span><a href="https://terraria.wiki.gg/wiki/Corruption_Key" target="_blank">Corruption Key</a></span><br>
+					08 <input type="checkbox" id="Crimson Key"><span><a href="https://terraria.wiki.gg/wiki/Crimson_Key" target="_blank">Crimson Key</a></span><br>
+					09 <input type="checkbox" id="Desert Key"><span><a href="https://terraria.wiki.gg/wiki/Desert_Key" target="_blank">Desert Key</a></span><br>
+					10 <input type="checkbox" id="Key of Light"><span><a href="https://terraria.wiki.gg/wiki/Key_of Light" target="_blank">Key of Light</a></span><br>
+					11 <input type="checkbox" id="Key of Night"><span><a href="https://terraria.wiki.gg/wiki/Key_of Night" target="_blank">Key of Night</a></span><br>
+					12 <input type="checkbox" id="Rubblemaker"><span><a href="https://terraria.wiki.gg/wiki/Rubblemaker" target="_blank">Rubblemaker</a></span><br>
+			</div>
+		</div>
+	</div>
+</body>

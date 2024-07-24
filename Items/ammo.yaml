@@ -1,0 +1,88 @@
+Flares:
+    - Flare
+    - Blue Flare
+    - Spelunker Flare
+    - Cursed Flare
+    - Rainbow Flare
+    - Shimmer Flare
+Bullets:
+    Pre-HardMode:
+        - Musket Ball
+        - Meteor Shot
+        - Silver Bullet
+        - Party Bullet
+        - Tungsten Bullet
+    HardMode:
+        - Crystal Bullet
+        - Cursed Bullet
+        - Chlorophyte Bullet
+        - High Velocity Bullet
+        - Ichor Bullet
+        - Venom Bullet
+        - Nano Bullet
+        - Exploding Bullet
+        - Golden Bullet
+        - Endless Musket Pouch
+        - Luminite Bullet
+Arrows:
+    Pre-HardMode:
+        - Wooden Arrow
+        - Flaming Arrow
+        - Unholy Arrow
+        - Jester's Arrow
+        - Hellfire Arrow
+        - Frostburn Arrow
+        - Bone Arrow
+        - Shimmer Arrow
+    HardMode:
+        - Holy Arrow
+        - Cursed Arrow
+        - Chlorophyte Arrow
+        - Ichor Arrow
+        - Venom Arrow
+        - Endless Quiver
+        - Luminite Arrow
+Rockets:
+    - Rocket I
+    - Rocket II
+    - Rocket III
+    - Rocket IV
+    - Cluster Rocket I
+    - Cluster Rocket II
+    - Dry Rocket
+    - Wet Rocket
+    - Lava Rocket
+    - Honey Rocket
+    - Mini Nuke I
+    - Mini Nuke II
+Darts:
+    Pre-HardMode:
+        - Poison Dart
+    HardMode:
+        - Crystal Dart
+        - Cursed Dart
+        - Ichor Dart
+Others:
+    Pre-HardMode:
+        - Fallen Star
+        - Gel
+        - Sand
+        - Seed
+        - Coin
+        - Bone
+        - Ale
+        - Snowball
+    HardMode:
+        - Stynger Bolt
+        - Candy Corn
+        - Explosive Jack 'O Lantern
+        - Stake
+Solutions:
+    - Green Solution
+    - Yellow Solution
+    - White Solution
+    - Brown Solution
+    - Blue Solution
+    - Purple Solution
+    - Dark Blue Solution
+    - Red Solution

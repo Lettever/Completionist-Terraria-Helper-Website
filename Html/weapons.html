@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<head>
+	<style>
+	div {
+		border-left-style: solid;
+		padding-left: 20px;
+	}
+	a:link, a:visited {
+		color: blue;
+		text-decoration: none;
+	}
+	</style>
+	<script src="checkbox.js"></script>
+</head>
+<body>
+	<button onclick="saveToFile()">Save to File</button>
+	<button onclick="loadFile()">Load from File</button>
+	<h1>Melee:</h1>
+	<div id="Melee">
+		<h1>Swords:</h1>
+		<div id="Swords">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					01 <input type="checkbox" id="Copper Shortsword"><span><a href="https://terraria.wiki.gg/wiki/Copper_Shortsword" target="_blank">Copper Shortsword</a></span><br>
+					02 <input type="checkbox" id="Tin Shortsword"><span><a href="https://terraria.wiki.gg/wiki/Tin_Shortsword" target="_blank">Tin Shortsword</a></span><br>
+					03 <input type="checkbox" id="Wooden Sword"><span><a href="https://terraria.wiki.gg/wiki/Wooden_Sword" target="_blank">Wooden Sword</a></span><br>
+					04 <input type="checkbox" id="Boreal Wood Sword"><span><a href="https://terraria.wiki.gg/wiki/Boreal_Wood Sword" target="_blank">Boreal Wood Sword</a></span><br>
+					05 <input type="checkbox" id="Copper Broadsword"><span><a href="https://terraria.wiki.gg/wiki/Copper_Broadsword" target="_blank">Copper Broadsword</a></span><br>
+					06 <input type="checkbox" id="Iron Shortsword"><span><a href="https://terraria.wiki.gg/wiki/Iron_Shortsword" target="_blank">Iron Shortsword</a></span><br>
+					07 <input type="checkbox" id="Palm Wood Sword"><span><a href="https://terraria.wiki.gg/wiki/Palm_Wood Sword" target="_blank">Palm Wood Sword</a></span><br>
+					08 <input type="checkbox" id="Rich Mahogany Sword"><span><a href="https://terraria.wiki.gg/wiki/Rich_Mahogany Sword" target="_blank">Rich Mahogany Sword</a></span><br>
+					09 <input type="checkbox" id="Cactus Sword"><span><a href="https://terraria.wiki.gg/wiki/Cactus_Sword" target="_blank">Cactus Sword</a></span><br>
+					10 <input type="checkbox" id="Lead Shortsword"><span><a href="https://terraria.wiki.gg/wiki/Lead_Shortsword" target="_blank">Lead Shortsword</a></span><br>
+					11 <input type="checkbox" id="Silver Shortsword"><span><a href="https://terraria.wiki.gg/wiki/Silver_Shortsword" target="_blank">Silver Shortsword</a></span><br>
+					12 <input type="checkbox" id="Tin Broadsword"><span><a href="https://terraria.wiki.gg/wiki/Tin_Broadsword" target="_blank">Tin Broadsword</a></span><br>
+					13 <input type="checkbox" id="Ebonwood Sword"><span><a href="https://terraria.wiki.gg/wiki/Ebonwood_Sword" target="_blank">Ebonwood Sword</a></span><br>
+					14 <input type="checkbox" id="Iron Broadsword"><span><a href="https://terraria.wiki.gg/wiki/Iron_Broadsword" target="_blank">Iron Broadsword</a></span><br>
+					15 <input type="checkbox" id="Shadewood Sword"><span><a href="https://terraria.wiki.gg/wiki/Shadewood_Sword" target="_blank">Shadewood Sword</a></span><br>
+					16 <input type="checkbox" id="Tungsten Shortsword"><span><a href="https://terraria.wiki.gg/wiki/Tungsten_Shortsword" target="_blank">Tungsten Shortsword</a></span><br>
+					17 <input type="checkbox" id="Gold Shortsword"><span><a href="https://terraria.wiki.gg/wiki/Gold_Shortsword" target="_blank">Gold Shortsword</a></span><br>
+					18 <input type="checkbox" id="Lead Broadsword"><span><a href="https://terraria.wiki.gg/wiki/Lead_Broadsword" target="_blank">Lead Broadsword</a></span><br>
+					19 <input type="checkbox" id="Silver Broadsword"><span><a href="https://terraria.wiki.gg/wiki/Silver_Broadsword" target="_blank">Silver Broadsword</a></span><br>
+					20 <input type="checkbox" id="Bladed Glove"><span><a href="https://terraria.wiki.gg/wiki/Bladed_Glove" target="_blank">Bladed Glove</a></span><br>
+					21 <input type="checkbox" id="Tungsten Broadsword"><span><a href="https://terraria.wiki.gg/wiki/Tungsten_Broadsword" target="_blank">Tungsten Broadsword</a></span><br>
+					22 <input type="checkbox" id="Zombie Arm"><span><a href="https://terraria.wiki.gg/wiki/Zombie_Arm" target="_blank">Zombie Arm</a></span><br>
+					23 <input type="checkbox" id="Ash Wood Sword"><span><a href="https://terraria.wiki.gg/wiki/Ash_Wood Sword" target="_blank">Ash Wood Sword</a></span><br>
+					24 <input type="checkbox" id="Gold Broadsword"><span><a href="https://terraria.wiki.gg/wiki/Gold_Broadsword" target="_blank">Gold Broadsword</a></span><br>
+					25 <input type="checkbox" id="Flymeal"><span><a href="https://terraria.wiki.gg/wiki/Flymeal" target="_blank">Flymeal</a></span><br>
+					26 <input type="checkbox" id="Platinum Shortsword"><span><a href="https://terraria.wiki.gg/wiki/Platinum_Shortsword" target="_blank">Platinum Shortsword</a></span><br>
+					27 <input type="checkbox" id="Mandible Blade"><span><a href="https://terraria.wiki.gg/wiki/Mandible_Blade" target="_blank">Mandible Blade</a></span><br>
+					28 <input type="checkbox" id="Stylish Scissors"><span><a href="https://terraria.wiki.gg/wiki/Stylish_Scissors" target="_blank">Stylish Scissors</a></span><br>
+					29 <input type="checkbox" id="Ruler"><span><a href="https://terraria.wiki.gg/wiki/Ruler" target="_blank">Ruler</a></span><br>
+					30 <input type="checkbox" id="Platinum Broadsword"><span><a href="https://terraria.wiki.gg/wiki/Platinum_Broadsword" target="_blank">Platinum Broadsword</a></span><br>
+					31 <input type="checkbox" id="Umbrella"><span><a href="https://terraria.wiki.gg/wiki/Umbrella" target="_blank">Umbrella</a></span><br>
+					32 <input type="checkbox" id="Breathing Reed"><span><a href="https://terraria.wiki.gg/wiki/Breathing_Reed" target="_blank">Breathing Reed</a></span><br>
+					33 <input type="checkbox" id="Gladius"><span><a href="https://terraria.wiki.gg/wiki/Gladius" target="_blank">Gladius</a></span><br>
+					34 <input type="checkbox" id="Bone Sword"><span><a href="https://terraria.wiki.gg/wiki/Bone_Sword" target="_blank">Bone Sword</a></span><br>
+					35 <input type="checkbox" id="Bat Bat"><span><a href="https://terraria.wiki.gg/wiki/Bat_Bat" target="_blank">Bat Bat</a></span><br>
+					36 <input type="checkbox" id="Tentacle Spike"><span><a href="https://terraria.wiki.gg/wiki/Tentacle_Spike" target="_blank">Tentacle Spike</a></span><br>
+					37 <input type="checkbox" id="Candy Cane Sword"><span><a href="https://terraria.wiki.gg/wiki/Candy_Cane Sword" target="_blank">Candy Cane Sword</a></span><br>
+					38 <input type="checkbox" id="Katana"><span><a href="https://terraria.wiki.gg/wiki/Katana" target="_blank">Katana</a></span><br>
+					39 <input type="checkbox" id="Ice Blade"><span><a href="https://terraria.wiki.gg/wiki/Ice_Blade" target="_blank">Ice Blade</a></span><br>
+					40 <input type="checkbox" id="Light's Bane"><span><a href="https://terraria.wiki.gg/wiki/Light's_Bane" target="_blank">Light's Bane</a></span><br>
+					01 <input type="checkbox" id="Tragic Umbrella"><span><a href="https://terraria.wiki.gg/wiki/Tragic_Umbrella" target="_blank">Tragic Umbrella</a></span><br>
+					02 <input type="checkbox" id="Muramasa"><span><a href="https://terraria.wiki.gg/wiki/Muramasa" target="_blank">Muramasa</a></span><br>
+					03 <input type="checkbox" id="Exotic Scimitar"><span><a href="https://terraria.wiki.gg/wiki/Exotic_Scimitar" target="_blank">Exotic Scimitar</a></span><br>
+					04 <input type="checkbox" id="Phaseblade"><span><a href="https://terraria.wiki.gg/wiki/Phaseblade" target="_blank">Phaseblade</a></span><br>
+					05 <input type="checkbox" id="Blood Butcherer"><span><a href="https://terraria.wiki.gg/wiki/Blood_Butcherer" target="_blank">Blood Butcherer</a></span><br>
+					06 <input type="checkbox" id="Starfury"><span><a href="https://terraria.wiki.gg/wiki/Starfury" target="_blank">Starfury</a></span><br>
+					07 <input type="checkbox" id="Enchanted Sword"><span><a href="https://terraria.wiki.gg/wiki/Enchanted_Sword" target="_blank">Enchanted Sword</a></span><br>
+					08 <input type="checkbox" id="Purple Clubberfish"><span><a href="https://terraria.wiki.gg/wiki/Purple_Clubberfish" target="_blank">Purple Clubberfish</a></span><br>
+					09 <input type="checkbox" id="Bee Keeper"><span><a href="https://terraria.wiki.gg/wiki/Bee_Keeper" target="_blank">Bee Keeper</a></span><br>
+					10 <input type="checkbox" id="Falcon Blade"><span><a href="https://terraria.wiki.gg/wiki/Falcon_Blade" target="_blank">Falcon Blade</a></span><br>
+					11 <input type="checkbox" id="Blade of Grass"><span><a href="https://terraria.wiki.gg/wiki/Blade_of Grass" target="_blank">Blade of Grass</a></span><br>
+					12 <input type="checkbox" id="Volcano"><span><a href="https://terraria.wiki.gg/wiki/Volcano" target="_blank">Volcano</a></span><br>
+					13 <input type="checkbox" id="Night's Edge"><span><a href="https://terraria.wiki.gg/wiki/Night's_Edge" target="_blank">Night's Edge</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Pearlwood Sword"><span><a href="https://terraria.wiki.gg/wiki/Pearlwood_Sword" target="_blank">Pearlwood Sword</a></span><br>
+					02 <input type="checkbox" id="Classy Cane"><span><a href="https://terraria.wiki.gg/wiki/Classy_Cane" target="_blank">Classy Cane</a></span><br>
+					03 <input type="checkbox" id="Slap Hand"><span><a href="https://terraria.wiki.gg/wiki/Slap_Hand" target="_blank">Slap Hand</a></span><br>
+					04 <input type="checkbox" id="Cobalt Sword"><span><a href="https://terraria.wiki.gg/wiki/Cobalt_Sword" target="_blank">Cobalt Sword</a></span><br>
+					05 <input type="checkbox" id="Palladium Sword"><span><a href="https://terraria.wiki.gg/wiki/Palladium_Sword" target="_blank">Palladium Sword</a></span><br>
+					06 <input type="checkbox" id="Phasesaber"><span><a href="https://terraria.wiki.gg/wiki/Phasesaber" target="_blank">Phasesaber</a></span><br>
+					07 <input type="checkbox" id="Ice Sickle"><span><a href="https://terraria.wiki.gg/wiki/Ice_Sickle" target="_blank">Ice Sickle</a></span><br>
+					08 <input type="checkbox" id="Brand of the Inferno"><span><a href="https://terraria.wiki.gg/wiki/Brand_of the Inferno" target="_blank">Brand of the Inferno</a></span><br>
+					09 <input type="checkbox" id="Mythril Sword"><span><a href="https://terraria.wiki.gg/wiki/Mythril_Sword" target="_blank">Mythril Sword</a></span><br>
+					10 <input type="checkbox" id="Orichalcum Sword"><span><a href="https://terraria.wiki.gg/wiki/Orichalcum_Sword" target="_blank">Orichalcum Sword</a></span><br>
+					11 <input type="checkbox" id="Breaker Blade"><span><a href="https://terraria.wiki.gg/wiki/Breaker_Blade" target="_blank">Breaker Blade</a></span><br>
+					12 <input type="checkbox" id="Cutlass"><span><a href="https://terraria.wiki.gg/wiki/Cutlass" target="_blank">Cutlass</a></span><br>
+					13 <input type="checkbox" id="Frostbrand"><span><a href="https://terraria.wiki.gg/wiki/Frostbrand" target="_blank">Frostbrand</a></span><br>
+					14 <input type="checkbox" id="Adamantite Sword"><span><a href="https://terraria.wiki.gg/wiki/Adamantite_Sword" target="_blank">Adamantite Sword</a></span><br>
+					15 <input type="checkbox" id="Beam Sword"><span><a href="https://terraria.wiki.gg/wiki/Beam_Sword" target="_blank">Beam Sword</a></span><br>
+					16 <input type="checkbox" id="Titanium Sword"><span><a href="https://terraria.wiki.gg/wiki/Titanium_Sword" target="_blank">Titanium Sword</a></span><br>
+					17 <input type="checkbox" id="Fetid Baghnakhs"><span><a href="https://terraria.wiki.gg/wiki/Fetid_Baghnakhs" target="_blank">Fetid Baghnakhs</a></span><br>
+					18 <input type="checkbox" id="Bladetongue"><span><a href="https://terraria.wiki.gg/wiki/Bladetongue" target="_blank">Bladetongue</a></span><br>
+					19 <input type="checkbox" id="Ham Bat"><span><a href="https://terraria.wiki.gg/wiki/Ham_Bat" target="_blank">Ham Bat</a></span><br>
+					20 <input type="checkbox" id="Excalibur"><span><a href="https://terraria.wiki.gg/wiki/Excalibur" target="_blank">Excalibur</a></span><br>
+					21 <input type="checkbox" id="Waffle's Iron"><span><a href="https://terraria.wiki.gg/wiki/Waffle's_Iron" target="_blank">Waffle's Iron</a></span><br>
+					22 <input type="checkbox" id="True Excalibur"><span><a href="https://terraria.wiki.gg/wiki/True_Excalibur" target="_blank">True Excalibur</a></span><br>
+					23 <input type="checkbox" id="Chlorophyte Saber"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Saber" target="_blank">Chlorophyte Saber</a></span><br>
+					24 <input type="checkbox" id="Death Sickle"><span><a href="https://terraria.wiki.gg/wiki/Death_Sickle" target="_blank">Death Sickle</a></span><br>
+					25 <input type="checkbox" id="Psycho Knife"><span><a href="https://terraria.wiki.gg/wiki/Psycho_Knife" target="_blank">Psycho Knife</a></span><br>
+					26 <input type="checkbox" id="Keybrand"><span><a href="https://terraria.wiki.gg/wiki/Keybrand" target="_blank">Keybrand</a></span><br>
+					27 <input type="checkbox" id="Chlorophyte Claymore"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Claymore" target="_blank">Chlorophyte Claymore</a></span><br>
+					28 <input type="checkbox" id="The Horseman's Blade"><span><a href="https://terraria.wiki.gg/wiki/The_Horseman's Blade" target="_blank">The Horseman's Blade</a></span><br>
+					29 <input type="checkbox" id="Christmas Tree Sword"><span><a href="https://terraria.wiki.gg/wiki/Christmas_Tree Sword" target="_blank">Christmas Tree Sword</a></span><br>
+					30 <input type="checkbox" id="True Night's Edge"><span><a href="https://terraria.wiki.gg/wiki/True_Night's Edge" target="_blank">True Night's Edge</a></span><br>
+					31 <input type="checkbox" id="Seedler"><span><a href="https://terraria.wiki.gg/wiki/Seedler" target="_blank">Seedler</a></span><br>
+					32 <input type="checkbox" id="Flying Dragon"><span><a href="https://terraria.wiki.gg/wiki/Flying_Dragon" target="_blank">Flying Dragon</a></span><br>
+					33 <input type="checkbox" id="Terra Blade"><span><a href="https://terraria.wiki.gg/wiki/Terra_Blade" target="_blank">Terra Blade</a></span><br>
+					34 <input type="checkbox" id="Influx Waver"><span><a href="https://terraria.wiki.gg/wiki/Influx_Waver" target="_blank">Influx Waver</a></span><br>
+					35 <input type="checkbox" id="Star Wrath"><span><a href="https://terraria.wiki.gg/wiki/Star_Wrath" target="_blank">Star Wrath</a></span><br>
+					36 <input type="checkbox" id="Meowmere"><span><a href="https://terraria.wiki.gg/wiki/Meowmere" target="_blank">Meowmere</a></span><br>
+			</div>
+		</div>
+		<h1>Yoyos:</h1>
+		<div id="Yoyos">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Wooden Yoyo"><span><a href="https://terraria.wiki.gg/wiki/Wooden_Yoyo" target="_blank">Wooden Yoyo</a></span><br>
+					2 <input type="checkbox" id="Rally"><span><a href="https://terraria.wiki.gg/wiki/Rally" target="_blank">Rally</a></span><br>
+					3 <input type="checkbox" id="Malaise"><span><a href="https://terraria.wiki.gg/wiki/Malaise" target="_blank">Malaise</a></span><br>
+					4 <input type="checkbox" id="Artery"><span><a href="https://terraria.wiki.gg/wiki/Artery" target="_blank">Artery</a></span><br>
+					5 <input type="checkbox" id="Amazon"><span><a href="https://terraria.wiki.gg/wiki/Amazon" target="_blank">Amazon</a></span><br>
+					6 <input type="checkbox" id="Code 1"><span><a href="https://terraria.wiki.gg/wiki/Code_1" target="_blank">Code 1</a></span><br>
+					7 <input type="checkbox" id="Valor"><span><a href="https://terraria.wiki.gg/wiki/Valor" target="_blank">Valor</a></span><br>
+					8 <input type="checkbox" id="Cascade"><span><a href="https://terraria.wiki.gg/wiki/Cascade" target="_blank">Cascade</a></span><br>
+					9 <input type="checkbox" id="Hive-Five"><span><a href="https://terraria.wiki.gg/wiki/Hive-Five" target="_blank">Hive-Five</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Format:C"><span><a href="https://terraria.wiki.gg/wiki/Format:C" target="_blank">Format:C</a></span><br>
+					02 <input type="checkbox" id="Gradient"><span><a href="https://terraria.wiki.gg/wiki/Gradient" target="_blank">Gradient</a></span><br>
+					03 <input type="checkbox" id="Chik"><span><a href="https://terraria.wiki.gg/wiki/Chik" target="_blank">Chik</a></span><br>
+					04 <input type="checkbox" id="Hel-Fire"><span><a href="https://terraria.wiki.gg/wiki/Hel-Fire" target="_blank">Hel-Fire</a></span><br>
+					05 <input type="checkbox" id="Amarok"><span><a href="https://terraria.wiki.gg/wiki/Amarok" target="_blank">Amarok</a></span><br>
+					06 <input type="checkbox" id="Code 2"><span><a href="https://terraria.wiki.gg/wiki/Code_2" target="_blank">Code 2</a></span><br>
+					07 <input type="checkbox" id="Yelets"><span><a href="https://terraria.wiki.gg/wiki/Yelets" target="_blank">Yelets</a></span><br>
+					08 <input type="checkbox" id="Red's Throw"><span><a href="https://terraria.wiki.gg/wiki/Red's_Throw" target="_blank">Red's Throw</a></span><br>
+					09 <input type="checkbox" id="Valkyrie Yoyo"><span><a href="https://terraria.wiki.gg/wiki/Valkyrie_Yoyo" target="_blank">Valkyrie Yoyo</a></span><br>
+					10 <input type="checkbox" id="Kraken"><span><a href="https://terraria.wiki.gg/wiki/Kraken" target="_blank">Kraken</a></span><br>
+					11 <input type="checkbox" id="The Eye of Cthulhu"><span><a href="https://terraria.wiki.gg/wiki/The_Eye of Cthulhu" target="_blank">The Eye of Cthulhu</a></span><br>
+					12 <input type="checkbox" id="Terrarian"><span><a href="https://terraria.wiki.gg/wiki/Terrarian" target="_blank">Terrarian</a></span><br>
+			</div>
+		</div>
+		<h1>Spears:</h1>
+		<div id="Spears">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Spear"><span><a href="https://terraria.wiki.gg/wiki/Spear" target="_blank">Spear</a></span><br>
+					2 <input type="checkbox" id="Trident"><span><a href="https://terraria.wiki.gg/wiki/Trident" target="_blank">Trident</a></span><br>
+					3 <input type="checkbox" id="Storm Spear"><span><a href="https://terraria.wiki.gg/wiki/Storm_Spear" target="_blank">Storm Spear</a></span><br>
+					4 <input type="checkbox" id="The Rotted Fork"><span><a href="https://terraria.wiki.gg/wiki/The_Rotted Fork" target="_blank">The Rotted Fork</a></span><br>
+					5 <input type="checkbox" id="Swordfish"><span><a href="https://terraria.wiki.gg/wiki/Swordfish" target="_blank">Swordfish</a></span><br>
+					6 <input type="checkbox" id="Dark Lance"><span><a href="https://terraria.wiki.gg/wiki/Dark_Lance" target="_blank">Dark Lance</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Cobalt Naginata"><span><a href="https://terraria.wiki.gg/wiki/Cobalt_Naginata" target="_blank">Cobalt Naginata</a></span><br>
+					02 <input type="checkbox" id="Palladium Pike"><span><a href="https://terraria.wiki.gg/wiki/Palladium_Pike" target="_blank">Palladium Pike</a></span><br>
+					03 <input type="checkbox" id="Mythril Halberd"><span><a href="https://terraria.wiki.gg/wiki/Mythril_Halberd" target="_blank">Mythril Halberd</a></span><br>
+					04 <input type="checkbox" id="Orichalcum Halberd"><span><a href="https://terraria.wiki.gg/wiki/Orichalcum_Halberd" target="_blank">Orichalcum Halberd</a></span><br>
+					05 <input type="checkbox" id="Adamantite Glaive"><span><a href="https://terraria.wiki.gg/wiki/Adamantite_Glaive" target="_blank">Adamantite Glaive</a></span><br>
+					06 <input type="checkbox" id="Titanium Trident"><span><a href="https://terraria.wiki.gg/wiki/Titanium_Trident" target="_blank">Titanium Trident</a></span><br>
+					07 <input type="checkbox" id="Gungnir"><span><a href="https://terraria.wiki.gg/wiki/Gungnir" target="_blank">Gungnir</a></span><br>
+					08 <input type="checkbox" id="Ghastly Glaive"><span><a href="https://terraria.wiki.gg/wiki/Ghastly_Glaive" target="_blank">Ghastly Glaive</a></span><br>
+					09 <input type="checkbox" id="Chlorophyte Partisan"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Partisan" target="_blank">Chlorophyte Partisan</a></span><br>
+					10 <input type="checkbox" id="Tonbogiri"><span><a href="https://terraria.wiki.gg/wiki/Tonbogiri" target="_blank">Tonbogiri</a></span><br>
+					11 <input type="checkbox" id="Mushroom Spear"><span><a href="https://terraria.wiki.gg/wiki/Mushroom_Spear" target="_blank">Mushroom Spear</a></span><br>
+					12 <input type="checkbox" id="Obsidian Swordfish"><span><a href="https://terraria.wiki.gg/wiki/Obsidian_Swordfish" target="_blank">Obsidian Swordfish</a></span><br>
+					13 <input type="checkbox" id="North Pole"><span><a href="https://terraria.wiki.gg/wiki/North_Pole" target="_blank">North Pole</a></span><br>
+			</div>
+		</div>
+		<h1>Boomerangs:</h1>
+		<div id="Boomerangs">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					01 <input type="checkbox" id="Wooden Boomerang"><span><a href="https://terraria.wiki.gg/wiki/Wooden_Boomerang" target="_blank">Wooden Boomerang</a></span><br>
+					02 <input type="checkbox" id="Enchanted Boomerang"><span><a href="https://terraria.wiki.gg/wiki/Enchanted_Boomerang" target="_blank">Enchanted Boomerang</a></span><br>
+					03 <input type="checkbox" id="Fruitcake Chakram"><span><a href="https://terraria.wiki.gg/wiki/Fruitcake_Chakram" target="_blank">Fruitcake Chakram</a></span><br>
+					04 <input type="checkbox" id="Bloody Machete"><span><a href="https://terraria.wiki.gg/wiki/Bloody_Machete" target="_blank">Bloody Machete</a></span><br>
+					05 <input type="checkbox" id="Shroomerang"><span><a href="https://terraria.wiki.gg/wiki/Shroomerang" target="_blank">Shroomerang</a></span><br>
+					06 <input type="checkbox" id="Ice Boomerang"><span><a href="https://terraria.wiki.gg/wiki/Ice_Boomerang" target="_blank">Ice Boomerang</a></span><br>
+					07 <input type="checkbox" id="Thorn Chakram"><span><a href="https://terraria.wiki.gg/wiki/Thorn_Chakram" target="_blank">Thorn Chakram</a></span><br>
+					08 <input type="checkbox" id="Combat Wrench"><span><a href="https://terraria.wiki.gg/wiki/Combat_Wrench" target="_blank">Combat Wrench</a></span><br>
+					09 <input type="checkbox" id="Flamarang"><span><a href="https://terraria.wiki.gg/wiki/Flamarang" target="_blank">Flamarang</a></span><br>
+					10 <input type="checkbox" id="Trimarang"><span><a href="https://terraria.wiki.gg/wiki/Trimarang" target="_blank">Trimarang</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					1 <input type="checkbox" id="Flying Knife"><span><a href="https://terraria.wiki.gg/wiki/Flying_Knife" target="_blank">Flying Knife</a></span><br>
+					2 <input type="checkbox" id="Sergeant United Shield"><span><a href="https://terraria.wiki.gg/wiki/Sergeant_United Shield" target="_blank">Sergeant United Shield</a></span><br>
+					3 <input type="checkbox" id="Light Disc"><span><a href="https://terraria.wiki.gg/wiki/Light_Disc" target="_blank">Light Disc</a></span><br>
+					4 <input type="checkbox" id="Bananarang"><span><a href="https://terraria.wiki.gg/wiki/Bananarang" target="_blank">Bananarang</a></span><br>
+					5 <input type="checkbox" id="Possessed Hatchet"><span><a href="https://terraria.wiki.gg/wiki/Possessed_Hatchet" target="_blank">Possessed Hatchet</a></span><br>
+					6 <input type="checkbox" id="Paladin's Hammer"><span><a href="https://terraria.wiki.gg/wiki/Paladin's_Hammer" target="_blank">Paladin's Hammer</a></span><br>
+			</div>
+		</div>
+		<h1>Flails:</h1>
+		<div id="Flails">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Mace"><span><a href="https://terraria.wiki.gg/wiki/Mace" target="_blank">Mace</a></span><br>
+					2 <input type="checkbox" id="Flaming Mace"><span><a href="https://terraria.wiki.gg/wiki/Flaming_Mace" target="_blank">Flaming Mace</a></span><br>
+					3 <input type="checkbox" id="Ball O' Hurt"><span><a href="https://terraria.wiki.gg/wiki/Ball_O' Hurt" target="_blank">Ball O' Hurt</a></span><br>
+					4 <input type="checkbox" id="The Meatball"><span><a href="https://terraria.wiki.gg/wiki/The_Meatball" target="_blank">The Meatball</a></span><br>
+					5 <input type="checkbox" id="Blue Moon"><span><a href="https://terraria.wiki.gg/wiki/Blue_Moon" target="_blank">Blue Moon</a></span><br>
+					6 <input type="checkbox" id="Sunfury"><span><a href="https://terraria.wiki.gg/wiki/Sunfury" target="_blank">Sunfury</a></span><br>
+					7 <input type="checkbox" id="Chain Knife"><span><a href="https://terraria.wiki.gg/wiki/Chain_Knife" target="_blank">Chain Knife</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					1 <input type="checkbox" id="Drippler Crippler"><span><a href="https://terraria.wiki.gg/wiki/Drippler_Crippler" target="_blank">Drippler Crippler</a></span><br>
+					2 <input type="checkbox" id="Dao of Pow"><span><a href="https://terraria.wiki.gg/wiki/Dao_of Pow" target="_blank">Dao of Pow</a></span><br>
+					3 <input type="checkbox" id="Flower Pow"><span><a href="https://terraria.wiki.gg/wiki/Flower_Pow" target="_blank">Flower Pow</a></span><br>
+					4 <input type="checkbox" id="Anchor"><span><a href="https://terraria.wiki.gg/wiki/Anchor" target="_blank">Anchor</a></span><br>
+					5 <input type="checkbox" id="Chain Guillotines"><span><a href="https://terraria.wiki.gg/wiki/Chain_Guillotines" target="_blank">Chain Guillotines</a></span><br>
+					6 <input type="checkbox" id="KO Cannon"><span><a href="https://terraria.wiki.gg/wiki/KO_Cannon" target="_blank">KO Cannon</a></span><br>
+					7 <input type="checkbox" id="Golem Fist"><span><a href="https://terraria.wiki.gg/wiki/Golem_Fist" target="_blank">Golem Fist</a></span><br>
+					8 <input type="checkbox" id="Flairon"><span><a href="https://terraria.wiki.gg/wiki/Flairon" target="_blank">Flairon</a></span><br>
+			</div>
+		</div>
+		<h1>Others:</h1>
+		<div id="Others">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Terragrim"><span><a href="https://terraria.wiki.gg/wiki/Terragrim" target="_blank">Terragrim</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Arkhalis"><span><a href="https://terraria.wiki.gg/wiki/Arkhalis" target="_blank">Arkhalis</a></span><br>
+					02 <input type="checkbox" id="Jousting Lance"><span><a href="https://terraria.wiki.gg/wiki/Jousting_Lance" target="_blank">Jousting Lance</a></span><br>
+					03 <input type="checkbox" id="Shadowflame Knife"><span><a href="https://terraria.wiki.gg/wiki/Shadowflame_Knife" target="_blank">Shadowflame Knife</a></span><br>
+					04 <input type="checkbox" id="Hallowed Jousting Lance"><span><a href="https://terraria.wiki.gg/wiki/Hallowed_Jousting Lance" target="_blank">Hallowed Jousting Lance</a></span><br>
+					05 <input type="checkbox" id="Sleepy Octopod"><span><a href="https://terraria.wiki.gg/wiki/Sleepy_Octopod" target="_blank">Sleepy Octopod</a></span><br>
+					06 <input type="checkbox" id="Scourge of the Corruptor"><span><a href="https://terraria.wiki.gg/wiki/Scourge_of the Corruptor" target="_blank">Scourge of the Corruptor</a></span><br>
+					07 <input type="checkbox" id="Vampire Knives"><span><a href="https://terraria.wiki.gg/wiki/Vampire_Knives" target="_blank">Vampire Knives</a></span><br>
+					08 <input type="checkbox" id="Shadow Jousting Lance"><span><a href="https://terraria.wiki.gg/wiki/Shadow_Jousting Lance" target="_blank">Shadow Jousting Lance</a></span><br>
+					09 <input type="checkbox" id="Starlight"><span><a href="https://terraria.wiki.gg/wiki/Starlight" target="_blank">Starlight</a></span><br>
+					10 <input type="checkbox" id="Sky Dragon's Fury"><span><a href="https://terraria.wiki.gg/wiki/Sky_Dragon's Fury" target="_blank">Sky Dragon's Fury</a></span><br>
+					11 <input type="checkbox" id="Daybreak"><span><a href="https://terraria.wiki.gg/wiki/Daybreak" target="_blank">Daybreak</a></span><br>
+					12 <input type="checkbox" id="Solar Eruption"><span><a href="https://terraria.wiki.gg/wiki/Solar_Eruption" target="_blank">Solar Eruption</a></span><br>
+					13 <input type="checkbox" id="Zenith"><span><a href="https://terraria.wiki.gg/wiki/Zenith" target="_blank">Zenith</a></span><br>
+			</div>
+		</div>
+	</div>
+	<h1>Ranged:</h1>
+	<div id="Ranged">
+		<h1>Bows:</h1>
+		<div id="Bows">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					01 <input type="checkbox" id="Wooden Bow"><span><a href="https://terraria.wiki.gg/wiki/Wooden_Bow" target="_blank">Wooden Bow</a></span><br>
+					02 <input type="checkbox" id="Boreal Wood Bow"><span><a href="https://terraria.wiki.gg/wiki/Boreal_Wood Bow" target="_blank">Boreal Wood Bow</a></span><br>
+					03 <input type="checkbox" id="Copper Bow"><span><a href="https://terraria.wiki.gg/wiki/Copper_Bow" target="_blank">Copper Bow</a></span><br>
+					04 <input type="checkbox" id="Palm Wood Bow"><span><a href="https://terraria.wiki.gg/wiki/Palm_Wood Bow" target="_blank">Palm Wood Bow</a></span><br>
+					05 <input type="checkbox" id="Rich Mahogany Bow"><span><a href="https://terraria.wiki.gg/wiki/Rich_Mahogany Bow" target="_blank">Rich Mahogany Bow</a></span><br>
+					06 <input type="checkbox" id="Tin Bow"><span><a href="https://terraria.wiki.gg/wiki/Tin_Bow" target="_blank">Tin Bow</a></span><br>
+					07 <input type="checkbox" id="Ebonwood Bow"><span><a href="https://terraria.wiki.gg/wiki/Ebonwood_Bow" target="_blank">Ebonwood Bow</a></span><br>
+					08 <input type="checkbox" id="Iron Bow"><span><a href="https://terraria.wiki.gg/wiki/Iron_Bow" target="_blank">Iron Bow</a></span><br>
+					09 <input type="checkbox" id="Shadewood Bow"><span><a href="https://terraria.wiki.gg/wiki/Shadewood_Bow" target="_blank">Shadewood Bow</a></span><br>
+					10 <input type="checkbox" id="Lead Bow"><span><a href="https://terraria.wiki.gg/wiki/Lead_Bow" target="_blank">Lead Bow</a></span><br>
+					11 <input type="checkbox" id="Silver Bow"><span><a href="https://terraria.wiki.gg/wiki/Silver_Bow" target="_blank">Silver Bow</a></span><br>
+					12 <input type="checkbox" id="Tungsten Bow"><span><a href="https://terraria.wiki.gg/wiki/Tungsten_Bow" target="_blank">Tungsten Bow</a></span><br>
+					13 <input type="checkbox" id="Ash Wood Bow"><span><a href="https://terraria.wiki.gg/wiki/Ash_Wood Bow" target="_blank">Ash Wood Bow</a></span><br>
+					14 <input type="checkbox" id="Gold Bow"><span><a href="https://terraria.wiki.gg/wiki/Gold_Bow" target="_blank">Gold Bow</a></span><br>
+					15 <input type="checkbox" id="Platinum Bow"><span><a href="https://terraria.wiki.gg/wiki/Platinum_Bow" target="_blank">Platinum Bow</a></span><br>
+					16 <input type="checkbox" id="Demon Bow"><span><a href="https://terraria.wiki.gg/wiki/Demon_Bow" target="_blank">Demon Bow</a></span><br>
+					17 <input type="checkbox" id="Tendon Bow"><span><a href="https://terraria.wiki.gg/wiki/Tendon_Bow" target="_blank">Tendon Bow</a></span><br>
+					18 <input type="checkbox" id="Blood Rain Bow"><span><a href="https://terraria.wiki.gg/wiki/Blood_Rain Bow" target="_blank">Blood Rain Bow</a></span><br>
+					19 <input type="checkbox" id="The Bee's Knees"><span><a href="https://terraria.wiki.gg/wiki/The_Bee's Knees" target="_blank">The Bee's Knees</a></span><br>
+					20 <input type="checkbox" id="Hellwing Bow"><span><a href="https://terraria.wiki.gg/wiki/Hellwing_Bow" target="_blank">Hellwing Bow</a></span><br>
+					21 <input type="checkbox" id="Molten Fury"><span><a href="https://terraria.wiki.gg/wiki/Molten_Fury" target="_blank">Molten Fury</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Pearlwood Bow"><span><a href="https://terraria.wiki.gg/wiki/Pearlwood_Bow" target="_blank">Pearlwood Bow</a></span><br>
+					02 <input type="checkbox" id="Marrow"><span><a href="https://terraria.wiki.gg/wiki/Marrow" target="_blank">Marrow</a></span><br>
+					03 <input type="checkbox" id="Ice Bow"><span><a href="https://terraria.wiki.gg/wiki/Ice_Bow" target="_blank">Ice Bow</a></span><br>
+					04 <input type="checkbox" id="Daedalus Stormbow"><span><a href="https://terraria.wiki.gg/wiki/Daedalus_Stormbow" target="_blank">Daedalus Stormbow</a></span><br>
+					05 <input type="checkbox" id="Shadowflame Bow"><span><a href="https://terraria.wiki.gg/wiki/Shadowflame_Bow" target="_blank">Shadowflame Bow</a></span><br>
+					06 <input type="checkbox" id="Phantom Phoenix"><span><a href="https://terraria.wiki.gg/wiki/Phantom_Phoenix" target="_blank">Phantom Phoenix</a></span><br>
+					07 <input type="checkbox" id="Pulse Bow"><span><a href="https://terraria.wiki.gg/wiki/Pulse_Bow" target="_blank">Pulse Bow</a></span><br>
+					08 <input type="checkbox" id="Aerial Bane"><span><a href="https://terraria.wiki.gg/wiki/Aerial_Bane" target="_blank">Aerial Bane</a></span><br>
+					09 <input type="checkbox" id="Tsunami"><span><a href="https://terraria.wiki.gg/wiki/Tsunami" target="_blank">Tsunami</a></span><br>
+					10 <input type="checkbox" id="Eventide"><span><a href="https://terraria.wiki.gg/wiki/Eventide" target="_blank">Eventide</a></span><br>
+					11 <input type="checkbox" id="Phantasm"><span><a href="https://terraria.wiki.gg/wiki/Phantasm" target="_blank">Phantasm</a></span><br>
+			</div>
+		</div>
+		<h1>Repeaters:</h1>
+		<div id="Repeaters">
+				1 <input type="checkbox" id="Cobalt Repeater"><span><a href="https://terraria.wiki.gg/wiki/Cobalt_Repeater" target="_blank">Cobalt Repeater</a></span><br>
+				2 <input type="checkbox" id="Palladium Repeater"><span><a href="https://terraria.wiki.gg/wiki/Palladium_Repeater" target="_blank">Palladium Repeater</a></span><br>
+				3 <input type="checkbox" id="Mythril Repeater"><span><a href="https://terraria.wiki.gg/wiki/Mythril_Repeater" target="_blank">Mythril Repeater</a></span><br>
+				4 <input type="checkbox" id="Orichalcum Repeater"><span><a href="https://terraria.wiki.gg/wiki/Orichalcum_Repeater" target="_blank">Orichalcum Repeater</a></span><br>
+				5 <input type="checkbox" id="Adamantite Repeater"><span><a href="https://terraria.wiki.gg/wiki/Adamantite_Repeater" target="_blank">Adamantite Repeater</a></span><br>
+				6 <input type="checkbox" id="Titanium Repeater"><span><a href="https://terraria.wiki.gg/wiki/Titanium_Repeater" target="_blank">Titanium Repeater</a></span><br>
+				7 <input type="checkbox" id="Hallowed Repeater"><span><a href="https://terraria.wiki.gg/wiki/Hallowed_Repeater" target="_blank">Hallowed Repeater</a></span><br>
+				8 <input type="checkbox" id="Chlorophyte Shotbow"><span><a href="https://terraria.wiki.gg/wiki/Chlorophyte_Shotbow" target="_blank">Chlorophyte Shotbow</a></span><br>
+				9 <input type="checkbox" id="Stake Launcher"><span><a href="https://terraria.wiki.gg/wiki/Stake_Launcher" target="_blank">Stake Launcher</a></span><br>
+		</div>
+		<h1>Guns:</h1>
+		<div id="Guns">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					01 <input type="checkbox" id="Red Ryder"><span><a href="https://terraria.wiki.gg/wiki/Red_Ryder" target="_blank">Red Ryder</a></span><br>
+					02 <input type="checkbox" id="Flintlock Pistol"><span><a href="https://terraria.wiki.gg/wiki/Flintlock_Pistol" target="_blank">Flintlock Pistol</a></span><br>
+					03 <input type="checkbox" id="Musket"><span><a href="https://terraria.wiki.gg/wiki/Musket" target="_blank">Musket</a></span><br>
+					04 <input type="checkbox" id="The Undertaker"><span><a href="https://terraria.wiki.gg/wiki/The_Undertaker" target="_blank">The Undertaker</a></span><br>
+					05 <input type="checkbox" id="Revolver"><span><a href="https://terraria.wiki.gg/wiki/Revolver" target="_blank">Revolver</a></span><br>
+					06 <input type="checkbox" id="Minishark"><span><a href="https://terraria.wiki.gg/wiki/Minishark" target="_blank">Minishark</a></span><br>
+					07 <input type="checkbox" id="Boomstick"><span><a href="https://terraria.wiki.gg/wiki/Boomstick" target="_blank">Boomstick</a></span><br>
+					08 <input type="checkbox" id="Quad-Barrel Shotgun"><span><a href="https://terraria.wiki.gg/wiki/Quad-Barrel_Shotgun" target="_blank">Quad-Barrel Shotgun</a></span><br>
+					09 <input type="checkbox" id="Handgun"><span><a href="https://terraria.wiki.gg/wiki/Handgun" target="_blank">Handgun</a></span><br>
+					10 <input type="checkbox" id="Phoenix Blaster"><span><a href="https://terraria.wiki.gg/wiki/Phoenix_Blaster" target="_blank">Phoenix Blaster</a></span><br>
+					11 <input type="checkbox" id="Pew-matic Horn"><span><a href="https://terraria.wiki.gg/wiki/Pew-matic_Horn" target="_blank">Pew-matic Horn</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Clockwork Assault Rifle"><span><a href="https://terraria.wiki.gg/wiki/Clockwork_Assault Rifle" target="_blank">Clockwork Assault Rifle</a></span><br>
+					02 <input type="checkbox" id="Gatligator"><span><a href="https://terraria.wiki.gg/wiki/Gatligator" target="_blank">Gatligator</a></span><br>
+					03 <input type="checkbox" id="Shotgun"><span><a href="https://terraria.wiki.gg/wiki/Shotgun" target="_blank">Shotgun</a></span><br>
+					04 <input type="checkbox" id="Onyx Blaster"><span><a href="https://terraria.wiki.gg/wiki/Onyx_Blaster" target="_blank">Onyx Blaster</a></span><br>
+					05 <input type="checkbox" id="Uzi"><span><a href="https://terraria.wiki.gg/wiki/Uzi" target="_blank">Uzi</a></span><br>
+					06 <input type="checkbox" id="Megashark"><span><a href="https://terraria.wiki.gg/wiki/Megashark" target="_blank">Megashark</a></span><br>
+					07 <input type="checkbox" id="Venus Magnum"><span><a href="https://terraria.wiki.gg/wiki/Venus_Magnum" target="_blank">Venus Magnum</a></span><br>
+					08 <input type="checkbox" id="Tactical Shotgun"><span><a href="https://terraria.wiki.gg/wiki/Tactical_Shotgun" target="_blank">Tactical Shotgun</a></span><br>
+					09 <input type="checkbox" id="Sniper Rifle"><span><a href="https://terraria.wiki.gg/wiki/Sniper_Rifle" target="_blank">Sniper Rifle</a></span><br>
+					10 <input type="checkbox" id="Candy Corn Rifle"><span><a href="https://terraria.wiki.gg/wiki/Candy_Corn Rifle" target="_blank">Candy Corn Rifle</a></span><br>
+					11 <input type="checkbox" id="Chain Gun"><span><a href="https://terraria.wiki.gg/wiki/Chain_Gun" target="_blank">Chain Gun</a></span><br>
+					12 <input type="checkbox" id="Xenopopper"><span><a href="https://terraria.wiki.gg/wiki/Xenopopper" target="_blank">Xenopopper</a></span><br>
+					13 <input type="checkbox" id="Vortex Beater"><span><a href="https://terraria.wiki.gg/wiki/Vortex_Beater" target="_blank">Vortex Beater</a></span><br>
+					14 <input type="checkbox" id="S.D.M.G."><span><a href="https://terraria.wiki.gg/wiki/S.D.M.G." target="_blank">S.D.M.G.</a></span><br>
+			</div>
+		</div>
+		<h1>Launchers:</h1>
+		<div id="Launchers">
+				01 <input type="checkbox" id="Grenade Launcher"><span><a href="https://terraria.wiki.gg/wiki/Grenade_Launcher" target="_blank">Grenade Launcher</a></span><br>
+				02 <input type="checkbox" id="Proximity Mine Launcher"><span><a href="https://terraria.wiki.gg/wiki/Proximity_Mine Launcher" target="_blank">Proximity Mine Launcher</a></span><br>
+				03 <input type="checkbox" id="Rocket Launcher"><span><a href="https://terraria.wiki.gg/wiki/Rocket_Launcher" target="_blank">Rocket Launcher</a></span><br>
+				04 <input type="checkbox" id="Nail Gun"><span><a href="https://terraria.wiki.gg/wiki/Nail_Gun" target="_blank">Nail Gun</a></span><br>
+				05 <input type="checkbox" id="Stynger"><span><a href="https://terraria.wiki.gg/wiki/Stynger" target="_blank">Stynger</a></span><br>
+				06 <input type="checkbox" id="Jack 'O Lantern Launcher"><span><a href="https://terraria.wiki.gg/wiki/Jack_'O Lantern Launcher" target="_blank">Jack 'O Lantern Launcher</a></span><br>
+				07 <input type="checkbox" id="Snowman Cannon"><span><a href="https://terraria.wiki.gg/wiki/Snowman_Cannon" target="_blank">Snowman Cannon</a></span><br>
+				08 <input type="checkbox" id="Celebration"><span><a href="https://terraria.wiki.gg/wiki/Celebration" target="_blank">Celebration</a></span><br>
+				09 <input type="checkbox" id="Electrosphere Launcher"><span><a href="https://terraria.wiki.gg/wiki/Electrosphere_Launcher" target="_blank">Electrosphere Launcher</a></span><br>
+				10 <input type="checkbox" id="Celebration Mk2"><span><a href="https://terraria.wiki.gg/wiki/Celebration_Mk2" target="_blank">Celebration Mk2</a></span><br>
+		</div>
+		<h1>Consumables:</h1>
+		<div id="Consumables">
+				01 <input type="checkbox" id="Paper Airplane"><span><a href="https://terraria.wiki.gg/wiki/Paper_Airplane" target="_blank">Paper Airplane</a></span><br>
+				02 <input type="checkbox" id="White Paper Airplane"><span><a href="https://terraria.wiki.gg/wiki/White_Paper Airplane" target="_blank">White Paper Airplane</a></span><br>
+				03 <input type="checkbox" id="Shuriken"><span><a href="https://terraria.wiki.gg/wiki/Shuriken" target="_blank">Shuriken</a></span><br>
+				04 <input type="checkbox" id="Throwing Knife"><span><a href="https://terraria.wiki.gg/wiki/Throwing_Knife" target="_blank">Throwing Knife</a></span><br>
+				05 <input type="checkbox" id="Poisoned Knife"><span><a href="https://terraria.wiki.gg/wiki/Poisoned_Knife" target="_blank">Poisoned Knife</a></span><br>
+				06 <input type="checkbox" id="Snowball"><span><a href="https://terraria.wiki.gg/wiki/Snowball" target="_blank">Snowball</a></span><br>
+				07 <input type="checkbox" id="Spiky Ball"><span><a href="https://terraria.wiki.gg/wiki/Spiky_Ball" target="_blank">Spiky Ball</a></span><br>
+				08 <input type="checkbox" id="Bone"><span><a href="https://terraria.wiki.gg/wiki/Bone" target="_blank">Bone</a></span><br>
+				09 <input type="checkbox" id="Rotten Egg"><span><a href="https://terraria.wiki.gg/wiki/Rotten_Egg" target="_blank">Rotten Egg</a></span><br>
+				10 <input type="checkbox" id="Star Anise"><span><a href="https://terraria.wiki.gg/wiki/Star_Anise" target="_blank">Star Anise</a></span><br>
+				11 <input type="checkbox" id="Molotov Cocktail"><span><a href="https://terraria.wiki.gg/wiki/Molotov_Cocktail" target="_blank">Molotov Cocktail</a></span><br>
+				12 <input type="checkbox" id="Frost Daggerfish"><span><a href="https://terraria.wiki.gg/wiki/Frost_Daggerfish" target="_blank">Frost Daggerfish</a></span><br>
+				13 <input type="checkbox" id="Javelin"><span><a href="https://terraria.wiki.gg/wiki/Javelin" target="_blank">Javelin</a></span><br>
+				14 <input type="checkbox" id="Bone Javelin"><span><a href="https://terraria.wiki.gg/wiki/Bone_Javelin" target="_blank">Bone Javelin</a></span><br>
+				15 <input type="checkbox" id="Bone Throwing Knife"><span><a href="https://terraria.wiki.gg/wiki/Bone_Throwing Knife" target="_blank">Bone Throwing Knife</a></span><br>
+		</div>
+		<h1>Grenades:</h1>
+		<div id="Grenades">
+				1 <input type="checkbox" id="Grenade"><span><a href="https://terraria.wiki.gg/wiki/Grenade" target="_blank">Grenade</a></span><br>
+				2 <input type="checkbox" id="Sticky Grenade"><span><a href="https://terraria.wiki.gg/wiki/Sticky_Grenade" target="_blank">Sticky Grenade</a></span><br>
+				3 <input type="checkbox" id="Bouncy Grenade"><span><a href="https://terraria.wiki.gg/wiki/Bouncy_Grenade" target="_blank">Bouncy Grenade</a></span><br>
+				4 <input type="checkbox" id="Beenade"><span><a href="https://terraria.wiki.gg/wiki/Beenade" target="_blank">Beenade</a></span><br>
+				5 <input type="checkbox" id="Happy Grenade"><span><a href="https://terraria.wiki.gg/wiki/Happy_Grenade" target="_blank">Happy Grenade</a></span><br>
+		</div>
+		<h1>Others:</h1>
+		<div id="Others">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Flare Gun"><span><a href="https://terraria.wiki.gg/wiki/Flare_Gun" target="_blank">Flare Gun</a></span><br>
+					2 <input type="checkbox" id="Blowpipe"><span><a href="https://terraria.wiki.gg/wiki/Blowpipe" target="_blank">Blowpipe</a></span><br>
+					3 <input type="checkbox" id="Sandgun"><span><a href="https://terraria.wiki.gg/wiki/Sandgun" target="_blank">Sandgun</a></span><br>
+					4 <input type="checkbox" id="Blowgun"><span><a href="https://terraria.wiki.gg/wiki/Blowgun" target="_blank">Blowgun</a></span><br>
+					5 <input type="checkbox" id="Snowball Cannon"><span><a href="https://terraria.wiki.gg/wiki/Snowball_Cannon" target="_blank">Snowball Cannon</a></span><br>
+					6 <input type="checkbox" id="Paintball Gun"><span><a href="https://terraria.wiki.gg/wiki/Paintball_Gun" target="_blank">Paintball Gun</a></span><br>
+					7 <input type="checkbox" id="Ale Tosser"><span><a href="https://terraria.wiki.gg/wiki/Ale_Tosser" target="_blank">Ale Tosser</a></span><br>
+					8 <input type="checkbox" id="Harpoon"><span><a href="https://terraria.wiki.gg/wiki/Harpoon" target="_blank">Harpoon</a></span><br>
+					9 <input type="checkbox" id="Star Cannon"><span><a href="https://terraria.wiki.gg/wiki/Star_Cannon" target="_blank">Star Cannon</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					1 <input type="checkbox" id="Toxikarp"><span><a href="https://terraria.wiki.gg/wiki/Toxikarp" target="_blank">Toxikarp</a></span><br>
+					2 <input type="checkbox" id="Dart Pistol"><span><a href="https://terraria.wiki.gg/wiki/Dart_Pistol" target="_blank">Dart Pistol</a></span><br>
+					3 <input type="checkbox" id="Dart Rifle"><span><a href="https://terraria.wiki.gg/wiki/Dart_Rifle" target="_blank">Dart Rifle</a></span><br>
+					4 <input type="checkbox" id="Coin Gun"><span><a href="https://terraria.wiki.gg/wiki/Coin_Gun" target="_blank">Coin Gun</a></span><br>
+					5 <input type="checkbox" id="Flamethrower"><span><a href="https://terraria.wiki.gg/wiki/Flamethrower" target="_blank">Flamethrower</a></span><br>
+					6 <input type="checkbox" id="Piranha Gun"><span><a href="https://terraria.wiki.gg/wiki/Piranha_Gun" target="_blank">Piranha Gun</a></span><br>
+					7 <input type="checkbox" id="Elf Melter"><span><a href="https://terraria.wiki.gg/wiki/Elf_Melter" target="_blank">Elf Melter</a></span><br>
+					8 <input type="checkbox" id="Super Star Shooter"><span><a href="https://terraria.wiki.gg/wiki/Super_Star Shooter" target="_blank">Super Star Shooter</a></span><br>
+			</div>
+		</div>
+	</div>
+	<h1>Magic:</h1>
+	<div id="Magic">
+		<h1>Wands:</h1>
+		<div id="Wands">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					01 <input type="checkbox" id="Wand of Sparking"><span><a href="https://terraria.wiki.gg/wiki/Wand_of Sparking" target="_blank">Wand of Sparking</a></span><br>
+					02 <input type="checkbox" id="Wand of Frosting"><span><a href="https://terraria.wiki.gg/wiki/Wand_of Frosting" target="_blank">Wand of Frosting</a></span><br>
+					03 <input type="checkbox" id="Thunder Zapper"><span><a href="https://terraria.wiki.gg/wiki/Thunder_Zapper" target="_blank">Thunder Zapper</a></span><br>
+					04 <input type="checkbox" id="Amethyst Staff"><span><a href="https://terraria.wiki.gg/wiki/Amethyst_Staff" target="_blank">Amethyst Staff</a></span><br>
+					05 <input type="checkbox" id="Topaz Staff"><span><a href="https://terraria.wiki.gg/wiki/Topaz_Staff" target="_blank">Topaz Staff</a></span><br>
+					06 <input type="checkbox" id="Sapphire Staff"><span><a href="https://terraria.wiki.gg/wiki/Sapphire_Staff" target="_blank">Sapphire Staff</a></span><br>
+					07 <input type="checkbox" id="Emerald Staff"><span><a href="https://terraria.wiki.gg/wiki/Emerald_Staff" target="_blank">Emerald Staff</a></span><br>
+					08 <input type="checkbox" id="Ruby Staff"><span><a href="https://terraria.wiki.gg/wiki/Ruby_Staff" target="_blank">Ruby Staff</a></span><br>
+					09 <input type="checkbox" id="Diamond Staff"><span><a href="https://terraria.wiki.gg/wiki/Diamond_Staff" target="_blank">Diamond Staff</a></span><br>
+					10 <input type="checkbox" id="Amber Staff"><span><a href="https://terraria.wiki.gg/wiki/Amber_Staff" target="_blank">Amber Staff</a></span><br>
+					11 <input type="checkbox" id="Vilethorn"><span><a href="https://terraria.wiki.gg/wiki/Vilethorn" target="_blank">Vilethorn</a></span><br>
+					12 <input type="checkbox" id="Weather Pain"><span><a href="https://terraria.wiki.gg/wiki/Weather_Pain" target="_blank">Weather Pain</a></span><br>
+					13 <input type="checkbox" id="Magic Missile"><span><a href="https://terraria.wiki.gg/wiki/Magic_Missile" target="_blank">Magic Missile</a></span><br>
+					14 <input type="checkbox" id="Aqua Scepter"><span><a href="https://terraria.wiki.gg/wiki/Aqua_Scepter" target="_blank">Aqua Scepter</a></span><br>
+					15 <input type="checkbox" id="Flower of Fire"><span><a href="https://terraria.wiki.gg/wiki/Flower_of Fire" target="_blank">Flower of Fire</a></span><br>
+					16 <input type="checkbox" id="Flamelash"><span><a href="https://terraria.wiki.gg/wiki/Flamelash" target="_blank">Flamelash</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Sky Fracture"><span><a href="https://terraria.wiki.gg/wiki/Sky_Fracture" target="_blank">Sky Fracture</a></span><br>
+					02 <input type="checkbox" id="Crystal Serpent"><span><a href="https://terraria.wiki.gg/wiki/Crystal_Serpent" target="_blank">Crystal Serpent</a></span><br>
+					03 <input type="checkbox" id="Flower of Frost"><span><a href="https://terraria.wiki.gg/wiki/Flower_of Frost" target="_blank">Flower of Frost</a></span><br>
+					04 <input type="checkbox" id="Frost Staff"><span><a href="https://terraria.wiki.gg/wiki/Frost_Staff" target="_blank">Frost Staff</a></span><br>
+					05 <input type="checkbox" id="Crystal Vile Shard"><span><a href="https://terraria.wiki.gg/wiki/Crystal_Vile Shard" target="_blank">Crystal Vile Shard</a></span><br>
+					06 <input type="checkbox" id="Life Drain"><span><a href="https://terraria.wiki.gg/wiki/Life_Drain" target="_blank">Life Drain</a></span><br>
+					07 <input type="checkbox" id="Meteor Staff"><span><a href="https://terraria.wiki.gg/wiki/Meteor_Staff" target="_blank">Meteor Staff</a></span><br>
+					08 <input type="checkbox" id="Poison Staff"><span><a href="https://terraria.wiki.gg/wiki/Poison_Staff" target="_blank">Poison Staff</a></span><br>
+					09 <input type="checkbox" id="Rainbow Rod"><span><a href="https://terraria.wiki.gg/wiki/Rainbow_Rod" target="_blank">Rainbow Rod</a></span><br>
+					10 <input type="checkbox" id="Unholy Trident"><span><a href="https://terraria.wiki.gg/wiki/Unholy_Trident" target="_blank">Unholy Trident</a></span><br>
+					11 <input type="checkbox" id="Tome of Infinite Wisdom"><span><a href="https://terraria.wiki.gg/wiki/Tome_of Infinite Wisdom" target="_blank">Tome of Infinite Wisdom</a></span><br>
+					12 <input type="checkbox" id="Venom Staff"><span><a href="https://terraria.wiki.gg/wiki/Venom_Staff" target="_blank">Venom Staff</a></span><br>
+					13 <input type="checkbox" id="Nettle Burst"><span><a href="https://terraria.wiki.gg/wiki/Nettle_Burst" target="_blank">Nettle Burst</a></span><br>
+					14 <input type="checkbox" id="Bat Scepter"><span><a href="https://terraria.wiki.gg/wiki/Bat_Scepter" target="_blank">Bat Scepter</a></span><br>
+					15 <input type="checkbox" id="Blizzard Staff"><span><a href="https://terraria.wiki.gg/wiki/Blizzard_Staff" target="_blank">Blizzard Staff</a></span><br>
+					16 <input type="checkbox" id="Inferno Fork"><span><a href="https://terraria.wiki.gg/wiki/Inferno_Fork" target="_blank">Inferno Fork</a></span><br>
+					17 <input type="checkbox" id="Shadowbeam Staff"><span><a href="https://terraria.wiki.gg/wiki/Shadowbeam_Staff" target="_blank">Shadowbeam Staff</a></span><br>
+					18 <input type="checkbox" id="Spectre Staff"><span><a href="https://terraria.wiki.gg/wiki/Spectre_Staff" target="_blank">Spectre Staff</a></span><br>
+					19 <input type="checkbox" id="Resonance Scepter"><span><a href="https://terraria.wiki.gg/wiki/Resonance_Scepter" target="_blank">Resonance Scepter</a></span><br>
+					20 <input type="checkbox" id="Razorpine"><span><a href="https://terraria.wiki.gg/wiki/Razorpine" target="_blank">Razorpine</a></span><br>
+					21 <input type="checkbox" id="Staff of Earth"><span><a href="https://terraria.wiki.gg/wiki/Staff_of Earth" target="_blank">Staff of Earth</a></span><br>
+					22 <input type="checkbox" id="Betsy's Wrath"><span><a href="https://terraria.wiki.gg/wiki/Betsy's_Wrath" target="_blank">Betsy's Wrath</a></span><br>
+			</div>
+		</div>
+		<h1>Guns:</h1>
+		<div id="Guns">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Gray Zapinator"><span><a href="https://terraria.wiki.gg/wiki/Gray_Zapinator" target="_blank">Gray Zapinator</a></span><br>
+					2 <input type="checkbox" id="Space Gun"><span><a href="https://terraria.wiki.gg/wiki/Space_Gun" target="_blank">Space Gun</a></span><br>
+					3 <input type="checkbox" id="Bee Gun"><span><a href="https://terraria.wiki.gg/wiki/Bee_Gun" target="_blank">Bee Gun</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					1 <input type="checkbox" id="Laser Rifle"><span><a href="https://terraria.wiki.gg/wiki/Laser_Rifle" target="_blank">Laser Rifle</a></span><br>
+					2 <input type="checkbox" id="Orange Zapinator"><span><a href="https://terraria.wiki.gg/wiki/Orange_Zapinator" target="_blank">Orange Zapinator</a></span><br>
+					3 <input type="checkbox" id="Wasp Gun"><span><a href="https://terraria.wiki.gg/wiki/Wasp_Gun" target="_blank">Wasp Gun</a></span><br>
+					4 <input type="checkbox" id="Leaf Blower"><span><a href="https://terraria.wiki.gg/wiki/Leaf_Blower" target="_blank">Leaf Blower</a></span><br>
+					5 <input type="checkbox" id="Rainbow Gun"><span><a href="https://terraria.wiki.gg/wiki/Rainbow_Gun" target="_blank">Rainbow Gun</a></span><br>
+					6 <input type="checkbox" id="Heat Ray"><span><a href="https://terraria.wiki.gg/wiki/Heat_Ray" target="_blank">Heat Ray</a></span><br>
+					7 <input type="checkbox" id="Laser Machinegun"><span><a href="https://terraria.wiki.gg/wiki/Laser_Machinegun" target="_blank">Laser Machinegun</a></span><br>
+					8 <input type="checkbox" id="Charged Blaster Cannon"><span><a href="https://terraria.wiki.gg/wiki/Charged_Blaster Cannon" target="_blank">Charged Blaster Cannon</a></span><br>
+					9 <input type="checkbox" id="Bubble Gun"><span><a href="https://terraria.wiki.gg/wiki/Bubble_Gun" target="_blank">Bubble Gun</a></span><br>
+			</div>
+		</div>
+		<h1>Spell Books:</h1>
+		<div id="Spell Books">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Water Bolt"><span><a href="https://terraria.wiki.gg/wiki/Water_Bolt" target="_blank">Water Bolt</a></span><br>
+					2 <input type="checkbox" id="Book of Skulls"><span><a href="https://terraria.wiki.gg/wiki/Book_of Skulls" target="_blank">Book of Skulls</a></span><br>
+					3 <input type="checkbox" id="Demon Scythe"><span><a href="https://terraria.wiki.gg/wiki/Demon_Scythe" target="_blank">Demon Scythe</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					1 <input type="checkbox" id="Cursed Flames"><span><a href="https://terraria.wiki.gg/wiki/Cursed_Flames" target="_blank">Cursed Flames</a></span><br>
+					2 <input type="checkbox" id="Golden Shower"><span><a href="https://terraria.wiki.gg/wiki/Golden_Shower" target="_blank">Golden Shower</a></span><br>
+					3 <input type="checkbox" id="Crystal Storm"><span><a href="https://terraria.wiki.gg/wiki/Crystal_Storm" target="_blank">Crystal Storm</a></span><br>
+					4 <input type="checkbox" id="Magnet Sphere"><span><a href="https://terraria.wiki.gg/wiki/Magnet_Sphere" target="_blank">Magnet Sphere</a></span><br>
+					5 <input type="checkbox" id="Razorblade Typhoon"><span><a href="https://terraria.wiki.gg/wiki/Razorblade_Typhoon" target="_blank">Razorblade Typhoon</a></span><br>
+					6 <input type="checkbox" id="Lunar Flare"><span><a href="https://terraria.wiki.gg/wiki/Lunar_Flare" target="_blank">Lunar Flare</a></span><br>
+			</div>
+		</div>
+		<h1>Others:</h1>
+		<div id="Others">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Crimson Rod"><span><a href="https://terraria.wiki.gg/wiki/Crimson_Rod" target="_blank">Crimson Rod</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Ice Rod"><span><a href="https://terraria.wiki.gg/wiki/Ice_Rod" target="_blank">Ice Rod</a></span><br>
+					02 <input type="checkbox" id="Clinger Staff"><span><a href="https://terraria.wiki.gg/wiki/Clinger_Staff" target="_blank">Clinger Staff</a></span><br>
+					03 <input type="checkbox" id="Nimbus Rod"><span><a href="https://terraria.wiki.gg/wiki/Nimbus_Rod" target="_blank">Nimbus Rod</a></span><br>
+					04 <input type="checkbox" id="Magic Dagger"><span><a href="https://terraria.wiki.gg/wiki/Magic_Dagger" target="_blank">Magic Dagger</a></span><br>
+					05 <input type="checkbox" id="Medusa Head"><span><a href="https://terraria.wiki.gg/wiki/Medusa_Head" target="_blank">Medusa Head</a></span><br>
+					06 <input type="checkbox" id="Spirit Flame"><span><a href="https://terraria.wiki.gg/wiki/Spirit_Flame" target="_blank">Spirit Flame</a></span><br>
+					07 <input type="checkbox" id="Shadowflame Hex Doll"><span><a href="https://terraria.wiki.gg/wiki/Shadowflame_Hex Doll" target="_blank">Shadowflame Hex Doll</a></span><br>
+					08 <input type="checkbox" id="Blood Thorn"><span><a href="https://terraria.wiki.gg/wiki/Blood_Thorn" target="_blank">Blood Thorn</a></span><br>
+					09 <input type="checkbox" id="Magical Harp"><span><a href="https://terraria.wiki.gg/wiki/Magical_Harp" target="_blank">Magical Harp</a></span><br>
+					10 <input type="checkbox" id="Toxic Flask"><span><a href="https://terraria.wiki.gg/wiki/Toxic_Flask" target="_blank">Toxic Flask</a></span><br>
+					11 <input type="checkbox" id="Nightglow"><span><a href="https://terraria.wiki.gg/wiki/Nightglow" target="_blank">Nightglow</a></span><br>
+					12 <input type="checkbox" id="Stellar Tune"><span><a href="https://terraria.wiki.gg/wiki/Stellar_Tune" target="_blank">Stellar Tune</a></span><br>
+					13 <input type="checkbox" id="Nebula Arcanum"><span><a href="https://terraria.wiki.gg/wiki/Nebula_Arcanum" target="_blank">Nebula Arcanum</a></span><br>
+					14 <input type="checkbox" id="Nebula Blaze"><span><a href="https://terraria.wiki.gg/wiki/Nebula_Blaze" target="_blank">Nebula Blaze</a></span><br>
+					15 <input type="checkbox" id="Last Prism"><span><a href="https://terraria.wiki.gg/wiki/Last_Prism" target="_blank">Last Prism</a></span><br>
+			</div>
+		</div>
+	</div>
+	<h1>Summon:</h1>
+	<div id="Summon">
+		<h1>Minions:</h1>
+		<div id="Minions">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Finch Staff"><span><a href="https://terraria.wiki.gg/wiki/Finch_Staff" target="_blank">Finch Staff</a></span><br>
+					2 <input type="checkbox" id="Slime Staff"><span><a href="https://terraria.wiki.gg/wiki/Slime_Staff" target="_blank">Slime Staff</a></span><br>
+					3 <input type="checkbox" id="Flinx Staff"><span><a href="https://terraria.wiki.gg/wiki/Flinx_Staff" target="_blank">Flinx Staff</a></span><br>
+					4 <input type="checkbox" id="Abigail's Flower"><span><a href="https://terraria.wiki.gg/wiki/Abigail's_Flower" target="_blank">Abigail's Flower</a></span><br>
+					5 <input type="checkbox" id="Hornet Staff"><span><a href="https://terraria.wiki.gg/wiki/Hornet_Staff" target="_blank">Hornet Staff</a></span><br>
+					6 <input type="checkbox" id="Vampire Frog Staff"><span><a href="https://terraria.wiki.gg/wiki/Vampire_Frog Staff" target="_blank">Vampire Frog Staff</a></span><br>
+					7 <input type="checkbox" id="Imp Staff"><span><a href="https://terraria.wiki.gg/wiki/Imp_Staff" target="_blank">Imp Staff</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Blade Staff"><span><a href="https://terraria.wiki.gg/wiki/Blade_Staff" target="_blank">Blade Staff</a></span><br>
+					02 <input type="checkbox" id="Spider Staff"><span><a href="https://terraria.wiki.gg/wiki/Spider_Staff" target="_blank">Spider Staff</a></span><br>
+					03 <input type="checkbox" id="Pirate Staff"><span><a href="https://terraria.wiki.gg/wiki/Pirate_Staff" target="_blank">Pirate Staff</a></span><br>
+					04 <input type="checkbox" id="Sanguine Staff"><span><a href="https://terraria.wiki.gg/wiki/Sanguine_Staff" target="_blank">Sanguine Staff</a></span><br>
+					05 <input type="checkbox" id="Optic Staff"><span><a href="https://terraria.wiki.gg/wiki/Optic_Staff" target="_blank">Optic Staff</a></span><br>
+					06 <input type="checkbox" id="Deadly Sphere Staff"><span><a href="https://terraria.wiki.gg/wiki/Deadly_Sphere Staff" target="_blank">Deadly Sphere Staff</a></span><br>
+					07 <input type="checkbox" id="Pygmy Staff"><span><a href="https://terraria.wiki.gg/wiki/Pygmy_Staff" target="_blank">Pygmy Staff</a></span><br>
+					08 <input type="checkbox" id="Raven Staff"><span><a href="https://terraria.wiki.gg/wiki/Raven_Staff" target="_blank">Raven Staff</a></span><br>
+					09 <input type="checkbox" id="Desert Tiger Staff"><span><a href="https://terraria.wiki.gg/wiki/Desert_Tiger Staff" target="_blank">Desert Tiger Staff</a></span><br>
+					10 <input type="checkbox" id="Tempest Staff"><span><a href="https://terraria.wiki.gg/wiki/Tempest_Staff" target="_blank">Tempest Staff</a></span><br>
+					11 <input type="checkbox" id="Terraprisma"><span><a href="https://terraria.wiki.gg/wiki/Terraprisma" target="_blank">Terraprisma</a></span><br>
+					12 <input type="checkbox" id="Xeno Staff"><span><a href="https://terraria.wiki.gg/wiki/Xeno_Staff" target="_blank">Xeno Staff</a></span><br>
+					13 <input type="checkbox" id="Stardust Cell Staff"><span><a href="https://terraria.wiki.gg/wiki/Stardust_Cell Staff" target="_blank">Stardust Cell Staff</a></span><br>
+					14 <input type="checkbox" id="Stardust Dragon Staff"><span><a href="https://terraria.wiki.gg/wiki/Stardust_Dragon Staff" target="_blank">Stardust Dragon Staff</a></span><br>
+			</div>
+		</div>
+		<h1>Sentry:</h1>
+		<div id="Sentry">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Houndius Shootius"><span><a href="https://terraria.wiki.gg/wiki/Houndius_Shootius" target="_blank">Houndius Shootius</a></span><br>
+					2 <input type="checkbox" id="Lightning Aura Rod"><span><a href="https://terraria.wiki.gg/wiki/Lightning_Aura Rod" target="_blank">Lightning Aura Rod</a></span><br>
+					3 <input type="checkbox" id="Flameburst Rod"><span><a href="https://terraria.wiki.gg/wiki/Flameburst_Rod" target="_blank">Flameburst Rod</a></span><br>
+					4 <input type="checkbox" id="Explosive Trap Rod"><span><a href="https://terraria.wiki.gg/wiki/Explosive_Trap Rod" target="_blank">Explosive Trap Rod</a></span><br>
+					5 <input type="checkbox" id="Ballista Rod"><span><a href="https://terraria.wiki.gg/wiki/Ballista_Rod" target="_blank">Ballista Rod</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					01 <input type="checkbox" id="Queen Spider Staff"><span><a href="https://terraria.wiki.gg/wiki/Queen_Spider Staff" target="_blank">Queen Spider Staff</a></span><br>
+					02 <input type="checkbox" id="Staff of the Frost Hydra"><span><a href="https://terraria.wiki.gg/wiki/Staff_of the Frost Hydra" target="_blank">Staff of the Frost Hydra</a></span><br>
+					03 <input type="checkbox" id="Lunar Portal Staff"><span><a href="https://terraria.wiki.gg/wiki/Lunar_Portal Staff" target="_blank">Lunar Portal Staff</a></span><br>
+					04 <input type="checkbox" id="Rainbow Crystal Staff"><span><a href="https://terraria.wiki.gg/wiki/Rainbow_Crystal Staff" target="_blank">Rainbow Crystal Staff</a></span><br>
+					05 <input type="checkbox" id="Lightning Aura Cane"><span><a href="https://terraria.wiki.gg/wiki/Lightning_Aura Cane" target="_blank">Lightning Aura Cane</a></span><br>
+					06 <input type="checkbox" id="Lightning Aura Staff"><span><a href="https://terraria.wiki.gg/wiki/Lightning_Aura Staff" target="_blank">Lightning Aura Staff</a></span><br>
+					07 <input type="checkbox" id="Flameburst Cane"><span><a href="https://terraria.wiki.gg/wiki/Flameburst_Cane" target="_blank">Flameburst Cane</a></span><br>
+					08 <input type="checkbox" id="Flameburst Staff"><span><a href="https://terraria.wiki.gg/wiki/Flameburst_Staff" target="_blank">Flameburst Staff</a></span><br>
+					09 <input type="checkbox" id="Explosive Trap Cane"><span><a href="https://terraria.wiki.gg/wiki/Explosive_Trap Cane" target="_blank">Explosive Trap Cane</a></span><br>
+					10 <input type="checkbox" id="Explosive Trap Staff"><span><a href="https://terraria.wiki.gg/wiki/Explosive_Trap Staff" target="_blank">Explosive Trap Staff</a></span><br>
+					11 <input type="checkbox" id="Ballista Cane"><span><a href="https://terraria.wiki.gg/wiki/Ballista_Cane" target="_blank">Ballista Cane</a></span><br>
+					12 <input type="checkbox" id="Ballista Staff"><span><a href="https://terraria.wiki.gg/wiki/Ballista_Staff" target="_blank">Ballista Staff</a></span><br>
+			</div>
+		</div>
+		<h1>Whips:</h1>
+		<div id="Whips">
+			<h1>Pre-HardMode:</h1>
+			<div id="Pre-HardMode">
+					1 <input type="checkbox" id="Leather Whip"><span><a href="https://terraria.wiki.gg/wiki/Leather_Whip" target="_blank">Leather Whip</a></span><br>
+					2 <input type="checkbox" id="Snapthorn"><span><a href="https://terraria.wiki.gg/wiki/Snapthorn" target="_blank">Snapthorn</a></span><br>
+					3 <input type="checkbox" id="Spinal Tap"><span><a href="https://terraria.wiki.gg/wiki/Spinal_Tap" target="_blank">Spinal Tap</a></span><br>
+			</div>
+			<h1>HardMode:</h1>
+			<div id="HardMode">
+					1 <input type="checkbox" id="Firecracker"><span><a href="https://terraria.wiki.gg/wiki/Firecracker" target="_blank">Firecracker</a></span><br>
+					2 <input type="checkbox" id="Cool Whip"><span><a href="https://terraria.wiki.gg/wiki/Cool_Whip" target="_blank">Cool Whip</a></span><br>
+					3 <input type="checkbox" id="Durendal"><span><a href="https://terraria.wiki.gg/wiki/Durendal" target="_blank">Durendal</a></span><br>
+					4 <input type="checkbox" id="Dark Harvest"><span><a href="https://terraria.wiki.gg/wiki/Dark_Harvest" target="_blank">Dark Harvest</a></span><br>
+					5 <input type="checkbox" id="Morning Star"><span><a href="https://terraria.wiki.gg/wiki/Morning_Star" target="_blank">Morning Star</a></span><br>
+					6 <input type="checkbox" id="Kaleidoscope"><span><a href="https://terraria.wiki.gg/wiki/Kaleidoscope" target="_blank">Kaleidoscope</a></span><br>
+			</div>
+		</div>
+	</div>
+	<h1>Placeable:</h1>
+	<div id="Placeable">
+		<h1>Pre-HardMode:</h1>
+		<div id="Pre-HardMode">
+				1 <input type="checkbox" id="Snowball Launcher"><span><a href="https://terraria.wiki.gg/wiki/Snowball_Launcher" target="_blank">Snowball Launcher</a></span><br>
+		</div>
+		<h1>HardMode:</h1>
+		<div id="HardMode">
+				1 <input type="checkbox" id="Cannon"><span><a href="https://terraria.wiki.gg/wiki/Cannon" target="_blank">Cannon</a></span><br>
+				2 <input type="checkbox" id="Bunny Cannon"><span><a href="https://terraria.wiki.gg/wiki/Bunny_Cannon" target="_blank">Bunny Cannon</a></span><br>
+				3 <input type="checkbox" id="Land Mine"><span><a href="https://terraria.wiki.gg/wiki/Land_Mine" target="_blank">Land Mine</a></span><br>
+		</div>
+	</div>
+	<h1>Explosives:</h1>
+	<div id="Explosives">
+			01 <input type="checkbox" id="Bomb"><span><a href="https://terraria.wiki.gg/wiki/Bomb" target="_blank">Bomb</a></span><br>
+			02 <input type="checkbox" id="Sticky Bomb"><span><a href="https://terraria.wiki.gg/wiki/Sticky_Bomb" target="_blank">Sticky Bomb</a></span><br>
+			03 <input type="checkbox" id="Bouncy Bomb"><span><a href="https://terraria.wiki.gg/wiki/Bouncy_Bomb" target="_blank">Bouncy Bomb</a></span><br>
+			04 <input type="checkbox" id="Scarab Bomb"><span><a href="https://terraria.wiki.gg/wiki/Scarab_Bomb" target="_blank">Scarab Bomb</a></span><br>
+			05 <input type="checkbox" id="Dirt Bomb"><span><a href="https://terraria.wiki.gg/wiki/Dirt_Bomb" target="_blank">Dirt Bomb</a></span><br>
+			06 <input type="checkbox" id="Sticky Dirt Bomb"><span><a href="https://terraria.wiki.gg/wiki/Sticky_Dirt Bomb" target="_blank">Sticky Dirt Bomb</a></span><br>
+			07 <input type="checkbox" id="Dynamite"><span><a href="https://terraria.wiki.gg/wiki/Dynamite" target="_blank">Dynamite</a></span><br>
+			08 <input type="checkbox" id="Sticky Dynamite"><span><a href="https://terraria.wiki.gg/wiki/Sticky_Dynamite" target="_blank">Sticky Dynamite</a></span><br>
+			09 <input type="checkbox" id="Bouncy Dynamite"><span><a href="https://terraria.wiki.gg/wiki/Bouncy_Dynamite" target="_blank">Bouncy Dynamite</a></span><br>
+			10 <input type="checkbox" id="Bomb Fish"><span><a href="https://terraria.wiki.gg/wiki/Bomb_Fish" target="_blank">Bomb Fish</a></span><br>
+			11 <input type="checkbox" id="Dry Bomb"><span><a href="https://terraria.wiki.gg/wiki/Dry_Bomb" target="_blank">Dry Bomb</a></span><br>
+			12 <input type="checkbox" id="Honey Bomb"><span><a href="https://terraria.wiki.gg/wiki/Honey_Bomb" target="_blank">Honey Bomb</a></span><br>
+			13 <input type="checkbox" id="Lava Bomb"><span><a href="https://terraria.wiki.gg/wiki/Lava_Bomb" target="_blank">Lava Bomb</a></span><br>
+			14 <input type="checkbox" id="Wet Bomb"><span><a href="https://terraria.wiki.gg/wiki/Wet_Bomb" target="_blank">Wet Bomb</a></span><br>
+			15 <input type="checkbox" id="Holy Hand Grenade"><span><a href="https://terraria.wiki.gg/wiki/Holy_Hand Grenade" target="_blank">Holy Hand Grenade</a></span><br>
+	</div>
+	<h1>Others:</h1>
+	<div id="Others">
+			1 <input type="checkbox" id="Holy Water"><span><a href="https://terraria.wiki.gg/wiki/Holy_Water" target="_blank">Holy Water</a></span><br>
+			2 <input type="checkbox" id="Unholy Water"><span><a href="https://terraria.wiki.gg/wiki/Unholy_Water" target="_blank">Unholy Water</a></span><br>
+			3 <input type="checkbox" id="Blood Water"><span><a href="https://terraria.wiki.gg/wiki/Blood_Water" target="_blank">Blood Water</a></span><br>
+	</div>
+</body>
