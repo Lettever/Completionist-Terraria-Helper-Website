@@ -57,7 +57,7 @@ function isDict(obj) {
 function getLinkToWiki(itemName) {
 	return 'https://terraria.wiki.gg/wiki/' + itemName.replace(' ', '_')
 }
-function createHtmlFile(html) {
+function createHtmlFile(html, links) {
 	let result = ''
 	result += '<!DOCTYPE html>\n';
 	result += '<head>\n';
@@ -74,6 +74,7 @@ function createHtmlFile(html) {
 	result += '	<script src="checkbox.js"></script>\n';
 	result += '</head>\n';
 	result += '<body>\n';
+	result += links;
 	result += '	<button onclick="saveToFile()">Save to File</button>\n';
 	result += '	<button onclick="loadFile()">Load from File</button>\n';
 	result += html;
@@ -93,7 +94,11 @@ function main() {
 		'vanity',
 		'weapons',
 	];
-	//createHtmlFile('hello\n');
+	const links = stuff.map(x => {
+		const href = './' + x + '.html';
+		const txt = x.charAt(0).toUpperCase() + x.slice(1);
+		return `<a href="${href}">${txt}</a>\n`;
+	}).join('') + '<br>\n'
 	const input_template = './Items/${file}.yaml';
 	const output_template = './Html/${file}.html';
 	stuff.forEach((x) => {
@@ -109,11 +114,9 @@ function main() {
 		const jsonData = yamlToJson(yamlData);
 		const htmlOutput = jsonToHtml(jsonData);
 		//console.log(htmlOutput);
-		fs.writeFile(output_file, createHtmlFile(htmlOutput), function(err) { if(err) console.error(err); });
+		fs.writeFile(output_file, createHtmlFile(htmlOutput, links), function(err) { if(err) console.error(err); });
 		console.log('Done');
 		console.log();
 	});
-	
-	
 }
 main()

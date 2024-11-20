@@ -1,0 +1,15 @@
+{
+  "name": "terrariacomp",
+  "version": "1.0.0",
+  "description": "Currently i am doing a completionist playthrough and I build this to keep track of what I have or don't have.\r --\r Inside 'Items' there are Yaml files that contain all items of that type.",
+  "main": "createPages.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
